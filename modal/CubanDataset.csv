@@ -1,0 +1,1698 @@
+id,age,menarche,menopause,agefirst,children,breastfeeding,nrelbc,biopsies,hyperplasia,race,year,imc,weight,exercise,alcohol,tobacco,allergies,emotional,depressive,histologicalclass,birads,cancer
+1,50,11,No,No,0,No,Mother,1,Yes,White,2011,27.6,83.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+2,46,12,No,36,1,3 months,Mother/Sister,2,Yes,Mixed,2013,27.3,78.2,2,Yes,No,Medicines,Joy,No,3,3B,Yes
+3,47,13,No,26,1,3 months,Sister,1,Yes,Black,2011,24.6,82.6,1,No,Yes,Laryngitis,Sad,No,4,3B,Yes
+4,49,11,47,21,1,No,Daughter,1,No,Black,2011,28.6,79.4,No,Yes,Yes,No,Joy,No,3,4B,Yes
+5,54,14,42,16,1,1 month,Mother,2,Yes,White,2007,28.4,81.5,No,Yes,No,No,Sad,Yes,4,3C,Yes
+6,53,11,44,26,1,No,No,1,No,White,2011,24,75,No,Yes,No,Laryngitis,Sad,Yes,11,5C,Yes
+7,56,11,46,21,1,2 months,Mother,3,No,White,2006,25.1,59.4,No,Yes,Yes,No,Joy,Yes,3,5C,Yes
+8,48,13,44,20,1,1 month,Mother/Sister,1,No,White,2017,26.4,79.3,No,Yes,No,No,Sad,No,3,5B,Yes
+9,42,11,No,27,1,1 month,Mother,1,Yes,White,2014,22.3,68.1,No,Yes,Yes,No,Sad,Yes,4,4B,Yes
+10,41,12,No,24,0,No,No,1,Yes,White,2017,26.8,82.4,Diary,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+11,54,11,43,No,0,No,No,2,No,Mixed,2014,26.8,79.5,3,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+12,38,10,No,30,1,4 months,Mother,1,Yes,White,2013,28.1,81.9,No,Yes,Yes,Rhinitis,Sad,Yes,6,3B,Yes
+13,39,14,No,35,1,3 months,Mother,1,Yes,White,2015,29.3,79.4,No,Yes,No,Medicines,Sad,Yes,3,5B,Yes
+14,57,11,51,No,0,No,Sister,3,Yes,White,2011,25.4,61.2,2,Yes,No,Laryngitis,Joy,No,3,5B,Yes
+15,41,11,No,25,1,2 months,Sister,1,Yes,Mixed,2015,24.2,65.8,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+16,63,12,43,18,1,3 months,Mother/Daughter,2,No,White,2007,26.4,81.2,2,Yes,Yes,Laryngitis,Joy,Yes,4,4B,Yes
+17,69,15,46,28,2,8 months,Mother/Sister,1,Yes,White,2007,26.8,79.4,1,Yes,Yes,No,Joy,No,3,3B,Yes
+18,55,11,40,23,1,2 months,Sister,1,Yes,Mixed,2011,24.5,63,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+19,45,13,No,24,2,3 months,No,1,No,Black,2010,24.3,71.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+20,67,12,41,22,1,3 months,Mother,2,No,White,2007,21.3,58.3,No,Yes,Yes,Rhinitis,Sad,Yes,3,6,Yes
+21,31,12,No,No,0,No,Mother,3,Yes,White,2010,22.9,57.6,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+22,51,11,48,No,0,No,Mother/Sister,2,Yes,White,2012,21.3,62,No,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+23,64,13,48,23,1,3 months,No,4,No,Mixed,2003,22.6,65.1,2,No,Yes,No,Sad,Yes,8,4B,Yes
+24,27,11,No,No,0,No,No,4,Yes,Mixed,2018,27.9,80.6,No,Yes,No,No,Sad,Yes,3,3B,Yes
+25,53,9,48,17,2,No,Mother/Sister,2,Yes,Mixed,2013,20.5,58.7,1,Yes,Yes,Medicines,Sad,Yes,4,4B,Yes
+26,46,10,No,No,0,No,Sister,2,No,Black,2017,19.8,62.1,No,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+27,51,11,No,28,1,4 months,No,4,Yes,Mixed,2014,21.3,58.4,2,Yes,Yes,No,Sad,Yes,1,5C,Yes
+28,54,9,46,16,2,2 months,Mother,2,No,Black,2015,19.5,56.1,3,Yes,Yes,No,Sad,Yes,4,5C,Yes
+29,41,10,No,No,0,No,Sister,2,No,White,2016,19.2,56.8,No,Yes,Yes,No,Joy,Yes,1,6,Yes
+30,53,13,41,No,0,No,Mother,1,Yes,White,2017,29.4,83.4,3,Yes,Yes,Medicines,Joy,Yes,4,5C,Yes
+31,48,11,No,36,1,3 months,No,1,No,Black,2015,28.6,78.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+32,47,11,No,27,1,2 months,Mother,2,No,Black,2013,27.3,83.4,No,Yes,Yes,No,Joy,Yes,3,4B,Yes
+33,49,10,46,25,1,4 months,Mother,2,Yes,Black,2007,26.7,79.5,3,No,Yes,No,Sad,No,3,3B,Yes
+34,54,11,42,16,1,1 month,Mother/Daughter,2,Yes,White,2014,19.3,55.3,No,Yes,No,Rhinitis,Sad,Yes,3,5B,Yes
+35,53,11,48,29,1,6 months,No,1,Yes,Black,2004,22.4,75.4,No,Yes,No,Rhinitis,Sad,Yes,6,5B,Yes
+36,56,12,46,21,1,2 months,Sister/Daughter,1,Yes,Mixed,2001,26.7,77.5,1,Yes,Yes,Medicines,Sad,Yes,8,4B,Yes
+37,48,13,44,19,1,1 month,Daughter,1,Yes,White,2014,25.9,80.6,2,No,Yes,Dermatitis,Joy,No,3,3B,Yes
+38,42,14,No,36,0,No,Sister,2,Yes,Mixed,2015,23.2,65.4,3,Yes,Yes,No,Sad,Yes,3,5C,Yes
+39,41,12,No,24,0,No,No,1,Yes,Black,2008,26.8,81.6,3,Yes,Yes,No,Sad,Yes,4,5C,Yes
+40,54,14,43,22,0,No,No,2,Yes,Mixed,2008,26.3,69.8,1,Yes,No,Dermatitis,Sad,Yes,4,6,Yes
+41,38,14,No,29,1,5 months,Sister,2,No,Mixed,2011,24.5,64.5,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+42,39,11,No,No,0,No,No,2,No,Mixed,2004,28.4,78.3,No,Yes,Yes,No,Joy,Yes,4,5B,Yes
+43,57,10,46,25,2,5 months,Mother,2,Yes,White,2013,23.1,58.7,3,Yes,No,Rhinitis,Sad,No,6,5B,Yes
+44,41,11,No,25,1,2 months,Sister,1,No,Black,2015,24.2,64.7,No,Yes,No,Medicines,Sad,No,3,3B,Yes
+45,63,11,44,24,2,2 months,No,2,Yes,Mixed,2008,22.8,59.4,No,Yes,Yes,Rhinitis,Sad,Yes,8,5C,Yes
+46,69,12,47,36,1,1 month,Sister/Daughter,2,Yes,White,2012,29.4,80.5,No,Yes,Yes,Medicines,Sad,No,6,3C,Yes
+47,55,12,44,19,1,3 months,Daughter,2,Yes,White,2011,23.6,75,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+48,45,13,No,23,1,5 months,Sister,3,No,Mixed,2003,22.8,75.2,3,Yes,No,Rhinitis,Sad,Yes,4,3A,Yes
+49,67,12,39,21,2,3 months,Mother,2,Yes,Black,2005,25.3,58.7,1,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+50,31,13,No,No,0,No,Mother,2,Yes,Black,2008,24.5,64.8,No,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+51,51,12,49,No,0,No,Mother/Sister,2,No,White,2013,22.6,66.5,No,No,Yes,No,Sad,Yes,3,4B,Yes
+52,64,15,42,29,2,7 months,No,4,Yes,White,2008,20.4,65,1,Yes,Yes,No,Sad,Yes,8,3C,Yes
+53,27,9,No,24,1,4 months,Sister,2,No,Black,2014,26.9,78.9,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+54,52,9,46,19,2,2 months,Mother,1,Yes,Black,2005,20.5,57.1,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+55,46,9,40,21,1,No,No,2,No,White,2003,19.9,64.3,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+56,55,10,45,No,0,No,No,4,No,Black,2007,20.9,58.3,No,Yes,Yes,No,Joy,Yes,3,4B,Yes
+57,54,9,48,21,2,2 months,No,2,No,Black,2009,21.8,57.9,No,No,Yes,Rhinitis,Sad,No,4,3C,Yes
+58,44,10,No,No,0,No,Sister,2,Yes,White,2016,24.5,75.2,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+59,56,14,45,No,0,No,Mother,1,Yes,White,2011,26.1,83.4,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+60,46,12,No,29,1,3 months,Mother,1,Yes,Mixed,2004,27.3,82.1,2,Yes,No,Medicines,Sad,Yes,8,5B,Yes
+61,47,12,No,No,0,No,Mother/Sister,2,Yes,White,2010,29.8,81.2,No,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+62,49,11,47,No,0,No,No,1,No,Black,2012,24.9,58.5,No,No,Yes,No,Joy,No,3,5B,Yes
+63,54,12,42,16,1,1 month,Mother,2,Yes,White,2014,27.3,82.7,No,Yes,No,Laryngitis,Sad,Yes,4,4B,Yes
+64,52,11,40,18,1,6 months,No,1,Yes,White,2008,24.9,70.1,No,Yes,Yes,No,Joy,No,3,3B,Yes
+65,56,14,45,20,1,2 months,No,2,No,White,2004,25.6,59.9,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+66,48,13,47,22,1,4 months,Sister,1,Yes,Black,2004,27.9,81.6,No,Yes,Yes,Medicines,Sad,Yes,4,5C,Yes
+67,42,13,No,31,1,5 months,Mother/Sister,1,Yes,Black,2013,24.1,66.2,No,Yes,Yes,No,Sad,Yes,11,6,Yes
+68,41,12,No,24,0,No,No,1,No,Mixed,2009,26.8,79.6,No,Yes,Yes,Medicines,Sad,Yes,8,5C,Yes
+69,54,13,43,No,0,No,Sister,2,Yes,White,2004,25.1,68.8,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+70,38,14,No,24,2,3 months,No,1,No,White,2012,25.1,67,3,Yes,Yes,No,Joy,Yes,3,4B,Yes
+71,39,15,No,No,0,No,Mother,1,No,White,2008,26.7,78.3,No,Yes,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+72,57,12,47,22,1,2 months,Sister,1,Yes,White,2011,24.3,59.7,3,No,Yes,Medicines,Sad,No,3,4B,Yes
+73,41,11,No,No,0,No,No,1,Yes,Black,2015,24.2,63.1,No,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+74,63,13,48,27,1,No,No,2,Yes,White,2007,24.8,59.7,No,Yes,Yes,No,Joy,No,3,5C,Yes
+75,69,14,50,31,1,No,Mother,3,No,Black,2009,30.5,82,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+76,55,14,46,26,1,2 months,No,3,Yes,Mixed,2011,21.5,76.2,No,Yes,Yes,Laryngitis,Sad,Yes,8,6,Yes
+77,45,11,No,20,2,No,Mother/Sister,1,No,Black,2011,20.4,65.3,2,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+78,68,12,39,21,2,3 months,Mother,2,Yes,Black,2001,21.5,59.4,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+79,30,13,No,No,0,No,Mother/Sister,3,Yes,White,2017,22.3,60.5,3,Yes,No,No,Sad,Yes,4,4B,Yes
+80,52,12,49,No,0,No,Mother/Sister,2,No,Black,2010,22.6,58.6,No,No,Yes,Rhinitis,Joy,No,3,3B,Yes
+81,64,9,48,31,1,10 months,Mother/Daughter,4,Yes,Black,2009,25.6,65,2,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+82,28,11,No,27,2,2 months,Sister,3,No,White,2015,25,63.1,3,No,No,Rhinitis,Sad,Yes,3,5B,Yes
+83,52,9,45,17,2,2 months,Mother,3,Yes,Mixed,2011,20.5,60.9,Diary,Yes,No,Medicines,Sad,Yes,8,4B,Yes
+84,46,10,No,No,0,No,No,1,No,White,2018,19.8,68.2,3,No,Yes,No,Joy,No,3,3B,Yes
+85,54,10,50,No,0,No,No,4,Yes,Mixed,2014,21.3,67.5,5,Yes,Yes,No,Sad,Yes,3,5C,Yes
+86,52,9,47,18,0,No,Daughter,2,No,Mixed,2015,21.4,57.6,2,Yes,Yes,Laryngitis,Sad,Yes,3,5C,Yes
+87,43,10,No,No,0,No,Sister,2,Yes,White,2013,24.7,63.4,No,Yes,Yes,No,Sad,Yes,4,6,Yes
+88,64,9,43,No,0,No,Mother,1,Yes,Black,2017,26.1,80.4,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+89,44,12,No,21,0,3 months,No,2,Yes,Black,2015,28.3,80.6,No,Yes,No,No,Joy,No,3,5B,Yes
+90,47,13,No,30,0,6 months,No,1,Yes,Mixed,2009,26.7,83.4,2,Yes,Yes,Rhinitis,Sad,Yes,6,5B,Yes
+91,49,11,47,19,0,3 months,Daughter,3,No,Mixed,2016,24.6,77.6,Diary,No,No,Laryngitis,Joy,No,3,3B,Yes
+92,54,14,42,No,0,No,No,2,Yes,White,2005,28.4,79.2,No,Yes,No,Rhinitis,Sad,Yes,8,5C,Yes
+93,52,11,45,31,0,No,No,1,Yes,White,2003,26.4,78.5,No,Yes,Yes,No,Joy,No,4,3C,Yes
+94,56,13,44,19,0,2 months,Mother/Sister,2,Yes,Mixed,2006,25.4,59.2,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+95,48,13,46,23,0,1 month,Mother,1,Yes,Black,2018,29.3,77.6,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+96,42,11,No,14,0,4 months,No,3,Yes,White,2002,24.3,64.8,2,Yes,No,Rhinitis,Sad,No,3,3C,Yes
+97,41,12,No,24,0,No,No,1,Yes,White,2017,26.8,79.3,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+98,54,15,43,No,0,No,Sister,2,Yes,Mixed,2004,25.1,79.8,No,Yes,No,Rhinitis,Sad,Yes,6,3B,Yes
+99,38,11,No,34,0,6 months,Sister,3,No,White,2014,25.1,58.6,No,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+100,39,12,No,No,0,No,Sister,1,No,Mixed,2006,26.5,81.9,5,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+101,57,14,48,20,0,No,Mother/Daughter,1,No,Black,2013,26.2,77.6,2,Yes,Yes,No,Sad,Yes,8,5B,Yes
+102,41,11,No,27,0,2 months,Sister,1,Yes,Black,2016,24.2,59.7,3,Yes,No,Laryngitis,Joy,Yes,3,4B,Yes
+103,63,11,51,26,1,5 months,Mother,2,Yes,Black,2009,22.9,59.7,No,Yes,Yes,No,Joy,No,3,3B,Yes
+104,69,11,43,19,1,No,No,1,No,Mixed,2005,31.5,81.3,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+105,55,13,44,24,0,No,No,2,Yes,White,2011,22.9,58.6,1,Yes,Yes,No,Sad,No,3,5C,Yes
+106,45,13,No,31,0,1 month,Sister,1,No,Mixed,2015,23.7,68.9,No,Yes,Yes,Rhinitis,Sad,Yes,9,6,Yes
+107,65,10,37,18,0,3 months,Mother,2,Yes,Black,2010,21.1,58.4,No,Yes,No,Medicines,Sad,Yes,4,5C,Yes
+108,31,11,No,30,0,6 months,Sister,1,Yes,Black,2016,26.4,77.4,Diary,Yes,Yes,Laryngitis,Joy,Yes,4,5B,Yes
+109,51,11,47,No,0,No,Mother/Sister,2,No,Mixed,2010,23.4,65.2,4,Yes,Yes,No,Sad,Yes,8,4B,Yes
+110,64,11,51,19,1,No,Sister/Daughter,4,Yes,White,2012,22.9,65,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+111,27,13,No,No,0,No,No,4,No,White,2001,26.9,79.2,3,Yes,No,Medicines,Sad,Yes,3,4B,Yes
+112,52,9,46,33,2,No,Mother,4,Yes,White,2011,20.5,59.2,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+113,46,10,44,No,0,No,Sister,3,No,Black,2017,22.5,67.4,No,Yes,Yes,No,Sad,No,3,5B,Yes
+114,62,10,41,No,0,No,No,1,Yes,Mixed,2011,21.3,58.7,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+115,54,9,46,17,2,No,Mother/Sister,1,Yes,White,2003,21.4,56.1,No,Yes,Yes,Rhinitis,Joy,No,3,5B,Yes
+116,44,11,No,No,0,No,Mother/Sister,2,Yes,White,2008,24.6,72.1,No,Yes,Yes,No,Joy,No,3,3B,Yes
+117,65,10,44,No,0,No,Mother/Sister,1,Yes,White,2011,26.1,80.7,No,Yes,Yes,Rhinitis,Sad,Yes,6,5C,Yes
+118,46,10,No,26,1,4 months,Mother/Sister,1,Yes,Black,2015,27.3,79.6,No,Yes,Yes,No,Joy,No,4,3C,Yes
+119,47,10,No,28,1,9 months,Mother,1,Yes,White,2004,29.8,80.3,No,Yes,No,No,Sad,Yes,3,5B,Yes
+120,49,9,No,20,1,No,Mother,1,No,White,2011,23.8,68.4,No,Yes,Yes,No,Joy,Yes,3,4B,Yes
+121,54,8,42,No,0,No,Mother/Sister,1,Yes,Mixed,2005,26.4,76.6,No,Yes,Yes,Rhinitis,Sad,No,3,3C,Yes
+122,52,10,45,28,1,No,No,1,Yes,Black,2017,22.3,64.3,No,Yes,No,Laryngitis,Sad,Yes,8,3B,Yes
+123,56,15,46,22,1,2 months,Mother,1,Yes,Mixed,2011,26.3,78.6,No,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+124,48,13,No,No,0,No,Sister,1,Yes,White,2011,30.1,82.6,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+125,42,9,No,No,0,No,Mother,1,Yes,Mixed,2017,21.2,58.9,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+126,41,12,No,24,0,No,No,1,No,Mixed,2017,26.8,79.6,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+127,54,14,43,22,1,No,Sister,2,Yes,White,2014,25.8,73.4,No,Yes,Yes,Laryngitis,Joy,No,3,4B,Yes
+128,38,11,No,24,1,No,No,1,No,Black,2013,22.6,59.4,No,Yes,Yes,No,Sad,Yes,2,3A,Yes
+129,39,11,No,No,0,No,Mother/Sister,3,No,White,2014,25.4,64.3,No,Yes,Yes,Medicines,Sad,No,4,3B,Yes
+130,57,12,46,No,0,No,Mother,1,Yes,Mixed,2012,27.2,79.5,No,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+131,41,11,No,No,0,No,Sister,1,Yes,White,2006,24.2,66.1,3,Yes,No,No,Sad,No,3,4B,Yes
+132,63,15,52,28,1,3 months,No,2,Yes,Mixed,2014,25.1,69.5,1,Yes,Yes,No,Sad,Yes,8,3C,Yes
+133,69,15,44,23,1,3 months,No,1,Yes,White,2011,28.4,82.2,2,Yes,Yes,No,Sad,Yes,8,5C,Yes
+134,55,9,48,29,2,7 months,Mother/Sister,1,Yes,Mixed,2011,21.8,59.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+135,59,13,48,23,2,No,Sister,1,No,Black,2010,23.4,64.5,3,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+136,67,11,39,25,2,3 months,Mother,2,Yes,White,2006,26.7,80.4,No,Yes,No,No,Joy,No,3,4B,Yes
+137,62,9,45,No,0,No,Mother,3,Yes,Mixed,2010,23.1,58.5,1,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+138,51,10,49,No,0,No,Mother/Sister,2,No,White,2014,25.1,64.2,Diary,No,Yes,Medicines,Sad,Yes,4,3B,Yes
+139,64,14,48,35,2,9 months,No,4,Yes,Mixed,2014,25.7,65,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+140,27,12,No,23,1,1 month,No,2,No,Black,2009,28,81.2,No,No,Yes,Medicines,Sad,Yes,3,5B,Yes
+141,52,9,47,27,2,No,Mother,2,Yes,Black,2013,20.9,58.6,2,Yes,Yes,Laryngitis,Sad,Yes,4,5B,Yes
+142,46,10,No,No,0,No,Mother,1,No,Mixed,2018,21.5,69.4,No,No,Yes,No,Joy,No,3,5B,Yes
+143,66,12,49,No,0,No,No,4,No,Mixed,2011,21.3,58.3,No,Yes,Yes,Laryngitis,Sad,Yes,3,4B,Yes
+144,54,9,44,21,2,2 months,Mother,2,Yes,Black,2015,22.4,57.6,3,Yes,Yes,No,Joy,No,3,3B,Yes
+145,42,10,No,No,0,No,Sister,2,Yes,Black,2011,18.6,57.6,5,Yes,Yes,No,Sad,Yes,11,5C,Yes
+146,65,8,40,No,0,No,No,1,Yes,Mixed,2011,26.1,79.6,3,Yes,Yes,No,Joy,Yes,3,5C,Yes
+147,46,12,No,19,1,1 month,Mother,2,Yes,White,2011,27.3,78.5,3,Yes,Yes,Rhinitis,Sad,Yes,3,6,Yes
+148,47,9,No,No,0,No,Sister,2,Yes,White,2011,30.3,79.2,No,Yes,No,Medicines,Sad,Yes,3,5C,Yes
+149,49,11,46,No,0,No,No,1,No,White,2018,24.5,79.5,No,Yes,Yes,Laryngitis,Sad,Yes,8,5B,Yes
+150,54,14,42,16,1,1 month,Mother,2,Yes,Black,2006,27.4,79.9,No,Yes,No,No,Sad,Yes,5,4B,Yes
+151,52,15,48,20,1,No,No,1,Yes,White,2011,23.3,75.4,No,Yes,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+152,56,11,47,No,0,No,Mother,2,No,White,2010,24.8,59.4,No,Yes,Yes,Medicines,Joy,Yes,3,4B,Yes
+153,48,13,41,27,1,1 month,Mother,3,Yes,Mixed,2003,28.4,81.6,No,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+154,42,12,No,39,2,5 months,No,1,Yes,White,2003,26.4,79.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+155,41,12,No,24,0,No,No,1,No,Black,2003,26.8,78.3,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+156,54,10,43,22,1,No,No,2,Yes,White,2014,26.7,69.4,No,Yes,Yes,Laryngitis,Sad,Yes,11,6,Yes
+157,38,10,No,No,0,No,Mother,3,No,White,2016,23.4,61.3,No,Yes,Yes,Medicines,Sad,Yes,4,5C,Yes
+158,39,13,No,17,1,6 months,Mother,1,No,White,2017,24.3,64.6,3,Yes,No,No,Sad,Yes,3,5B,Yes
+159,57,12,51,33,2,No,No,2,Yes,White,2014,28.1,81.5,No,Yes,Yes,No,Joy,Yes,8,4B,Yes
+160,41,11,No,25,1,2 months,Sister,1,No,White,2015,24.2,64.5,No,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+161,63,9,46,31,1,2 months,Sister,2,Yes,White,2001,26.7,78.5,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+162,69,12,49,18,1,7 months,Sister,1,Yes,Mixed,2010,28.3,81.1,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+163,55,9,47,27,1,4 months,Sister/Daughter,3,Yes,White,2001,23.4,64.5,2,No,Yes,Medicines,Sad,No,3,4B,Yes
+164,59,14,45,24,2,5 months,Mother,1,Yes,White,2015,22.7,62.8,No,Yes,No,No,Joy,No,5,3B,Yes
+165,67,12,39,21,1,3 months,Mother/Sister,2,Yes,Black,2001,19.2,57.2,No,No,Yes,Medicines,Sad,Yes,1,5C,Yes
+166,65,15,39,No,0,No,No,3,Yes,White,2010,22.8,60.5,No,Yes,Yes,Laryngitis,Sad,Yes,3,5C,Yes
+167,51,12,50,32,1,No,Mother/Sister,2,No,White,2015,24.6,61.8,1,No,Yes,No,Sad,Yes,3,6,Yes
+168,64,10,48,29,2,1 month,No,4,Yes,Mixed,2006,22.7,65,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+169,27,9,No,No,0,No,Mother,3,No,Mixed,2014,26.9,78.9,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+170,52,10,45,29,2,2 months,Mother,2,Yes,Black,2014,21.5,64.2,No,Yes,Yes,Rhinitis,Sad,Yes,6,5B,Yes
+171,46,11,No,No,0,No,No,2,No,Black,2008,21.8,65.7,No,Yes,Yes,Laryngitis,Sad,No,3,3B,Yes
+172,63,12,40,No,0,No,No,2,No,Mixed,2015,22.8,59.6,1,No,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+173,54,9,42,No,0,No,Mother/Sister,3,No,Black,2015,21.4,58.5,No,Yes,Yes,No,Joy,No,3,3C,Yes
+174,59,9,42,No,0,No,No,2,Yes,White,2016,24.5,71.6,1,Yes,Yes,Medicines,Sad,Yes,6,4B,Yes
+175,63,11,45,No,0,No,Mother/Sister,1,Yes,White,2003,27.3,81.1,No,Yes,No,Rhinitis,Sad,Yes,3,3A,Yes
+176,46,12,No,27,1,2 months,Mother/Sister,3,Yes,Mixed,2017,27.3,77.9,2,Yes,No,Medicines,Sad,No,3,3B,Yes
+177,47,13,No,No,0,No,No,1,Yes,Black,2016,28.1,78.4,3,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+178,49,11,48,31,1,1 month,No,2,No,Mixed,2004,28.3,78.4,No,Yes,Yes,No,Joy,No,8,4B,Yes
+179,54,11,42,No,0,No,Mother,2,Yes,Mixed,2008,24.5,75.5,No,Yes,No,No,Sad,Yes,3,3C,Yes
+180,52,12,47,18,1,No,No,1,No,White,2003,26.1,84.1,No,Yes,No,No,Sad,No,4,5C,Yes
+181,56,11,51,25,1,2 months,Sister,1,Yes,White,2006,26.4,79.6,No,Yes,Yes,Medicines,Sad,Yes,4,5C,Yes
+182,48,13,45,30,2,2 months,Sister,2,No,White,2017,26.9,77.8,2,Yes,Yes,Dermatitis,Sad,Yes,3,5B,Yes
+183,42,14,No,37,0,No,Mother,4,Yes,White,2016,27.6,81.1,Diary,Yes,Yes,No,Joy,Yes,4,4B,Yes
+184,41,12,No,24,1,7 months,No,1,Yes,Mixed,2018,26.8,81.1,3,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+185,54,10,43,No,0,No,No,3,Yes,Mixed,2009,25.1,69.5,3,Yes,No,Dermatitis,Sad,Yes,6,3B,Yes
+186,38,13,No,No,0,No,Sister,1,No,Mixed,2017,24.1,57.2,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+187,39,11,No,24,1,6 months,No,1,Yes,Black,2016,29.4,78.6,No,Yes,Yes,Medicines,Sad,No,3,5B,Yes
+188,57,11,48,31,1,1 month,Sister,1,No,White,2007,24.6,63.4,1,Yes,Yes,Laryngitis,Sad,Yes,8,5B,Yes
+189,41,11,No,No,0,No,Sister,1,Yes,White,2015,24.2,66.2,No,Yes,Yes,No,Joy,No,3,5B,Yes
+190,63,9,47,33,1,2 months,No,2,Yes,Mixed,2002,24.4,64.8,No,Yes,No,Laryngitis,Sad,Yes,3,4B,Yes
+191,69,13,43,33,0,No,Mother/Sister,2,No,White,2013,27.6,79.6,2,Yes,Yes,No,Joy,No,3,3B,Yes
+192,55,8,45,21,1,No,No,1,No,Mixed,2011,25.3,61,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+193,59,12,46,25,2,No,Mother/Sister,2,Yes,Black,2004,20.4,64.1,No,Yes,Yes,No,Joy,Yes,3,5C,Yes
+194,67,11,39,25,1,3 months,Mother,2,Yes,Mixed,2007,25.6,60.8,No,Yes,Yes,Rhinitis,Sad,Yes,8,6,Yes
+195,62,12,50,No,0,No,Mother/Sister,3,Yes,Black,2010,23.6,59.4,3,No,Yes,Medicines,Sad,Yes,4,5C,Yes
+196,51,13,48,No,0,No,No,2,Yes,Mixed,2015,23.5,58.9,No,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+197,64,11,47,20,1,No,Mother,4,No,White,2015,20.1,59.6,1,Yes,Yes,No,Joy,Yes,8,4B,Yes
+198,27,15,No,17,2,5 months,Sister,4,Yes,Mixed,2011,26.9,77.9,3,Yes,Yes,No,Sad,Yes,3,3B,Yes
+199,52,11,45,17,2,2 months,Mother,3,Yes,Mixed,2017,28.6,84.3,3,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+200,47,9,No,No,0,No,Sister,1,No,White,2011,19.8,67,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+201,62,13,47,No,0,No,No,1,Yes,White,2014,21.3,61.7,No,Yes,Yes,No,Sad,Yes,8,5C,Yes
+202,54,9,45,17,3,2 months,Mother/Daughter,2,No,Black,2008,21.4,68.3,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+203,43,10,No,30,1,5 months,Mother/Sister,1,No,Black,2016,24.5,74.5,No,No,Yes,No,Sad,No,3,6,Yes
+204,66,10,45,No,0,No,Mother,1,No,White,2011,27.6,78.3,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+205,41,12,No,No,0,No,Sister,2,Yes,Black,2014,27.3,84.1,No,Yes,No,Dermatitis,Sad,Yes,3,5B,Yes
+206,47,13,No,No,0,No,No,1,No,Mixed,2017,29.5,77.9,No,Yes,No,No,Joy,No,3,4B,Yes
+207,49,12,44,21,1,No,Mother,1,Yes,Mixed,2011,25.9,79.2,No,Yes,Yes,No,Joy,No,8,3B,Yes
+208,54,14,42,16,1,3 months,Mother,3,Yes,Mixed,2001,26.4,77.6,No,Yes,No,Medicines,Sad,Yes,6,5B,Yes
+209,53,11,46,31,1,6 months,No,1,No,Mixed,2010,24.1,59.8,No,No,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+210,56,10,50,No,0,No,Mother/Sister,2,Yes,Black,2005,26.7,78.6,2,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+211,48,13,44,No,0,No,No,1,No,Black,2014,27.2,79.5,No,Yes,Yes,No,Joy,No,3,3B,Yes
+212,42,13,No,21,1,3 months,Sister,1,No,Black,2007,28.9,84.3,No,Yes,Yes,Dermatitis,Sad,Yes,3,5C,Yes
+213,41,12,No,24,0,No,No,1,Yes,Mixed,2017,26.8,77.9,3,Yes,Yes,Laryngitis,Sad,Yes,6,5C,Yes
+214,54,11,43,22,1,1 month,Sister,2,Yes,White,2011,21.9,68.7,No,Yes,Yes,No,Joy,Yes,3,6,Yes
+215,38,12,No,No,0,No,Mother/Sister,1,No,White,2010,24.3,61.8,No,Yes,Yes,No,Joy,No,3,5B,Yes
+216,39,14,No,33,1,6 months,Mother/Sister,4,No,White,2005,27.6,79.5,2,Yes,No,No,Sad,No,3,5B,Yes
+217,60,12,49,25,1,1 month,Mother,1,Yes,Mixed,2007,23.1,61.7,2,Yes,Yes,Rhinitis,Sad,Yes,8,5B,Yes
+218,60,11,43,25,1,2 months,Sister,1,No,White,2001,24.2,68,No,Yes,Yes,Medicines,Sad,Yes,3,3B,Yes
+219,62,12,43,27,1,2 months,No,2,Yes,White,2010,28.9,80.2,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+220,69,15,47,29,2,4 months,Daughter,1,Yes,Black,2015,28.2,78.9,1,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+221,55,11,48,23,1,5 months,Daughter,2,Yes,Mixed,2002,24.1,72.6,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+222,59,11,48,No,0,No,No,1,Yes,Mixed,2011,21.4,65.3,2,Yes,Yes,No,Sad,Yes,3,4B,Yes
+223,67,12,44,21,2,3 months,Mother/Sister,2,Yes,Black,2013,24.6,57.9,1,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+224,64,14,44,No,0,No,Sister,3,Yes,Black,2002,24.2,62.5,No,Yes,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+225,51,14,44,No,0,No,No,1,Yes,Black,2016,21.9,57.3,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+226,64,15,48,33,2,No,Sister/Daughter,4,No,Black,2008,19.6,58.7,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+227,27,11,No,No,0,No,No,2,Yes,White,2003,31,86.4,No,Yes,Yes,Laryngitis,Sad,Yes,8,5B,Yes
+228,53,10,46,17,2,2 months,Sister/Daughter,3,Yes,Black,2013,20.5,59.8,2,Yes,Yes,No,Joy,No,3,5B,Yes
+229,46,10,No,No,0,No,Sister,2,No,White,2018,19.8,68.5,No,Yes,Yes,Laryngitis,Joy,Yes,3,4B,Yes
+230,67,14,48,No,0,No,No,4,Yes,White,2016,22.7,61.7,No,Yes,Yes,No,Joy,No,3,3B,Yes
+231,55,9,49,25,2,2 months,Mother,1,No,Black,2010,21.6,68.3,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+232,44,14,No,27,1,No,Sister,2,No,Black,2017,24.5,70.3,No,Yes,Yes,No,Joy,No,4,5C,Yes
+233,68,12,43,No,0,No,Mother,1,No,White,2011,26.1,81.6,No,Yes,Yes,Rhinitis,Sad,Yes,11,6,Yes
+234,46,12,41,27,1,6 months,Mother/Sister,2,No,Black,2015,27.3,78.6,1,Yes,No,Medicines,Sad,Yes,3,5C,Yes
+235,47,14,No,26,1,7 months,Mother,2,Yes,Black,2018,27.8,78.6,3,Yes,No,Laryngitis,Joy,Yes,4,5B,Yes
+236,60,9,47,21,1,No,Daughter,2,Yes,Black,2011,30.1,82.5,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+237,54,12,42,No,0,No,Mother,2,Yes,Mixed,2012,28.4,79.5,No,Yes,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+238,53,11,48,No,0,No,No,3,Yes,Mixed,2015,23.5,59.8,No,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+239,56,14,52,21,1,3 months,No,1,Yes,White,2006,25.9,65.4,No,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+240,48,14,47,20,1,1 month,No,2,Yes,Mixed,2010,28.6,77.9,1,Yes,Yes,No,Sad,Yes,3,5B,Yes
+241,42,10,No,24,0,No,No,1,Yes,Mixed,2008,24.1,66.2,3,Yes,Yes,No,Sad,Yes,4,5B,Yes
+242,60,12,47,24,0,No,No,3,Yes,White,2017,26.8,79.3,1,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+243,54,12,43,No,0,No,No,4,No,Mixed,2014,25.1,68.8,3,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+244,38,12,No,22,1,No,Mother,2,Yes,White,2011,27.4,78.5,2,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+245,39,11,No,No,0,No,No,1,Yes,Mixed,2003,26.5,81.2,No,Yes,Yes,Medicines,Sad,No,6,3C,Yes
+246,60,10,45,22,2,1 month,Daughter,2,No,Mixed,2013,25.7,75.4,No,No,Yes,No,Sad,Yes,3,5B,Yes
+247,61,11,45,25,2,6 months,Sister,1,Yes,Mixed,2015,24.2,68,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+248,62,11,39,24,1,No,Mother/Sister,2,Yes,Black,2007,26.4,79.5,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+249,69,10,46,38,1,6 months,No,2,Yes,Black,2012,30.8,82,No,Yes,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+250,55,11,46,No,0,No,Mother/Sister,2,No,Mixed,2011,22.7,75.4,No,Yes,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+251,59,11,49,No,0,No,Sister,1,Yes,Black,2003,22.8,63.4,3,No,Yes,Medicines,Joy,No,3,5B,Yes
+252,67,11,39,21,1,3 months,Mother,2,Yes,Mixed,2009,25.8,59.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+253,63,11,48,No,0,No,Mother,3,Yes,Black,2010,22.5,61.8,No,Yes,Yes,No,Sad,No,3,5B,Yes
+254,51,12,46,21,1,3 months,Mother/Sister,2,Yes,Black,2014,23.7,75.6,No,Yes,Yes,Laryngitis,Joy,Yes,3,4B,Yes
+255,64,13,49,17,1,4 months,No,4,No,Mixed,2017,24.9,65,No,Yes,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+256,29,10,No,28,1,3 months,No,4,Yes,Black,2014,26.9,79.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+257,53,12,49,24,2,No,Mother,2,Yes,Black,2013,20.5,58.9,1,Yes,No,Dermatitis,Joy,No,3,3C,Yes
+258,46,10,No,No,0,No,Sister,1,No,White,2016,19.8,68,No,No,Yes,Medicines,Sad,Yes,2,4B,Yes
+259,69,12,41,No,0,No,No,1,Yes,Mixed,2014,21.3,58.1,2,Yes,Yes,No,Sad,Yes,3,3A,Yes
+260,54,9,48,17,2,2 months,No,2,No,Black,2014,21.4,57.5,1,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+261,44,9,No,18,1,No,Mother/Sister,2,No,White,2006,23.4,68.7,3,Yes,Yes,Laryngitis,Sad,No,7,3B,Yes
+262,70,15,51,25,2,7 months,Mother/Daughter,1,No,White,2011,28.4,83.1,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+263,46,12,No,26,1,No,No,1,No,Black,2007,27.3,78.5,No,Yes,No,Dermatitis,Sad,Yes,3,3C,Yes
+264,47,15,No,34,1,5 months,Mother/Sister,1,No,Mixed,2004,29.6,79.2,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+265,61,11,47,21,1,No,Daughter,1,Yes,Black,2011,30.1,80.7,No,Yes,Yes,No,Joy,No,8,5C,Yes
+266,54,14,42,16,1,1 month,No,2,Yes,Mixed,2011,27.2,75.8,No,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+267,53,11,44,18,1,6 months,Mother/Daughter,1,Yes,White,2002,26.4,78.6,No,Yes,Yes,No,Joy,No,3,4B,Yes
+268,56,10,50,27,0,No,Mother,2,Yes,Black,2006,25.1,66.9,No,Yes,Yes,Rhinitis,Sad,No,1,3C,Yes
+269,62,13,44,21,1,1 month,Sister,2,No,White,2011,26.1,80.5,No,Yes,Yes,Dermatitis,Sad,Yes,3,3B,Yes
+270,42,11,No,No,0,No,Mother,2,Yes,Mixed,2009,24.3,63.4,No,Yes,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+271,62,12,47,31,0,No,No,1,Yes,White,2017,26.8,78.2,No,Yes,Yes,Medicines,Joy,Yes,3,5B,Yes
+272,54,10,43,22,1,1 month,Sister/Daughter,5,No,White,2014,25.7,69,4,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+273,38,14,No,22,1,7 months,No,1,Yes,Black,2014,26.1,79.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+274,39,15,No,29,2,5 months,Mother,2,Yes,Black,2014,23.4,68.5,No,Yes,No,Laryngitis,Joy,No,3,3C,Yes
+275,60,12,46,21,1,3 months,Sister,1,Yes,White,2008,26.4,80.4,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+276,62,11,47,25,1,2 months,Sister,1,Yes,Black,2015,24.2,68,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+277,62,10,43,21,1,No,No,2,Yes,White,2007,24.9,64.5,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+278,69,9,48,24,1,1 month,Mother,3,No,White,2011,29.5,78.1,2,Yes,Yes,Laryngitis,Sad,No,4,3B,Yes
+279,55,14,44,23,1,3 months,Mother,2,No,White,2008,24.6,71.6,No,Yes,No,No,Sad,Yes,3,4B,Yes
+280,59,14,44,18,2,No,Daughter,1,Yes,Black,2016,21.6,67.8,No,Yes,Yes,Laryngitis,Sad,Yes,6,3C,Yes
+281,67,12,45,31,1,3 months,No,2,No,White,2008,26.7,81.9,No,Yes,Yes,No,Sad,Yes,6,5C,Yes
+282,65,11,48,No,0,No,Mother/Sister,3,Yes,Mixed,2010,24.1,57.6,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+283,51,12,49,26,1,4 months,Sister,2,Yes,White,2015,21.6,71.3,No,Yes,Yes,No,Joy,Yes,3,5B,Yes
+284,64,14,43,28,1,7 months,No,4,Yes,White,2016,26.8,65,2,No,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+285,27,11,No,No,0,No,Mother/Sister,3,Yes,White,2016,27.8,79.5,2,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+286,53,10,39,22,2,6 months,Mother,2,Yes,White,2013,20.4,59.7,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+287,46,10,No,25,0,No,Sister,2,No,White,2003,19.8,62.4,No,No,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+288,71,12,51,No,0,No,No,3,Yes,Mixed,2016,24.7,57.2,No,Yes,Yes,Medicines,Sad,No,8,3B,Yes
+289,54,9,46,17,2,2 months,No,2,No,Black,2015,22.4,57,No,Yes,Yes,Laryngitis,Sad,No,3,3B,Yes
+290,38,9,No,No,0,No,Sister,2,No,Mixed,2009,24.5,63.5,2,Yes,Yes,No,Joy,No,3,4B,Yes
+291,73,13,46,No,0,No,Mother,1,No,White,2014,28.3,80.1,No,Yes,Yes,No,Sad,Yes,6,3C,Yes
+292,46,12,No,20,1,5 months,No,2,No,Black,2011,27.3,77.9,1,Yes,Yes,Laryngitis,Sad,Yes,3,5C,Yes
+293,47,13,No,No,0,No,No,1,No,Mixed,2013,28.5,77.6,No,No,No,No,Sad,Yes,4,5C,Yes
+294,63,11,47,21,1,No,Daughter,1,Yes,Mixed,2011,30.1,78.1,2,Yes,Yes,No,Joy,No,3,5B,Yes
+295,54,14,42,No,0,No,Mother,1,Yes,Mixed,2011,23.4,81,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+296,53,11,51,31,1,6 months,Sister,4,Yes,Black,2018,25.2,75.6,No,Yes,Yes,Medicines,Sad,No,3,3B,Yes
+297,56,11,44,25,2,2 months,No,1,Yes,Mixed,2018,26.3,77.6,2,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+298,64,13,49,No,0,No,Sister,2,Yes,White,2009,26.1,78.5,2,Yes,Yes,No,Sad,Yes,4,4B,Yes
+299,42,15,No,29,1,5 months,Sister,1,Yes,White,2011,24.6,68.5,No,Yes,Yes,No,Sad,Yes,3,3C,Yes
+300,61,12,45,24,0,No,No,1,No,White,2017,26.8,79.4,No,Yes,Yes,Laryngitis,Sad,No,3,5C,Yes
+301,54,11,43,22,1,1 month,No,2,Yes,White,2011,25.1,69,NO,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+302,38,11,No,20,1,No,Mother/Sister,1,No,Black,2016,27.4,77.9,No,Yes,No,No,Sad,Yes,8,5B,Yes
+303,39,9,No,No,0,No,Mother,1,No,White,2011,25.6,75.8,NO,Yes,Yes,No,Sad,Yes,3,4B,Yes
+304,60,9,46,17,1,1 month,Mother,1,Yes,White,2001,23.1,58.4,No,Yes,Yes,Rhinitis,Sad,No,8,3C,Yes
+305,63,11,49,25,1,2 months,Sister/Daughter,1,Yes,White,2015,24.2,68,2,Yes,Yes,Medicines,Sad,Yes,3,3B,Yes
+306,62,9,40,No,0,No ,No,2,Yes,Mixed,2008,24.7,58.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+307,69,15,45,29,1,2 months,Mother/Sister,2,Yes,White,2016,27.4,80.5,2,No,No,Medicines,Sad,Yes,3,5B,Yes
+308,55,13,47,25,1,2 months,Daughter,1,Yes,Mixed,2011,20.4,63.8,1,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+309,59,15,46,19,1,No,Sister/Daughter,2,Yes,Mixed,2010,20.5,69.8,2,Yes,Yes,No,Joy,No,4,5B,Yes
+310,67,12,39,17,1,6 months,Sister,2,Yes,Mixed,2007,29.1,78.8,2,Yes,Yes,Laryngitis,Sad,No,3,4B,Yes
+311,68,13,50,23,1,No,Sister,3,Yes,White,2010,25.6,59.7,No,Yes,Yes,No,Joy,No,3,3B,Yes
+312,51,12,No,No,0,No,Sister,1,Yes,Mixed,2018,22.6,72.4,3,No,No,No,Sad,Yes,4,5C,Yes
+313,64,14,48,No,0,No,No,4,Yes,Mixed,2014,24.8,65,2,No,Yes,No,Sad,Yes,3,5C,Yes
+314,27,9,No,No,0,No,No,4,No,Mixed,2006,27.3,82.6,3,No,Yes,Rhinitis,Sad,Yes,3,6,Yes
+315,53,11,52,23,2,No,Mother,2,Yes,Black,2011,20.5,61.4,2,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+316,46,10,No,24,0,No,Sister,2,Yes,Mixed,2018,19.8,64.1,No,Yes,Yes,Laryngitis,Sad,Yes,4,5B,Yes
+317,73,13,48,27,1,4 months,Sister/Daughter,3,Yes,Mixed,2006,21.3,58.1,2,Yes,Yes,No,Joy,No,3,4B,Yes
+318,54,13,41,17,3,4 months,Mother,2,Yes,Black,2015,21.4,57,3,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+319,47,10,No,37,1,2 months,Sister,2,Yes,White,2008,24.5,76,3,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+320,73,9,51,36,1,3 months,Mother,1,No,White,2011,27.9,82.5,No,Yes,Yes,Laryngitis,Sad,Yes,1,5B,Yes
+321,46,12,No,31,1,3 months,No,1,No,White,2013,27.3,79.5,3,Yes,Yes,No,Joy,No,3,5C,Yes
+322,47,13,No,26,1,1 month,No,2,No,Mixed,2007,27.4,79.6,No,No,No,No,Sad,Yes,4,5C,Yes
+323,71,11,47,19,1,No,Daughter,1,No,Black,2011,30.1,78.5,No,Yes,No,Laryngitis,Sad,No,3,6,Yes
+324,54,10,42,16,1,1 month,Mother/Sister,2,Yes,Mixed,2010,25.2,81,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+325,53,11,52,No,0,No,No,1,Yes,White,2017,26.4,77.6,2,Yes,Yes,No,Sad,Yes,8,5B,Yes
+326,56,9,48,24,1,2 months,No,2,No,White,2006,28.4,79.6,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+327,61,13,44,21,1,1 month,Mother,2,Yes,Black,2011,26.1,78.9,2,Yes,Yes,Rhinitis,Joy,No,8,3B,Yes
+328,42,14,No,28,1,No,Mother/Sister,3,Yes,Black,2014,26.4,79.4,3,No,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+329,63,12,41,24,0,No,No,1,No,Black,2017,26.8,80.6,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+330,54,14,43,No,0,No,Sister,2,Yes,White,2014,25.1,69,No,Yes,Yes,Medicines,Joy,Yes,3,4B,Yes
+331,38,11,No,No,0,No,Mother,1,No,White,2013,27.4,78.5,No,Yes,Yes,No,Joy,No,3,3B,Yes
+332,39,10,No,No,0,No,Sister,2,No,Black,2016,24.5,76.4,No,Yes,Yes,No,Sad,Yes,6,5C,Yes
+333,60,12,44,18,1,5 months,No,3,Yes,Mixed,2006,25.3,59.4,No,Yes,Yes,Dermatitis,Sad,Yes,3,5C,Yes
+334,63,11,43,25,1,3 months,Mother,1,Yes,White,2015,26.7,78.5,No,Yes,Yes,Medicines,Sad,Yes,3,6,Yes
+335,62,11,47,34,1,2 months,Mother,2,Yes,Mixed,2001,29.4,77.6,No,No,Yes,No,Sad,No,3,5B,Yes
+336,69,11,43,25,0,7 months,No,1,No,Mixed,2018,26.4,67.5,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+337,55,12,42,27,1,6 months,No,2,No,White,2010,24.3,68.3,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+338,59,11,51,24,2,No,No,1,Yes,Black,2011,29.4,85.6,1,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+339,65,9,44,21,2,3 months,No,2,No,Black,2008,27.6,77.4,3,Yes,No,Rhinitis,Sad,Yes,3,5C,Yes
+340,69,13,42,No,0,No,No,3,Yes,Mixed,2010,26.5,77.5,No,Yes,Yes,No,Joy,No,6,3C,Yes
+341,51,8,No,No,0,No,Mother/Sister,1,No,White,2015,23.4,64.5,3,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+342,64,15,48,37,1,3 months,No,4,Yes,Mixed,2015,21.6,65,3,No,Yes,No,Sad,Yes,3,3A,Yes
+343,27,10,No,No,0,No,Sister,4,No,Black,2014,26.9,81.4,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+344,53,9,44,No,0,No,Mother,1,Yes,Mixed,2014,20.5,61.3,2,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+345,46,10,No,No,0,No,No,1,Yes,Black,2018,19.8,75.1,No,Yes,Yes,No,Joy,Yes,3,4B,Yes
+346,74,11,47,No,0,No,No,4,No,Mixed,2004,24.4,59.1,2,Yes,Yes,No,Sad,Yes,3,3C,Yes
+347,54,9,44,No,0,No,Mother,1,Yes,Black,2006,21.4,57,No,Yes,Yes,Dermatitis,Sad,Yes,6,5C,Yes
+348,44,8,No,22,1,No,Sister,2,Yes,Black,2016,27.1,79.6,Diary,No,Yes,Dermatitis,Joy,Yes,4,5C,Yes
+349,65,10,45,No,0,No,Sister,1,Yes,White,2011,26.1,79.1,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+350,46,12,No,26,1,4 months,Mother/Sister,2,Yes,Mixed,2017,27.3,79.6,4,Yes,Yes,No,Joy,No,4,4B,Yes
+351,47,14,No,29,1,8 months,Sister,3,Yes,Mixed,2003,26.8,79.2,1,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+352,60,11,47,No,0,No,No,1,Yes,Black,2015,30.1,79.5,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+353,54,11,42,No,0,No,Mother/Sister,2,Yes,Mixed,2010,28.4,81,No,Yes,No,Rhinitis,Sad,Yes,1,3B,Yes
+354,53,11,46,36,1,5 months,No,1,Yes,Black,2006,23.7,64.3,No,Yes,Yes,Medicines,Sad,Yes,8,5B,Yes
+355,56,11,47,20,1,4 months,Mother,2,Yes,White,2011,25.1,66.8,2,Yes,Yes,Laryngitis,Sad,Yes,4,5B,Yes
+356,64,9,44,21,1,No,Sister,2,No,White,2018,22.8,77.9,1,Yes,Yes,No,Joy,Yes,3,5B,Yes
+357,42,9,No,30,0,No,Mother,1,Yes,Mixed,2016,25.7,75.8,No,Yes,No,Laryngitis,Sad,Yes,3,4B,Yes
+358,63,12,43,24,0,No,No,1,Yes,White,2017,26.8,77.6,No,Yes,Yes,No,Joy,No,3,3B,Yes
+359,54,11,47,No,0,No,No,2,Yes,White,2007,25.1,69,Diary,Yes,No,No,Sad,Yes,8,5C,Yes
+360,38,14,No,No,0,No,No,1,No,Black,2013,27.4,78.9,No,Yes,Yes,No,Sad,No,3,5C,Yes
+361,39,14,No,No,0,No,Mother,1,No,White,2015,26.4,81.4,No,Yes,No,Dermatitis,Sad,Yes,3,6,Yes
+362,60,14,46,No,0,No,Mother,1,No,White,2003,24.5,57.9,2,Yes,Yes,Medicines,Sad,No,4,5C,Yes
+363,63,11,45,25,1,2 months,Mother/Daughter,1,Yes,Black,2015,24.2,68,No,Yes,Yes,Laryngitis,Joy,Yes,3,5B,Yes
+364,63,8,51,27,1,5 months,No,2,Yes,Mixed,2001,23.8,59.4,No,Yes,Yes,No,Joy,No,3,4B,Yes
+365,71,15,46,22,1,1 month,Sister,2,Yes,White,2001,27.6,82,2,Yes,Yes,Rhinitis,Sad,Yes,1,3B,Yes
+366,55,10,44,29,1,3 months,Daughter,3,Yes,White,2011,22.6,69.5,2,Yes,Yes,Medicines,Joy,Yes,3,4B,Yes
+367,59,9,46,No,0,No,Sister,1,Yes,Mixed,2016,23.1,72.5,No,No,Yes,Laryngitis,Sad,Yes,6,5B,Yes
+368,65,12,45,22,2,3 months,Sister/Daughter,2,Yes,Black,2007,22.7,63.4,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+369,64,14,46,No,0,No,Mother,3,Yes,Mixed,2016,22.3,66.4,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+370,51,9,No,No,0,No,Mother,1,Yes,Black,2016,23.2,66.4,3,Yes,No,No,Sad,Yes,4,6,Yes
+371,64,8,46,19,1,No,Daughter,4,No,Mixed,2006,26.9,65,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+372,66,10,42,No,0,No,No,2,No,Mixed,2014,26.9,78.9,1,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+373,53,14,51,35,2,No,Mother/Sister,2,No,Mixed,2008,21.5,58.6,4,Yes,No,Dermatitis,Joy,No,3,4B,Yes
+374,46,10,No,No,0,No,Sister,3,No,Mixed,2003,19.8,65.8,No,No,No,Rhinitis,Joy,No,3,3B,Yes
+375,67,9,45,No,0,No,No,1,Yes,White,2015,21.3,63.4,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+376,54,11,48,No,0,No,Mother,2,Yes,Black,2008,21.4,57,3,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+377,39,9,No,26,1,1 month,Mother/Sister,2,Yes,Mixed,2007,24.6,68.7,5,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+378,68,15,41,No,0,No,Mother,1,Yes,White,2016,26.1,78.1,No,Yes,Yes,No,Joy,No,9,3B,Yes
+379,46,12,No,17,1,3 months,No,2,No,Black,2015,27.3,77.6,3,Yes,Yes,No,Sad,Yes,3,5C,Yes
+380,47,12,No,No,0,No,Mother,1,Yes,Black,2001,28.4,78.4,No,Yes,Yes,No,Sad,Yes,1,5C,Yes
+381,66,11,45,21,1,No,No,1,Yes,Black,2011,30.8,78.6,No,Yes,Yes,Dermatitis,Sad,Yes,11,6,Yes
+382,54,14,42,No,0,No,Sister,2,No,Mixed,2009,25.4,79.1,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+383,53,11,50,18,1,4 months,No,1,Yes,White,2001,22.6,75.9,No,Yes,No,No,Joy,No,3,5B,Yes
+384,56,14,48,No,0,No,Mother,1,Yes,Black,2017,24.7,56.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+385,65,13,44,21,1,1 month,Sister,2,No,Mixed,2011,26.1,78.6,2,Yes,Yes,Medicines,Joy,Yes,3,3B,Yes
+386,42,14,No,No,0,No,Mother/Sister,2,Yes,White,2007,24.6,68.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+387,65,12,43,24,0,No,No,1,Yes,White,2017,26.8,77.9,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+388,54,9,43,No,0,No,No,5,No,White,2014,25.1,69,Diary,Yes,Yes,No,Sad,Yes,3,5B,Yes
+389,38,11,No,No,0,No,Mother/Sister,2,No,Mixed,2011,27.4,82.3,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+390,39,11,No,No,0,No,Mother,1,No,Black,2015,21.5,66.9,No,Yes,No,Rhinitis,Joy,No,3,3C,Yes
+391,60,11,51,30,1,1 month,No,1,Yes,White,2001,23.9,58.7,No,Yes,Yes,Rhinitis,Sad,Yes,5,3B,Yes
+392,62,11,45,25,1,2 months,Sister,1,Yes,White,2015,24.2,68,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+393,63,11,43,24,1,6 months,No,2,Yes,White,2002,25.6,68.8,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+394,69,9,50,26,1,No,Mother,1,Yes,White,2012,30.8,82,No,Yes,Yes,Laryngitis,Joy,Yes,4,5B,Yes
+395,55,10,46,No,0,No,Mother,1,Yes,Mixed,2007,23.4,58.1,No,Yes,Yes,No,Joy,No,3,5B,Yes
+396,59,13,49,24,1,No,No,3,Yes,White,2010,22.6,65.8,3,Yes,Yes,Laryngitis,Joy,Yes,3,4B,Yes
+397,65,11,39,25,2,3 months,No,2,No,Black,2008,22.6,64.8,No,Yes,Yes,No,Joy,No,7,3B,Yes
+398,74,13,48,19,3,8 months,Mother/Sister,3,Yes,Black,2008,26.4,77.6,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+399,50,15,49,29,1,No,Mother/Sister,2,No,Mixed,2003,24.6,62.1,2,No,Yes,No,Sad,Yes,3,5C,Yes
+400,64,10,47,28,2,3 months,Sister,4,No,White,2014,24.6,65,No,Yes,Yes,Rhinitis,Sad,Yes,8,6,Yes
+401,69,8,42,No,0,No,Mother,4,No,Black,2014,24.5,65.6,No,Yes,No,Medicines,Sad,Yes,3,5C,Yes
+402,53,15,49,26,1,2 months,Mother,2,Yes,White,2010,23.4,59.4,1,Yes,Yes,Laryngitis,Sad,No,4,5B,Yes
+403,46,10,No,No,0,No,Mother,2,No,White,2004,19.8,63.5,No,Yes,Yes,No,Joy,No,3,4B,Yes
+404,70,9,48,36,1,No,No,4,Yes,Mixed,2002,21.3,61.3,No,No,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+405,54,12,46,No,0,No,Mother,5,Yes,Mixed,2008,21.4,57,3,Yes,Yes,Medicines,Sad,Yes,4,4B,Yes
+406,45,10,No,No,0,No,Sister,2,Yes,White,2016,24.5,72.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+407,69,12,45,No,0,No,Mother,1,Yes,White,2018,29.4,84.7,No,Yes,Yes,No,Sad,Yes,8,5B,Yes
+408,46,12,No,19,1,6 months,Sister,3,No,Black,2018,27.3,80.6,1,Yes,Yes,No,Joy,No,3,5B,Yes
+409,47,11,No,No,0,No,Mother/Sister,2,Yes,Black,2014,27.3,79.6,2,Yes,Yes,Rhinitis,Sad,No,8,5B,Yes
+410,49,11,47,33,1,6 months,Sister,1,No,Black,2003,26.3,78.9,2,No,Yes,Medicines,Sad,Yes,8,3B,Yes
+411,54,14,47,16,1,1 month,Mother,2,Yes,Mixed,2001,29.7,81,1,Yes,No,Rhinitis,Sad,Yes,3,5C,Yes
+412,53,11,50,17,1,8 months,No,4,Yes,White,2009,24.6,75.6,1,Yes,No,Medicines,Joy,No,3,3C,Yes
+413,56,15,45,22,2,7 months,Daughter,2,No,Black,2015,25.6,59.6,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+414,48,13,45,No,0,No,Sister,2,No,White,2009,30.4,79.5,2,Yes,Yes,No,Joy,No,3,4B,Yes
+415,42,15,No,36,2,No,No,1,No,Mixed,2009,22.5,65.5,3,No,Yes,Rhinitis,Joy,No,6,3C,Yes
+416,63,12,41,24,0,No,No,1,No,White,2017,26.8,77.3,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+417,54,8,43,22,1,7 months,No,2,Yes,White,2001,24.8,69,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+418,38,12,No,No,0,No,No,1,Yes,Mixed,2015,24.5,67.5,4,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+419,60,12,47,No,0,No,Mother,1,Yes,Mixed,2015,29.4,78.1,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+420,60,15,50,31,1,2 months,Sister,1,Yes,Black,2005,22.8,64.8,Diary,Yes,Yes,No,Joy,No,3,5B,Yes
+421,41,11,No,25,1,2 months,No,1,No,Mixed,2016,24.2,66.1,No,Yes,No,Laryngitis,Joy,No,3,4B,Yes
+422,63,13,50,18,2,No,No,2,Yes,Mixed,2010,24.8,64.5,2,No,Yes,No,Sad,Yes,3,3A,Yes
+423,69,8,41,22,1,No,Mother,1,No,Black,2011,31.4,82,2,Yes,Yes,Medicines,Joy,No,6,3B,Yes
+424,55,12,48,No,0,No,No,1,No,White,2008,25.7,62.7,No,Yes,Yes,Laryngitis,Joy,No,6,3B,Yes
+425,45,13,No,29,2,No,Mother,1,Yes,Black,2009,21.8,65.8,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+426,67,11,39,33,2,3 months,Mother/Sister,2,Yes,Black,2008,23.7,59.4,No,Yes,Yes,No,Sad,Yes,3,3C,Yes
+427,70,14,47,No,0,No,Sister,3,Yes,White,2010,25,61.4,No,Yes,Yes,Dermatitis,Sad,Yes,4,5C,Yes
+428,50,12,No,24,2,3 months,No,3,Yes,Mixed,2014,25.4,63.5,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+429,64,11,46,34,3,5 months,No,4,No,Black,2011,21.3,65,2,No,Yes,No,Sad,No,3,5B,Yes
+430,27,10,No,17,1,5 months,No,3,No,Black,2008,30.2,81.6,No,Yes,No,No,Joy,No,3,4B,Yes
+431,53,11,48,29,2,No,Mother/Sister,2,Yes,Mixed,2007,20.5,61.5,2,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+432,46,10,No,No,0,No,Mother,1,No,White,2016,19.8,67,No,No,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+433,66,8,41,No,0,No,Sister,4,No,White,2003,21.3,58.7,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+434,54,10,45,17,2,2 months,Daughter,2,Yes,Black,2004,21.4,57,3,Yes,No,Medicines,Sad,Yes,3,5B,Yes
+435,44,10,No,No,0,No,No,2,Yes,Mixed,2018,23.5,74.2,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+436,64,11,46,No,0,No,Mother,1,Yes,White,2001,28.5,80.2,2,Yes,Yes,No,Joy,No,4,5B,Yes
+437,49,12,No,26,1,3 months,Sister,2,Yes,White,2015,29.8,81.6,2,Yes,Yes,Laryngitis,Joy,No,4,4B,Yes
+438,47,9,No,26,1,3 months,No,1,Yes,White,2016,26.6,78.2,No,Yes,Yes,No,Joy,No,3,3B,Yes
+439,49,11,47,21,1,No,Daughter,3,No,Mixed,2001,25.6,78.5,No,Yes,No,No,Sad,Yes,3,5C,Yes
+440,54,14,42,16,1,4 months,Mother,3,Yes,Mixed,2005,26.7,81,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+441,53,11,51,No,0,No,Sister,4,No,Mixed,2014,27.8,78.5,No,Yes,No,Rhinitis,Sad,Yes,3,6,Yes
+442,56,12,46,No,0,No,Mother,2,Yes,Mixed,2006,26.4,77.9,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+443,48,13,No,36,1,5 months,No,2,Yes,White,2002,29.3,80.3,No,Yes,Yes,Laryngitis,Joy,No,4,5B,Yes
+444,42,13,No,29,0,No,Mother,1,No,White,2016,24.8,64.8,No,Yes,Yes,No,Joy,No,8,4B,Yes
+445,41,12,No,24,0,No,No,1,Yes,White,2017,26.8,81.3,5,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+446,54,9,43,22,1,No,No,2,Yes,White,2006,25.1,69,No,No,Yes,Medicines,Joy,No,3,4B,Yes
+447,38,12,No,25,1,No,No,2,No,White,2006,26.1,78.5,2,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+448,60,13,43,No,0,No,Mother,1,No,Black,2014,29.4,79.5,No,Yes,No,No,Joy,No,3,5C,Yes
+449,60,8,47,28,1,No,No,2,Yes,White,2006,23.4,62.7,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+450,41,11,No,No,0,No,No,1,Yes,Black,2009,24.2,66.4,No,Yes,Yes,No,Joy,No,8,6,Yes
+451,63,12,43,19,1,3 months,Sister/Daughter,2,Yes,Black,2011,24.9,65.8,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+452,69,15,46,39,1,3 months,Mother/Sister,1,Yes,Mixed,2007,18.4,53.2,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+453,55,11,49,24,1,1 month ,Daughter,4,Yes,Mixed,2011,24.9,65.7,1,Yes,Yes,No,Sad,Yes,1,4B,Yes
+454,45,13,No,26,1,3 months,No,1,Yes,Mixed,2018,20.4,62,3,Yes,Yes,Dermatitis,Joy,No,3,3B,Yes
+455,67,12,39,21,1,3 months,No,2,Yes,White,2003,26.9,79.3,1,No,Yes,Dermatitis,Sad,Yes,4,5B,Yes
+456,71,15,48,No,0,No,Mother,3,No,Mixed,2010,25.4,63.7,No,Yes,Yes,Rhinitis,Sad,Yes,6,5B,Yes
+457,50,11,50,33,1,No,Sister,2,Yes,White,2015,24.6,74.2,1,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+458,64,15,49,20,1,2 months,No,4,Yes,Black,2016,19.6,65,1,Yes,Yes,Dermatitis,Joy,No,3,3B,Yes
+459,28,8,No,No,0,No,No,1,Yes,Mixed,2016,28.9,80.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+460,53,8,44,No,0,No,Mother,2,Yes,Black,2018,23.2,68.4,No,No,Yes,No,Sad,Yes,3,5C,Yes
+461,46,10,No,No,0,No,Sister,2,No,Mixed,2011,19.8,68,No,No,Yes,Dermatitis,Sad,No,3,6,Yes
+462,66,9,48,No,0,No,No,1,Yes,Mixed,2002,21.3,58.7,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+463,54,11,48,17,2,7 months,Mother,2,No,Black,2005,21.4,57,1,Yes,Yes,No,Joy,No,3,5B,Yes
+464,61,9,42,No,0,No,Sister,2,Yes,White,2016,24.5,59.4,3,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+465,65,13,43,No,0,No,Mother,1,Yes,White,2011,26.1,79,No,No,Yes,Rhinitis,Joy,No,3,3B,Yes
+466,46,12,No,24,1,5 months,Mother/Sister,2,Yes,Mixed,2007,27.3,79.4,2,Yes,Yes,Rhinitis,Sad,Yes,4,5C,Yes
+467,47,13,No,23,1,6 months,No,2,Yes,Black,2007,29.2,77.9,2,No,Yes,No,Joy,No,3,3C,Yes
+468,66,11,47,16,1,No,Daughter,1,Yes,Mixed,2017,29.1,79.5,1,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+469,54,14,42,16,1,1 month,Mother,2,Yes,Mixed,2004,28.4,81,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+470,53,11,51,24,1,6 months,No,1,No,White,2013,23.6,73.4,No,Yes,Yes,Medicines,Joy,No,4,3B,Yes
+471,56,13,44,23,1,2 months,No,2,Yes,White,2015,25.1,56.8,1,No,No,Laryngitis,Joy,No,3,3B,Yes
+472,48,13,44,21,1,3 months,No,2,No,Mixed,2016,27.6,81.6,No,Yes,No,No,Joy,No,3,4B,Yes
+473,62,11,45,31,0,No,Mother,1,Yes,Mixed,2014,26.4,78.4,No,Yes,Yes,No,Sad,Yes,3,3C,Yes
+474,41,12,No,No,0,No,No,1,Yes,Mixed,2017,26.8,79.1,No,Yes,Yes,No,Joy,No,3,5C,Yes
+475,54,14,43,No,0,No,Mother,2,No,Black,2006,25.1,69,Diary,Yes,No,Laryngitis,Sad,Yes,3,5C,Yes
+476,38,14,No,No,0,No,Mother,1,Yes,Black,2018,25.3,66.1,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+477,60,14,50,No,0,No,Sister,1,No,White,2015,29.4,78.6,No,Yes,Yes,No,Joy,No,8,4B,Yes
+478,60,12,44,29,3,1 month,Mother,1,Yes,Mixed,2004,27.1,68.4,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+479,60,11,45,25,1,6 months,Daughter,1,Yes,White,2008,24.2,68,1,Yes,No,Rhinitis,Sad,Yes,4,3B,Yes
+480,63,11,44,27,1,2 months,No,2,Yes,White,2009,26.4,77.2,No,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+481,69,15,48,No,0,No,No,1,No,White,2011,19.1,52.8,1,Yes,Yes,Medicines,Joy,No,8,5B,Yes
+482,55,10,47,29,1,No,No,1,No,White,2003,21.5,62.9,No,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+483,45,13,No,21,1,5 months,No,3,No,Black,2017,23.7,68.9,2,Yes,Yes,No,Sad,Yes,3,5B,Yes
+484,67,9,44,30,1,3 months,Mother,2,No,White,2001,29.4,80.8,No,Yes,Yes,Laryngitis,Joy,No,3,4B,Yes
+485,70,11,45,35,2,5 months,Mother,3,Yes,Black,2013,24,65.7,No,Yes,Yes,No,Joy,No,8,3B,Yes
+486,50,9,No,No,0,No,Mother/Sister,2,Yes,Black,2016,22.6,75.4,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+487,64,12,50,23,1,1 month,Mother/Daughter,4,Yes,White,2003,18.9,65,3,No,Yes,No,Sad,Yes,6,5C,Yes
+488,66,14,42,No,0,No,Mother/Sister,3,Yes,Mixed,2009,26.9,77.5,No,Yes,Yes,Rhinitis,Sad,Yes,3,6,Yes
+489,53,9,48,39,2,2 months,Daughter,2,No,Black,2004,20.5,58.2,1,Yes,Yes,Medicines,Sad,No,3,5C,Yes
+490,46,10,No,No,0,No,Sister,3,Yes,Black,2004,19.8,65.4,No,No,Yes,Laryngitis,Sad,No,3,5B,Yes
+491,65,11,45,No,0,No,No,1,Yes,Mixed,2003,21.3,59.7,2,Yes,Yes,No,Joy,No,3,4B,Yes
+492,54,9,42,31,2,2 months,Mother,4,Yes,Black,2015,21.4,57,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+493,50,10,48,21,2,6 months,Sister,3,Yes,Black,2011,24.5,59.8,1,Yes,Yes,Medicines,Joy,No,6,4B,Yes
+494,66,13,43,No,0,No,Mother,1,Yes,White,2007,26.1,81.6,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+495,46,12,41,19,1,3 months,No,2,Yes,White,2017,27.3,79.4,3,Yes,Yes,No,Joy,No,4,5C,Yes
+496,47,12,No,No,0,No,Mother,1,Yes,White,2008,28.5,78.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+497,61,11,47,21,1,No,Daughter,1,No,Black,2011,30.1,78.3,No,Yes,Yes,No,Sad,No,3,6,Yes
+498,54,14,42,16,1,1 month,Mother,2,Yes,Mixed,2005,26.7,81,No,Yes,No,Dermatitis,Sad,Yes,3,5C,Yes
+499,53,11,49,37,1,No,No,1,Yes,Mixed,2009,22.5,70.1,No,No,No,Rhinitis,Sad,Yes,8,5B,Yes
+500,56,13,41,No,0,No,Mother,2,Yes,Mixed,2014,25.9,64.8,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+501,48,10,43,25,1,1 month,Mother/Sister,1,Yes,White,2015,28.1,79.6,1,No,No,Rhinitis,Joy,No,3,3B,Yes
+502,62,11,45,23,0,No,No,1,Yes,White,2013,26.4,79.5,2,Yes,Yes,No,Sad,Yes,3,5B,Yes
+503,60,14,47,24,0,2 months,No,3,Yes,White,2013,26.8,79.5,No,Yes,Yes,Rhinitis,Sad,Yes,4,5B,Yes
+504,54,10,43,33,1,No,No,2,No,White,2004,25.7,69,2,No,Yes,Medicines,Sad,No,3,4B,Yes
+505,60,12,48,No,0,No,Mother,1,Yes,White,2015,22.6,66.3,No,Yes,No,No,Joy,No,1,3B,Yes
+506,60,11,42,No,0,No,Mother,1,No,Mixed,2011,29.4,79.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+507,56,12,46,22,1,1 month,Sister,1,Yes,White,2013,23.1,59.6,2,Yes,Yes,Dermatitis,Sad,Yes,3,5C,Yes
+508,65,11,41,25,1,2 months,Sister/Daughter,1,Yes,White,2015,24.2,68,No,Yes,No,Medicines,Sad,No,4,6,Yes
+509,62,12,43,25,1,No,Sister,2,Yes,Black,2008,24.7,62.4,No,Yes,Yes,No,Joy,No,4,5B,Yes
+510,69,13,47,34,1,1 month,No,2,Yes,White,2016,27.6,80.4,2,Yes,Yes,No,Sad,Yes,3,5B,Yes
+511,55,13,50,27,1,No,Mother/Daughter,1,Yes,Mixed,2015,24.6,60.2,3,Yes,Yes,Rhinitis,Joy,No,3,5B,Yes
+512,45,13,No,No,0,No,Mother/Sister,2,Yes,Black,2010,20.4,62.7,3,No,Yes,No,Joy,No,3,3B,Yes
+513,69,12,39,28,2,4 months,Mother,3,No,Black,2013,21.1,58.2,No,Yes,Yes,Rhinitis,Sad,Yes,8,5C,Yes
+514,31,12,No,No,0,No,Mother,1,No,White,2011,25.7,64.2,No,Yes,Yes,No,Joy,No,3,3C,Yes
+515,50,11,49,No,0,No,No,2,Yes,White,2017,26.5,63.1,3,Yes,Yes,No,Joy,No,8,5B,Yes
+516,61,14,48,19,1,1 month,No,4,Yes,White,2011,24.8,65.2,2,Yes,Yes,No,Sad,Yes,3,4B,Yes
+517,27,11,No,14,1,3 months,No,1,No,White,2009,31.4,85.1,No,Yes,No,Rhinitis,Joy,No,3,3C,Yes
+518,53,11,42,No,0,No,Sister,2,Yes,Black,2013,20.5,58.8,3,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+519,40,10,No,No,0,No,Sister,2,No,White,2018,19.8,57.3,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+520,61,15,45,No,0,No,No,4,No,Mixed,2008,21.3,58.6,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+521,54,9,48,17,2,7 months,Mother,2,Yes,Black,2004,29.7,57,No,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+522,43,14,No,No,0,No,No,2,Yes,Mixed,2017,23.6,76.8,No,Yes,No,No,Sad,Yes,6,5B,Yes
+523,62,13,42,No,0,No,Mother,1,Yes,White,2011,26.1,83.1,No,Yes,Yes,Laryngitis,Joy,No,5,4B,Yes
+524,45,12,No,No,0,No,Sister,2,Yes,White,2015,27.3,79.6,No,Yes,No,No,Joy,No,3,3B,Yes
+525,47,11,No,30,1,3 months,Sister,1,No,Mixed,2014,29.1,77.6,No,Yes,No,No,Sad,Yes,3,5C,Yes
+526,49,12,44,27,1,No,Mother/Sister,1,Yes,Black,2010,24.8,79.4,5,Yes,Yes,No,Joy,No,4,5C,Yes
+527,54,14,49,No,0,No,Mother,2,Yes,Black,2007,28.4,81,No,Yes,Yes,Rhinitis,Sad,Yes,3,6,Yes
+528,53,13,44,No,0,No,Mother/Sister,3,No,White,2015,24.5,75.8,No,No,Yes,Medicines,Sad,No,11,5C,Yes
+529,56,14,50,19,1,2 months,No,3,Yes,White,2006,25.8,57.9,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+530,48,13,44,26,1,2 months,Sister,1,Yes,White,2014,29.5,78.6,1,Yes,No,No,Joy,No,3,4B,Yes
+531,65,11,43,23,0,No,No,1,No,Mixed,2014,27.4,79.4,No,Yes,Yes,Rhinitis,Sad,Yes,7,3B,Yes
+532,68,12,41,24,0,No,No,1,Yes,White,2017,26.8,79.4,No,No,Yes,Medicines,Joy,No,3,4B,Yes
+533,54,14,51,No,0,No,No,5,Yes,White,2008,25.1,69,No,Yes,No,Laryngitis,Sad,No,3,5B,Yes
+534,37,14,No,No,0,No,Mother,1,No,White,2014,27.4,77.8,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+535,60,13,45,No,0,No,Sister,1,Yes,Mixed,2008,29.4,78.9,No,Yes,Yes,No,Sad,No,4,5B,Yes
+536,60,12,42,22,1,1 month,Mother,1,No,Black,2001,23.7,59.9,2,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+537,68,11,42,25,1,2 months,Sister/Daughter,1,Yes,White,2015,24.2,68,2,Yes,Yes,No,Sad,No,3,3B,Yes
+538,63,12,46,24,1,1 month,No,2,Yes,White,2009,29.1,78.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+539,67,9,46,22,1,1 month,Mother/Sister,2,Yes,Mixed,2002,27.6,82.1,2,Yes,Yes,No,Joy,No,8,3C,Yes
+540,55,14,51,23,2,2 months,Mother,2,No,White,2011,21.4,57.4,No,Yes,Yes,No,Joy,No,8,5B,Yes
+541,45,13,No,19,1,No,Mother,1,Yes,Mixed,2008,21.6,75.3,2,Yes,Yes,No,Joy,No,3,4B,Yes
+542,67,12,39,34,1,3 months,No,2,Yes,White,2001,21.1,58.6,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+543,31,13,No,No,0,No,Mother,1,No,Mixed,2004,23.1,57.9,No,No,Yes,Rhinitis,Sad,Yes,1,3B,Yes
+544,50,15,No,No,0,No,Mother/Sister,2,No,Mixed,2013,23.6,62.3,Diary,No,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+545,64,14,51,38,1,No,No,4,Yes,White,2014,20.6,65,2,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+546,66,11,45,No,0,No,No,1,Yes,White,2014,26.9,77.6,1,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+547,53,9,47,17,2,No,Mother,3,Yes,Black,2013,21.4,63.7,1,Yes,Yes,No,Joy,No,3,5B,Yes
+548,40,10,No,No,0,No,No,1,Yes,Mixed,2006,19.8,60.5,3,Yes,Yes,Laryngitis,Joy,No,3,4B,Yes
+549,63,9,45,No,0,No,No,4,Yes,White,2017,21.3,58.6,2,Yes,Yes,Laryngitis,Joy,No,6,3B,Yes
+550,54,9,42,28,2,2 months,Mother,2,No,Black,2007,20.9,57,1,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+551,44,10,No,No,0,No,Sister,2,Yes,Mixed,2003,24.5,68.1,5,Yes,Yes,No,Joy,No,3,3C,Yes
+552,64,10,43,No,0,No,Mother/Sister,2,Yes,Mixed,2008,26.1,82.4,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+553,40,12,No,26,1,2 months,Sister,2,No,White,2015,27.3,81.4,2,Yes,Yes,No,Sad,Yes,4,3A,Yes
+554,48,13,No,No,0,No,No,1,No,Mixed,2007,30.8,78.4,No,No,Yes,Medicines,Joy,No,3,3B,Yes
+555,48,11,47,33,1,No,Mother,1,No,Black,2011,31.2,79.6,No,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+556,51,8,41,16,1,1 month,Mother,1,Yes,Mixed,2013,24.1,65.8,No,Yes,No,No,Sad,No,3,4B,Yes
+557,53,12,52,20,1,No,No,1,Yes,White,2011,26.4,80.6,No,Yes,Yes,No,Sad,Yes,3,3C,Yes
+558,61,11,51,18,1,2 months,Daughter,4,Yes,Mixed,2008,25.6,59.5,No,Yes,Yes,No,Joy,No,3,5C,Yes
+559,48,13,42,16,3,2 months,Sister/Daughter,2,Yes,White,2011,27.5,79.5,2,Yes,Yes,Laryngitis,Sad,Yes,4,5C,Yes
+560,64,13,50,33,0,No,Mother,1,Yes,White,2016,22.9,77.9,No,Yes,Yes,No,Joy,No,3,5B,Yes
+561,63,12,41,24,0,No,No,1,No,White,2011,26.8,79.3,No,Yes,Yes,No,Sad,No,4,4B,Yes
+562,53,14,43,22,1,1 month,No,2,Yes,White,2014,25.1,69.3,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+563,60,15,42,No,0,No,Mother,1,Yes,Black,2017,21.9,64.1,2,Yes,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+564,60,11,45,21,2,3 months,Sister/Daughter,4,Yes,Mixed,2015,29.4,78.4,No,No,No,Rhinitis,Sad,Yes,3,3B,Yes
+565,57,11,44,22,1,3 months,Mother,1,Yes,Mixed,2012,25.1,62.4,No,Yes,Yes,Medicines,Sad,Yes,4,5B,Yes
+566,63,11,45,25,1,4 months,Sister,1,Yes,White,2015,24.2,68,No,Yes,Yes,Laryngitis,Sad,No,4,5B,Yes
+567,63,11,47,18,1,3 months,No,2,Yes,Mixed,2008,24.8,63.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+568,69,15,46,19,1,5 months,Mother/Sister,2,No,White,2007,30.8,82,2,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+569,55,15,48,24,1,3 months,Mother,3,No,Black,2008,24.8,59.6,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+570,45,8,No,24,1,3 months,No,1,Yes,Black,2012,20.4,68.3,3,Yes,No,No,Sad,Yes,2,3A,Yes
+571,65,11,41,34,2,3 months,Mother/Daughter,2,Yes,Black,2010,23.1,58.9,No,Yes,No,Medicines,Joy,No,3,3B,Yes
+572,31,12,No,30,1,5 months,Mother,2,No,White,2016,22.2,59.1,3,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+573,51,11,No,No,0,No,Mother/Sister,2,Yes,Black,2011,24.6,63.5,2,Yes,Yes,No,Joy,No,3,4B,Yes
+574,61,12,48,31,1,1 month,No,4,Yes,Black,2011,24.8,65.8,2,Yes,Yes,Laryngitis,Sad,Yes,3,3C,Yes
+575,27,9,No,19,1,7 months,No,3,Yes,Mixed,2007,26.9,79.5,Diary,No,Yes,No,Sad,Yes,3,5C,Yes
+576,53,9,46,17,2,2 months,Mother/Sister,2,No,Mixed,2013,23.8,64.8,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+577,45,10,No,No,0,No,Sister,2,Yes,White,2018,19.8,64.4,Diary,No,Yes,No,Sad,No,3,5B,Yes
+578,27,11,No,No,0,No,Mother,4,No,Mixed,2014,21.3,58.1,No,Yes,Yes,Rhinitis,Sad,Yes,8,5C,Yes
+579,54,9,43,29,2,6 months,Mother,2,No,Black,2008,26.7,57,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+580,63,11,45,No,0,No,Sister,2,No,White,2009,24.5,61.8,1,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+581,65,14,42,No,0,No,Mother,1,Yes,White,2011,26.1,78.9,3,No,Yes,No,Sad,Yes,3,3A,Yes
+582,48,12,No,No,0,No,Mother/Sister,3,Yes,White,2015,26.4,78.6,3,Yes,Yes,Medicines,Joy,No,5,3B,Yes
+583,47,12,No,22,2,7 months,Mother/Sister,1,Yes,Black,2007,30.5,79.5,No,Yes,No,Laryngitis,Joy,No,3,3B,Yes
+584,50,11,47,26,1,1 month,Daughter,1,No,Black,2015,30.1,86.6,No,Yes,Yes,No,Joy,No,3,4B,Yes
+585,54,14,51,16,1,1 month,Mother,3,Yes,Mixed,2014,27.2,81,No,Yes,Yes,Dermatitis,Sad,Yes,4,3C,Yes
+586,53,11,49,No,0,No,No,1,No,Mixed,2015,26.4,78.3,2,Yes,No,No,Sad,Yes,3,5C,Yes
+587,62,15,46,17,1,4 months,Sister/Daughter,5,No,Black,2009,23.5,72.5,No,Yes,Yes,No,Sad,No,3,5C,Yes
+588,47,13,44,29,1,1 month,Sister,2,No,White,2011,26.5,77.6,2,Yes,No,No,Joy,No,3,5B,Yes
+589,62,11,41,23,0,No,Mother,1,Yes,White,2014,26.4,78.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+590,63,12,45,24,0,No,No,1,Yes,White,2017,26.8,78.5,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+591,54,11,43,No,0,No,No,2,No,Black,2006,25.1,69,No,Yes,Yes,Laryngitis,Joy,No,8,3B,Yes
+592,61,14,46,No,0,No,Mother,1,Yes,White,2016,26.4,81.9,3,Yes,Yes,No,Joy,No,3,4B,Yes
+593,60,9,43,No,0,No,Mother,1,Yes,White,2008,29.4,79.2,No,Yes,Yes,Laryngitis,Sad,Yes,3,3C,Yes
+594,57,10,39,No,0,No,No,1,No,Black,2011,23.2,63.2,No,Yes,Yes,No,Sad,Yes,6,5C,Yes
+595,63,11,42,25,1,2 months,Mother/Daughter,1,No,Black,2015,24.2,68,2,Yes,Yes,No,Joy,No,3,5C,Yes
+596,63,14,49,19,1,4 months,Sister,2,Yes,Mixed,2001,25.6,67.2,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+597,70,14,46,No,0,No,Mother/Sister,2,Yes,White,2005,27.6,82.3,2,Yes,Yes,No,Joy,No,1,4B,Yes
+598,55,14,49,25,1,No,No,2,Yes,Mixed,2015,24.7,71.4,2,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+599,45,13,No,24,1,5 months,Mother/Sister,1,No,Mixed,2017,24.8,67.9,3,No,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+600,65,10,46,21,2,3 months,Mother/Sister,2,No,Black,2001,24.6,64.6,No,Yes,Yes,Rhinitis,Sad,Yes,1,3B,Yes
+601,31,13,No,No,0,No,Mother/Sister,3,Yes,Black,2011,22.9,63.5,No,Yes,Yes,Medicines,Sad,No,3,5B,Yes
+602,50,14,No,No,0,No,Mother/Sister,2,Yes,White,2014,21.3,65.4,3,No,Yes,Laryngitis,Sad,Yes,4,5B,Yes
+603,64,15,49,20,1,4 months,Sister/Daughter,4,Yes,Mixed,2011,26.8,66.4,1,No,Yes,No,Joy,No,3,5B,Yes
+604,62,14,45,No,0,No,No,1,Yes,Mixed,2002,26.9,79.2,1,No,Yes,Laryngitis,Sad,Yes,3,4B,Yes
+605,53,9,45,34,2,1 month,Mother,3,Yes,Mixed,2010,20.5,58.1,2,Yes,Yes,No,Joy,No,3,3B,Yes
+606,47,10,No,No,0,No,No,1,No,White,2018,19.8,68,Diary,Yes,Yes,No,Sad,Yes,3,5C,Yes
+607,66,8,42,21,2,5 months,Mother/Sister,2,Yes,White,2007,21.3,57.7,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+608,53,10,42,20,2,12 months,Mother/Sister,3,Yes,Black,2003,22.7,63.4,3,No,Yes,Rhinitis,Sad,Yes,3,6,Yes
+609,44,10,No,No,0,No,No,2,No,White,2011,24.8,64.5,3,Yes,Yes,Medicines,Sad,No,3,5C,Yes
+610,64,13,43,No,0,No,Mother,1,No,Black,2003,26.1,82.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+611,48,11,No,No,0,No,Mother/Sister,2,No,Mixed,2013,29.1,78.5,2,Yes,No,No,Joy,No,3,4B,Yes
+612,47,13,No,30,1,7 months,No,2,No,Black,2006,27.4,79.4,No,Yes,No,Rhinitis,Sad,Yes,10,3B,Yes
+613,49,10,46,No,0,No,Sister,1,Yes,Mixed,2017,24.6,70.5,No,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+614,54,14,42,16,1,1 month,No,2,Yes,Mixed,2004,29.4,81,2,Yes,No,Laryngitis,Sad,Yes,8,5B,Yes
+615,53,11,44,No,0,No,No,3,Yes,White,2011,28.4,79.6,No,No,No,No,Joy,No,3,5C,Yes
+616,56,13,46,23,3,2 months,Mother,2,Yes,Mixed,2004,27.3,79.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+617,48,13,49,26,1,1 month,No,2,Yes,Mixed,2016,29.6,78.2,No,Yes,No,Dermatitis,Sad,No,9,6,Yes
+618,60,11,43,23,0,No,Mother/Sister,1,Yes,White,2014,26.4,79.5,No,Yes,Yes,No,Sad,Yes,6,5C,Yes
+619,60,12,41,24,0,No,No,1,No,Black,2017,26.8,79.1,2,Yes,Yes,No,Joy,No,3,5B,Yes
+620,54,14,43,22,1,No,No,4,Yes,White,2005,29.1,69,4,Yes,Yes,No,Joy,No,3,4B,Yes
+621,62,10,42,19,1,No,Mother,1,No,Mixed,2006,24.8,67,No,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+622,61,12,45,No,0,No,Mother,1,Yes,White,2006,29.4,78.5,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+623,57,12,45,23,1,1 month,Mother/Sister,2,Yes,Mixed,2010,24.6,59.7,3,Yes,Yes,Rhinitis,Sad,Yes,4,5B,Yes
+624,62,11,46,25,1,2 months,Sister,1,No,White,2015,24.2,68,No,Yes,No,Medicines,Joy,No,1,4B,Yes
+625,63,13,43,16,1,5 months,No,2,No,White,2008,26.4,80.4,No,Yes,Yes,Dermatitis,Joy,No,3,3B,Yes
+626,69,11,43,No,0,No,Sister,2,Yes,Mixed,2002,28.4,82.5,No,No,Yes,No,Sad,Yes,3,5C,Yes
+627,55,14,46,26,1,1 month ,Mother/Sister,3,Yes,White,2011,21.6,70.6,No,Yes,Yes,No,Sad,No,3,5C,Yes
+628,45,13,No,24,1,7 months,No,1,Yes,Mixed,2011,21.9,68.3,2,Yes,No,No,Sad,No,3,6,Yes
+629,67,8,39,No,0,No,Mother,2,Yes,Mixed,2008,24.5,57.6,No,Yes,Yes,No,Sad,Yes,6,5B,Yes
+630,31,11,No,16,1,3 months,Mother/Sister,1,Yes,White,2017,23.4,62.5,No,Yes,Yes,No,Joy,No,3,5B,Yes
+631,50,12,48,19,2,5 months,No,2,Yes,Mixed,2016,24.5,69.1,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+632,64,10,42,22,2,9 months,No,4,Yes,Black,2018,27.6,65.4,1,Yes,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+633,27,11,No,No,0,No,Mother/Sister,4,No,White,2006,26.9,82.9,3,No,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+634,53,10,39,18,2,1 month,No,2,No,Black,2013,22.5,58.9,3,No,Yes,Medicines,Joy,No,3,3C,Yes
+635,40,10,No,No,0,No,Mother,3,Yes,Black,2014,19.8,58.6,No,No,No,Medicines,Sad,Yes,5,4B,Yes
+636,66,12,47,25,1,7 months,No,3,Yes,Mixed,2015,22.2,57.2,1,Yes,Yes,No,Sad,Yes,3,3A,Yes
+637,54,9,48,No,0,No,Mother,2,No,Black,2006,21.4,57,3,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+638,61,8,47,No,0,No,Mother/Sister,2,Yes,Black,2001,26.4,79.5,2,No,Yes,Laryngitis,Joy,No,3,3B,Yes
+639,64,15,45,No,0,No,Mother,1,Yes,White,2011,27.2,81.3,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+640,40,12,No,26,1,3 months,No,2,Yes,Black,2011,27.3,81.3,2,Yes,Yes,Dermatitis,Sad,Yes,3,3C,Yes
+641,47,13,No,17,1,1 month,Mother,1,Yes,Black,2009,30.9,80.2,No,Yes,Yes,No,Sad,No,8,5C,Yes
+642,57,11,47,21,1,No,Daughter,1,No,Black,2011,30.1,77.9,No,Yes,Yes,No,Joy,No,3,5C,Yes
+643,54,11,50,28,1,1 month,Mother,2,Yes,Mixed,2014,27.6,81,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+644,53,11,41,29,1,2 months,No,2,Yes,White,2004,25.1,75.4,No,Yes,Yes,No,Sad,No,3,4B,Yes
+645,56,15,46,21,1,2 months,Mother/Sister,4,Yes,Mixed,2006,25.1,56.8,1,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+646,48,13,43,36,1,2 months,No,2,Yes,White,2007,28.5,79.5,2,Yes,Yes,Dermatitis,Sad,Yes,4,3B,Yes
+647,61,11,42,23,1,5 months,Mother,1,Yes,White,2014,26.4,80.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+648,65,12,41,24,0,No,No,1,No,White,2017,29.7,80.6,No,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+649,54,8,43,No,0,No,Sister,2,Yes,White,2001,25.1,69,Diary,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+650,66,15,45,No,0,No,Mother,2,Yes,Black,2013,24.5,64.3,No,Yes,Yes,No,Joy,No,1,5B,Yes
+651,62,11,46,No,0,No,Mother/Sister,1,No,Mixed,2014,26.1,79.6,No,Yes,Yes,Laryngitis,Sad,No,3,4B,Yes
+652,57,13,46,29,1,No,No,1,Yes,White,2001,25.3,64.8,No,Yes,Yes,No,Joy,No,3,3B,Yes
+653,62,11,48,24,1,2 months,Sister,1,Yes,White,2015,22.6,68,2,Yes,No,No,Sad,Yes,3,5C,Yes
+654,63,11,49,27,1,2 months,Sister,2,Yes,White,2001,21.9,74.5,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+655,69,10,48,26,1,1 month,No,2,Yes,Mixed,2011,29.4,84.3,No,Yes,Yes,Rhinitis,Sad,Yes,4,6,Yes
+656,55,14,44,No,0,No,Sister,4,Yes,Mixed,2011,24.5,78.4,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+657,45,13,No,14,2,8 months,Mother/Sister,4,No,White,2009,24.8,74.5,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+658,68,11,42,25,2,3 months,Mother/Daughter,2,No,Mixed,2013,26.4,77.8,No,Yes,Yes,No,Joy,No,3,4B,Yes
+659,30,11,No,No,0,No,No,1,Yes,Black,2016,24.8,62,No,Yes,Yes,Rhinitis,Sad,Yes,5,3B,Yes
+660,52,12,50,No,0,No,Mother/Sister,3,Yes,White,2010,22.6,62.1,1,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+661,64,15,49,17,1,3 months,No,4,Yes,White,2005,24.1,65,No,Yes,Yes,Laryngitis,Sad,Yes,8,5B,Yes
+662,31,11,No,No,0,No,No,2,No,Mixed,2014,26.9,81.5,2,No,Yes,No,Joy,No,3,5C,Yes
+663,53,11,39,No,0,No,Mother/Sister,2,No,Black,2013,20.5,61.9,Diary,Yes,No,No,Sad,Yes,3,5C,Yes
+664,40,10,No,No,0,No,Mother/Sister,1,No,White,2009,19.8,63.4,No,No,Yes,Medicines,Sad,Yes,3,6,Yes
+665,63,11,45,No,0,No,No,4,Yes,Mixed,2014,21.3,58.9,2,Yes,Yes,Medicines,Sad,Yes,8,5C,Yes
+666,53,9,38,26,2,No,Mother/Sister,2,No,Mixed,2015,21.4,59.3,1,Yes,Yes,No,Sad,Yes,8,5B,Yes
+667,45,10,No,No,0,No,No,2,Yes,White,2017,24.5,67.9,No,Yes,Yes,No,Joy,No,4,4B,Yes
+668,62,14,50,No,0,No,Mother,2,Yes,Mixed,2016,26.1,78.9,2,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+669,44,12,No,21,1,3 months,Sister,2,Yes,White,2015,27.3,78.1,No,Yes,No,Dermatitis,Sad,Yes,3,5B,Yes
+670,47,13,No,No,0,No,Mother/Sister,3,Yes,Mixed,2017,27.6,81.6,3,No,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+671,64,11,43,21,1,7 months,Daughter,1,No,Black,2006,27.5,79.3,No,Yes,Yes,Medicines,Joy,No,7,4B,Yes
+672,54,9,50,No,0,No,No,2,Yes,Mixed,2001,28.4,81,No,Yes,No,No,Joy,No,1,3B,Yes
+673,53,11,48,31,1,4 months,No,1,Yes,White,2011,26.4,83.6,No,Yes,No,No,Sad,Yes,4,5C,Yes
+674,49,14,38,18,1,4 months,Mother/Daughter,4,No,Black,2008,25.4,57.8,2,Yes,Yes,No,Sad,No,3,5C,Yes
+675,48,13,44,38,2,3 months,Sister,2,Yes,White,2014,30.4,78.5,1,Yes,No,Laryngitis,Sad,Yes,3,6,Yes
+676,65,11,43,23,0,No,Mother/Sister,1,Yes,Mixed,2014,23.5,81.6,2,No,Yes,No,Joy,No,3,5B,Yes
+677,62,12,46,31,0,No,No,1,No,White,2017,26.8,81.6,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+678,54,15,43,22,1,1 month,No,3,Yes,White,2002,25.1,69,2,No,Yes,Rhinitis,Joy,No,3,5B,Yes
+679,65,9,48,17,1,No,Daughter,1,Yes,Black,2014,25.7,64.5,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+680,61,11,43,No,0,No,No,1,No,White,2014,29.4,78.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+681,57,14,44,21,2,4 months,Mother,2,No,Black,2006,23.1,66.9,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+682,65,11,47,27,1,2 months,Sister,1,No,White,2015,24.2,68,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+683,63,13,47,26,1,2 months,No,2,Yes,White,2008,26.4,79.3,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+684,69,15,50,21,1,2 months,Sister/Daughter,1,Yes,White,2010,32.5,81.2,3,Yes,No,Rhinitis,Joy,No,3,3C,Yes
+685,55,15,51,26,1,4 months,Mother/Sister,1,Yes,Mixed,2007,22.6,60.8,2,Yes,Yes,Rhinitis,Sad,Yes,10,3B,Yes
+686,45,13,No,20,1,No,Mother,1,No,Black,2010,21.6,65.2,No,No,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+687,67,10,44,21,0,No,No,2,Yes,Black,2001,23.6,58.3,No,Yes,Yes,Medicines,Sad,Yes,6,5B,Yes
+688,31,15,No,14,1,2 months,Mother/Sister,1,Yes,Black,2010,22.3,59.8,No,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+689,51,15,48,No,0,No,No,2,No,Mixed,2015,25.1,63.7,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+690,64,14,48,19,3,No,No,4,Yes,Mixed,2017,25.1,65,3,No,Yes,Laryngitis,Joy,No,3,4B,Yes
+691,32,12,No,No,0,No,No,2,No,Mixed,2014,30.9,83.5,3,No,Yes,No,Joy,No,3,3B,Yes
+692,53,9,41,No,0,No,Mother,2,No,Black,2002,20.5,58.6,2,Yes,Yes,No,Sad,Yes,2,5C,Yes
+693,46,10,No,No,0,No,Sister,2,No,Black,2014,19.8,69.8,No,No,Yes,No,Joy,No,3,5C,Yes
+694,62,13,48,No,0,No,No,1,Yes,Mixed,2017,22.6,61.5,No,Yes,Yes,Rhinitis,Sad,Yes,3,6,Yes
+695,54,9,49,27,2,2 months,Mother,2,Yes,Black,2003,21.4,57,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+696,44,9,No,No,0,No,Mother/Sister,2,Yes,Mixed,2001,22.5,63.9,3,Yes,Yes,Laryngitis,Sad,Yes,1,5B,Yes
+697,65,10,45,No,0,No,Mother/Sister,1,Yes,Black,2011,26.1,82.9,2,Yes,Yes,No,Joy,No,4,4B,Yes
+698,46,10,No,17,1,3 months,Mother/Sister,1,Yes,Black,2015,27.3,77.9,4,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+699,47,10,No,26,1,4 months,No,1,Yes,Black,2016,28.4,82.6,No,Yes,Yes,Medicines,Joy,No,10,4B,Yes
+700,49,9,47,21,1,No,Daughter,1,No,White,2001,24.7,78.6,No,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+701,54,14,42,16,1,1 month,Daughter,2,Yes,Mixed,2003,29.3,81,2,No,Yes,No,Sad,Yes,3,5B,Yes
+702,53,11,44,29,1,3 months,Mother,1,No,Mixed,2011,26.4,79.5,No,Yes,No,No,Joy,No,3,5B,Yes
+703,56,11,45,15,2,3 months,Daughter,3,No,White,2009,24.6,59.6,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+704,48,13,47,17,1,6 months,Daughter,1,Yes,Black,2016,32.5,79.3,No,Yes,No,Rhinitis,Sad,Yes,6,3B,Yes
+705,65,9,45,23,0,No,Sister,1,Yes,Mixed,2014,29.8,82.4,No,Yes,Yes,Rhinitis,Sad,Yes,9,5C,Yes
+706,62,12,46,18,2,6 months,Daughter,1,No,White,2017,26.8,82.8,No,No,Yes,Medicines,Joy,No,3,3C,Yes
+707,54,13,51,22,1,No,Mother,2,Yes,White,2001,25.6,69,No,Yes,Yes,No,Sad,No,3,5B,Yes
+708,65,8,42,No,0,No,Mother,1,No,Black,2011,26.5,79.5,3,Yes,Yes,No,Sad,Yes,3,4B,Yes
+709,62,13,43,No,0,No,Mother,1,No,Black,2015,29.4,79.5,No,Yes,Yes,Dermatitis,Joy,No,3,3C,Yes
+710,57,15,47,No,0,No,Mother/Sister,1,Yes,Mixed,2009,29.4,81.7,2,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+711,64,13,50,25,1,No,Sister,1,Yes,White,2013,24.2,68,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+712,63,12,43,14,1,2 months,No,2,Yes,White,2010,29.7,77.5,No,Yes,Yes,Medicines,Sad,No,3,5B,Yes
+713,69,9,46,28,1,7 months,Sister,1,Yes,Black,2011,17.8,51.4,1,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+714,55,14,50,24,1,2 months,Daughter,2,Yes,White,2005,24.7,64.8,2,Yes,No,No,Sad,No,4,5B,Yes
+715,45,13,No,No,0,No,Sister,2,No,White,2018,23.1,71.8,No,Yes,Yes,Laryngitis,Sad,Yes,4,4B,Yes
+716,65,9,47,25,2,3 months,Sister/Daughter,2,Yes,Black,2003,24.9,66.6,No,Yes,No,Rhinitis,Sad,Yes,3,3A,Yes
+717,31,13,No,No,0,No,Mother,3,Yes,Black,2009,22.5,61.8,No,Yes,No,Medicines,Joy,No,3,3B,Yes
+718,50,11,44,No,0,No,No,2,Yes,Black,2010,22.2,58.3,2,Yes,Yes,Laryngitis,Joy,No,9,3B,Yes
+719,64,12,51,18,1,1 month,No,4,Yes,White,2011,26.9,65,3,Yes,Yes,No,Joy,No,3,4B,Yes
+720,27,12,No,21,0,No,No,1,No,Black,2005,26.7,79.5,No,Yes,Yes,Dermatitis,Sad,Yes,3,3C,Yes
+721,53,9,41,20,2,2 months,Mother,2,Yes,Black,2015,25.3,56.9,1,Yes,Yes,No,Sad,Yes,3,5C,Yes
+722,46,10,No,No,0,No,Sister,1,No,Mixed,2011,19.8,68.7,No,Yes,Yes,No,Sad,No,3,5C,Yes
+723,65,15,48,No,0,No,No,2,No,Mixed,2016,22.5,59.6,2,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+724,54,10,47,21,2,6 months,No,2,No,Black,2005,21.4,57,4,Yes,Yes,No,Joy,No,6,4B,Yes
+725,44,10,No,28,1,No,Sister,2,Yes,Black,2005,23.5,72.4,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+726,66,13,46,No,0,No,Mother/Sister,1,Yes,White,2007,26.1,83.3,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+727,46,12,No,29,1,1 month,No,1,Yes,White,2013,27.3,79.6,2,Yes,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+728,47,13,No,30,2,3 months,No,1,Yes,White,2018,27.9,82.4,No,No,Yes,Medicines,Sad,Yes,3,5B,Yes
+729,49,11,No,31,1,No,Sister,1,No,Mixed,2010,22.9,79.4,No,Yes,Yes,Laryngitis,Joy,No,8,5B,Yes
+730,54,11,48,16,1,3 months,Sister,2,Yes,Mixed,2006,28.1,81,2,Yes,Yes,No,Sad,No,3,5B,Yes
+731,53,8,39,21,1,1 month,Mother,1,Yes,White,2003,24.3,75.5,No,Yes,No,Laryngitis,Joy,No,3,4B,Yes
+732,56,14,47,No,0,No,Mother,4,Yes,Black,2008,26.7,79.6,No,Yes,No,No,Joy,No,4,3B,Yes
+733,48,13,41,25,1,2 months,Mother/Sister,4,Yes,Black,2011,28.4,78.6,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+734,65,11,42,23,0,No,No,1,Yes,White,2014,26.4,81.9,No,Yes,Yes,No,Joy,No,3,5C,Yes
+735,64,14,52,24,0,No,No,1,Yes,Mixed,2005,27.5,78.5,No,Yes,Yes,Rhinitis,Sad,Yes,11,6,Yes
+736,54,11,43,No,0,No,Mother,5,Yes,White,2004,25.1,69,Diary,No,No,Medicines,Sad,Yes,8,5C,Yes
+737,65,9,42,18,2,No,Mother,1,Yes,White,2015,26.1,79.6,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+738,61,14,41,19,2,3 months,Mother/Daughter,1,Yes,Mixed,2013,29.4,79.5,No,Yes,Yes,No,Sad,No,3,4B,Yes
+739,57,11,46,No,0,No,Mother,1,Yes,White,2010,24.2,59.7,No,Yes,Yes,No,Sad,Yes,3,3B,Yes
+740,64,10,47,25,2,2 months,Sister,1,No,Black,2010,26.7,68,No,Yes,Yes,Medicines,Sad,Yes,6,4B,Yes
+741,63,11,46,27,1,4 months,No,2,No,Black,2009,24.5,72.6,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+742,69,12,47,27,1,3 months,No,1,Yes,White,2007,26.8,81,1,Yes,Yes,No,Joy,No,3,5C,Yes
+743,55,14,44,18,2,1 month ,No,1,No,Mixed,2001,24.7,63.4,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+744,45,9,42,17,1,5 months,No,1,No,Mixed,2017,24.8,68.3,No,Yes,No,No,Sad,No,3,6,Yes
+745,67,12,39,33,2,3 months,Sister/Daughter,2,Yes,White,2008,18.3,56.8,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+746,31,13,No,No,0,No,Mother,1,Yes,Mixed,2015,26.4,78.4,No,Yes,Yes,No,Sad,No,3,5B,Yes
+747,50,13,No,29,3,7 months,Mother/Sister,2,No,White,2011,23.4,63.8,No,No,Yes,No,Joy,No,3,4B,Yes
+748,64,9,48,19,1,3 months,Mother,4,Yes,White,2016,26.4,65,No,Yes,Yes,Rhinitis,Joy,No,8,3B,Yes
+749,28,11,No,No,0,No,No,4,No,Black,2001,26.9,81.7,Diary,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+750,53,9,41,16,2,2 months,Mother,2,Yes,Black,2016,26.4,78.4,1,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+751,46,10,No,25,0,No,Mother,1,No,Mixed,2010,20.7,69.8,No,No,No,Medicines,Joy,No,3,4B,Yes
+752,62,9,45,No,0,No,No,4,Yes,Mixed,2014,22.4,57.6,2,Yes,Yes,No,Joy,No,3,3B,Yes
+753,54,9,49,No,0,No,Sister,2,No,Black,2003,21.4,57,4,Yes,Yes,No,Sad,Yes,3,5C,Yes
+754,46,9,No,21,0,No,No,1,Yes,White,2011,24.5,71.5,No,Yes,Yes,Laryngitis,Joy,No,3,5C,Yes
+755,61,9,42,No,0,No,Mother,1,Yes,White,2011,26.1,81.1,No,Yes,Yes,No,Sad,Yes,1,6,Yes
+756,46,12,No,33,1,3 months,Sister,3,Yes,Mixed,2002,27.3,80.4,No,Yes,No,No,Sad,Yes,3,5B,Yes
+757,47,13,No,38,1,6 months,Sister,2,Yes,Mixed,2011,30.5,77.6,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+758,49,14,48,29,1,2 months,No,1,No,Black,2008,23.8,80.6,Diary,Yes,Yes,Rhinitis,Sad,No,3,5B,Yes
+759,54,14,42,16,1,6 months,Mother,2,Yes,White,2014,26.7,79.8,No,Yes,Yes,Dermatitis,Sad,Yes,4,3B,Yes
+760,53,11,40,18,1,6 months,No,1,Yes,Mixed,2011,20.4,64.2,No,Yes,No,Rhinitis,Sad,Yes,4,5C,Yes
+761,56,12,39,No,0,No,No,1,Yes,White,2011,27.8,78.5,2,Yes,Yes,Medicines,Joy,No,4,3C,Yes
+762,48,13,44,29,1,1 month,Sister,1,No,White,2002,26.9,77.6,3,Yes,No,Medicines,Sad,Yes,8,4B,Yes
+763,66,11,41,20,1,3 months,Mother/Daughter,1,No,White,2011,28.4,78.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+764,65,12,45,24,0,No,No,1,Yes,Mixed,2017,26.8,77.4,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+765,54,12,48,22,1,No,No,2,No,Mixed,2001,25.1,69,No,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+766,62,10,46,28,2,5 months,Mother/Daughter,1,No,Mixed,2013,25.3,63.7,No,Yes,Yes,No,Joy,No,8,4B,Yes
+767,62,13,49,No,0,No,Sister,1,Yes,White,2011,29.4,78.2,No,Yes,Yes,Dermatitis,Sad,Yes,3,3C,Yes
+768,57,10,48,28,0,No,No,3,Yes,White,2011,23.9,58.6,1,Yes,Yes,No,Sad,Yes,4,5C,Yes
+769,65,11,50,25,1,2 months,Sister,1,Yes,Mixed,2015,24.2,68,No,Yes,Yes,No,Joy,No,3,5C,Yes
+770,63,11,43,15,1,5 months,Mother/Daughter,2,Yes,Black,2003,26.4,78.2,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+771,69,11,46,34,2,3 months,Mother/Sister,2,No,Mixed,2008,25.7,79.4,No,Yes,No,No,Joy,No,3,4B,Yes
+772,55,11,40,17,1,No,Mother/Sister,1,Yes,White,2010,22.1,54.2,No,Yes,Yes,Dermatitis,Joy,No,6,3C,Yes
+773,45,13,No,26,1,No,Mother/Sister,1,Yes,Mixed,2011,22.3,69.3,No,Yes,Yes,Medicines,Sad,Yes,3,3B,Yes
+774,71,12,39,36,2,3 months,Sister,2,Yes,Black,2005,21.1,59.8,3,Yes,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+775,60,10,43,No,0,No,Mother,3,Yes,White,2010,21.5,62.4,2,Yes,Yes,Medicines,Sad,No,3,5B,Yes
+776,51,12,51,27,1,3 months,Mother/Sister,2,Yes,White,2014,23.5,62.9,2,Yes,Yes,Laryngitis,Sad,Yes,5,5B,Yes
+777,64,10,46,25,1,8 months,No,4,No,White,2017,26.9,65,3,No,Yes,No,Joy,No,3,5B,Yes
+778,27,11,No,No,0,No,No,3,Yes,White,2016,28.7,84.2,Diary,No,No,Laryngitis,Joy,No,3,4B,Yes
+779,53,9,41,30,2,2 months,Mother,2,No,Black,2005,20.6,57.3,2,Yes,Yes,No,Joy,No,3,3B,Yes
+780,48,11,No,No,0,No,Sister,1,No,Mixed,2008,20.5,68,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+781,60,13,47,No,0,No,No,4,Yes,Mixed,2007,20.6,58.4,No,Yes,Yes,No,Joy,No,1,5C,Yes
+782,53,9,42,38,2,No,Mother,2,No,Black,2015,20.7,63.8,3,Yes,Yes,Rhinitis,Sad,Yes,3,6,Yes
+783,43,10,No,No,0,No,Sister,3,No,White,2012,23.9,73.2,Diary,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+784,60,9,42,21,2,5 months,Daughter,2,Yes,Black,2018,26.1,80.7,No,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+785,65,12,46,26,1,3 months,Mother,2,Yes,White,2015,27.3,81,2,No,Yes,No,Sad,No,3,4B,Yes
+786,47,13,No,32,1,7 months,Mother/Sister,2,No,White,2014,29.4,83.2,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+787,49,14,47,21,1,1 month,Daughter,3,Yes,Mixed,2011,22.7,79.4,1,Yes,Yes,Medicines,Joy,No,5,4B,Yes
+788,54,14,47,16,1,3 months,No,5,Yes,Mixed,2011,29.3,78.9,No,No,No,Laryngitis,Sad,No,4,5B,Yes
+789,53,11,40,18,1,6 months,No,1,Yes,Mixed,2011,24.9,73.4,No,Yes,Yes,No,Sad,No,3,5C,Yes
+790,56,11,46,24,1,3 months,Mother/Sister,1,Yes,Black,2018,25.1,57.8,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+791,48,13,44,24,1,1 month,Mother/Sister,2,No,White,2011,24.3,78.5,6,Yes,Yes,No,Joy,No,3,6,Yes
+792,66,14,43,25,0,No,Mother,1,No,Black,2014,30.5,79.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5C,Yes
+793,61,12,40,24,0,3 months,No,1,Yes,Mixed,2017,26.8,79.5,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+794,54,11,49,No,0,No,No,2,No,White,2014,25.1,69,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+795,63,11,50,No,0,No,Mother,1,No,Black,2015,25.7,69.2,No,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+796,39,12,No,No,0,No,Sister,3,No,White,2002,26.7,77.6,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+797,57,9,47,34,1,No,No,1,No,Black,2008,23.1,59.6,No,Yes,Yes,Rhinitis,Sad,Yes,1,5B,Yes
+798,61,11,46,25,1,2 months,Sister,1,No,White,2015,24.2,68,No,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+799,62,10,44,27,1,4 months,No,2,Yes,Mixed,2001,26.4,78.1,No,Yes,Yes,No,Joy,No,3,3B,Yes
+800,69,12,49,26,1,No,No,2,Yes,Mixed,2010,22.4,82,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+801,55,10,49,No,0,No,Sister,2,Yes,Mixed,2016,21.8,59.8,No,Yes,Yes,No,Sad,Yes,6,5C,Yes
+802,45,13,No,31,2,7 months,Mother,2,Yes,White,2014,21.4,67.4,No,Yes,Yes,Medicines,Sad,Yes,11,6,Yes
+803,67,12,39,21,1,3 months,No,2,Yes,Mixed,2009,25.9,59.3,No,No,Yes,No,Sad,Yes,3,5B,Yes
+804,60,11,47,17,1,8 months,Mother/Daughter,3,Yes,White,2011,22.3,57,No,Yes,Yes,No,Joy,No,3,5B,Yes
+805,51,9,50,34,2,6 months,No,2,Yes,Black,2011,24.6,65.4,6,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+806,64,14,41,29,2,5 months,Sister/Daughter,4,No,Black,2015,21.9,65,2,No,No,Laryngitis,Sad,Yes,5,3B,Yes
+807,29,8,No,No,0,No,Mother/Sister,2,Yes,Black,2015,27.8,81.3,3,Yes,Yes,Rhinitis,Sad,Yes,8,5C,Yes
+808,53,9,38,No,0,No,Sister,2,Yes,Black,2013,23.6,73.3,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+809,46,10,No,18,1,No,Mother/Sister,1,No,White,2013,19.8,74,No,No,Yes,No,Sad,No,3,5B,Yes
+810,60,12,46,No,0,No,No,5,Yes,Mixed,2002,23.4,58.3,No,Yes,Yes,No,Joy,No,3,4B,Yes
+811,54,9,49,17,2,2 months,Mother/Daughter,2,Yes,Black,2016,21.4,57,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+812,44,10,No,No,0,No,No,2,No,White,2016,24.5,72.4,No,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+813,60,8,46,No,0,No,Mother,1,No,Black,2007,26.1,80.7,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+814,46,12,No,20,1,7 months,Sister,1,No,Black,2015,27.3,81.6,5,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+815,47,13,No,No,0,No,No,3,No,Mixed,2004,30.4,81.3,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+816,64,11,46,21,1,No,Daughter,1,Yes,Black,2013,26.9,78.4,No,Yes,Yes,No,Sad,No,9,5B,Yes
+817,54,14,42,16,1,1 month,Mother,2,Yes,Mixed,2017,24.8,81,No,Yes,Yes,Laryngitis,Joy,No,4,4B,Yes
+818,53,10,44,No,0,No,No,1,No,White,2011,28.4,86.9,No,Yes,Yes,No,Joy,No,3,3B,Yes
+819,72,9,46,21,1,3 months,No,1,No,White,2001,28.4,78.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+820,48,13,46,19,2,3 months,Sister,1,Yes,Black,2016,29.5,78.6,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+821,66,13,42,29,2,No,Sister/Daughter,1,Yes,White,2009,29.4,77.9,3,Yes,Yes,Rhinitis,Sad,Yes,4,6,Yes
+822,62,12,42,24,1,7 months,No,1,Yes,White,2017,26.8,78.2,No,Yes,Yes,Medicines,Sad,No,3,5C,Yes
+823,54,14,43,No,0,No,No,3,No,White,2014,25.1,69,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+824,62,14,45,No,0,No,Mother,1,Yes,White,2013,25.4,61.3,No,Yes,Yes,No,Joy,No,3,4B,Yes
+825,39,13,No,14,2,6 months,No,1,Yes,White,2013,24.6,65.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+826,57,11,46,35,2,4 months,Mother,1,No,White,2007,24.6,61.7,No,Yes,Yes,Medicines,Sad,Yes,8,4B,Yes
+827,60,11,47,25,1,2 months,Sister,1,Yes,Black,2015,24.2,68,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+828,63,12,43,19,1,2 months,No,2,No,White,2004,25.7,69.8,No,Yes,Yes,No,Joy,No,1,5B,Yes
+829,69,13,51,No,0,No,No,1,Yes,Mixed,2009,26.7,79.6,No,Yes,Yes,No,Sad,No,3,5B,Yes
+830,55,12,48,26,1,3 months,Mother,1,No,White,2012,22.6,63,No,Yes,Yes,Rhinitis,Joy,No,3,5B,Yes
+831,45,13,No,35,0,No,Sister,1,No,Black,2010,23.7,66.4,3,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+832,67,12,41,36,1,No,Sister,2,No,Black,2010,23.4,57.6,No,Yes,Yes,Rhinitis,Sad,Yes,4,5C,Yes
+833,64,9,48,No,0,No,No,3,Yes,White,2015,26.1,82.4,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+834,51,12,47,No,0,No,No,1,Yes,White,2004,24.5,59.3,No,Yes,Yes,No,Joy,No,3,5B,Yes
+835,64,14,48,No,0,No,No,4,No,Mixed,2011,24.8,65,4,No,Yes,No,Sad,No,6,4B,Yes
+836,33,11,No,No,0,No,No,3,Yes,Mixed,2014,26.9,81.6,3,No,No,Rhinitis,Joy,No,3,3C,Yes
+837,53,9,41,22,2,2 months,Mother,2,Yes,Mixed,2013,20.5,57.9,Diary,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+838,46,10,No,No,0,No,No,1,No,Mixed,2017,19.8,68.7,No,No,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+839,60,14,46,No,0,No,No,4,Yes,Mixed,2006,21.3,57.2,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+840,54,9,42,No,0,No,Mother,2,No,White,2015,21.4,57,3,Yes,Yes,Laryngitis,Sad,No,5,5B,Yes
+841,66,10,45,No,0,No,No,2,Yes,Black,2016,24.5,61.5,2,Yes,Yes,No,Sad,Yes,3,5B,Yes
+842,60,9,43,No,0,No,Mother,2,No,White,2011,26.1,80.9,1,Yes,Yes,Laryngitis,Joy,No,3,4B,Yes
+843,46,12,No,38,1,3 months,Mother/Sister,1,No,White,2015,27.3,80.9,3,Yes,No,Medicines,Sad,Yes,3,3B,Yes
+844,47,13,No,No,0,No,No,1,No,Black,2011,31.6,82.6,3,No,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+845,65,11,47,21,1,No,Daughter,1,Yes,Black,2011,30.1,79.6,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+846,54,14,48,No,0,No,Mother,2,Yes,Mixed,2016,28.4,76.6,No,Yes,No,Medicines,Sad,Yes,4,4B,Yes
+847,53,14,48,29,1,6 months,Mother,1,Yes,White,2011,24.6,76.4,No,Yes,No,Rhinitis,Sad,Yes,3,3A,Yes
+848,56,14,46,22,1,4 months,Mother,1,Yes,White,2018,25.3,58.9,1,Yes,Yes,Medicines,Joy,No,6,3B,Yes
+849,48,13,45,26,1,4 months,Mother,1,No,Mixed,2011,28.6,79.6,No,No,Yes,Laryngitis,Joy,No,3,3B,Yes
+850,66,11,50,31,1,3 months,No,2,Yes,Black,2006,21.6,77.5,No,Yes,Yes,No,Joy,No,3,4B,Yes
+851,60,12,41,24,1,No,No,1,Yes,Mixed,2003,26.8,79.1,No,Yes,Yes,No,Sad,Yes,2,3C,Yes
+852,54,11,49,22,1,No,No,2,No,White,2014,24.1,69,Diary,Yes,Yes,Medicines,Joy,No,7,5C,Yes
+853,65,11,45,No,0,No,Mother,1,Yes,Mixed,2011,26.1,79.5,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+854,60,11,46,No,0,No,Sister,1,Yes,Black,2015,29.4,82.4,No,Yes,Yes,No,Sad,No,3,5B,Yes
+855,57,12,50,33,2,7 months,Sister,3,No,White,2005,24.8,71.1,No,No,Yes,No,Joy,No,3,4B,Yes
+856,60,13,45,25,1,2 months,Mother/Sister,3,Yes,White,2015,24.2,68.4,1,Yes,Yes,Rhinitis,Joy,No,7,3C,Yes
+857,63,13,48,27,1,6 months,Sister/Daughter,2,No,Mixed,2005,26.4,79.6,No,Yes,Yes,Medicines,Sad,Yes,3,3B,Yes
+858,69,13,43,No,0,No,Mother/Sister,2,No,White,2009,21.8,78.4,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+859,55,11,49,27,1,2 months,No,2,Yes,Black,2012,24.7,64.5,1,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+860,45,13,No,20,1,1 month,No,1,No,White,2016,21.9,75.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+861,65,11,51,17,2,3 months,No,2,Yes,Black,2002,25.7,62.7,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+862,62,13,42,19,1,3 months,Mother/Sister,3,Yes,White,2009,25.3,63.7,No,No,Yes,No,Joy,No,3,3C,Yes
+863,51,11,46,No,0,No,No,1,No,White,2011,23.7,69.2,No,Yes,Yes,Medicines,Sad,Yes,8,4B,Yes
+864,64,13,48,18,1,3 months,No,4,No,Mixed,2005,24.1,61.3,No,Yes,Yes,No,Sad,Yes,3,3A,Yes
+865,27,11,No,No,0,No,No,1,Yes,White,2018,26.9,79.5,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+866,53,9,39,27,2,2 months,Mother,2,Yes,Black,2015,24.8,75.3,3,Yes,Yes,Laryngitis,Joy,No,10,3B,Yes
+867,46,10,No,No,0,No,Mother/Sister,1,No,Mixed,2018,19.8,73.5,No,No,Yes,No,Sad,No,3,4B,Yes
+868,65,13,45,No,0,No,No,4,Yes,Mixed,2006,21.3,68.4,No,Yes,Yes,No,Sad,Yes,3,3C,Yes
+869,54,9,43,17,2,2 months,Mother,2,No,Black,2012,20.9,57,No,Yes,Yes,Laryngitis,Sad,Yes,3,5C,Yes
+870,48,11,No,No,0,No,No,1,No,Mixed,2016,27.3,80.5,5,Yes,Yes,No,Joy,No,3,5C,Yes
+871,65,10,48,No,0,No,Mother,1,No,White,2017,26.1,80.6,No,Yes,Yes,No,Sad,Yes,4,5B,Yes
+872,46,12,No,26,1,4 months,No,1,No,White,2009,27.3,82.7,2,Yes,No,Rhinitis,Sad,Yes,3,5C,Yes
+873,47,13,No,26,1,6 months,Mother,1,No,White,2009,30.4,78.5,No,No,Yes,No,Joy,No,3,3C,Yes
+874,49,12,46,No,0,No,Mother,1,Yes,Black,2012,25.1,59.5,No,Yes,Yes,Medicines,Sad,Yes,11,4B,Yes
+875,54,14,48,No,0,No,Mother,2,Yes,Black,2014,28.4,74.6,No,Yes,No,Rhinitis,Sad,Yes,3,3A,Yes
+876,53,11,44,35,1,No,No,1,Yes,White,2014,29.5,79.6,No,Yes,No,Medicines,Joy,No,3,3B,Yes
+877,71,11,40,25,1,2 months,Sister/Daughter,1,Yes,White,2007,28.4,79.4,No,Yes,Yes,Laryngitis,Joy,No,5,3B,Yes
+878,48,13,44,30,1,1 month,Mother/Sister,1,No,White,2010,26.8,77.6,2,Yes,No,No,Sad,No,3,4B,Yes
+879,66,9,49,33,1,9 months,Mother/Daughter,4,Yes,White,2014,22.8,77.8,2,No,No,No,Sad,Yes,6,3C,Yes
+880,60,12,50,24,0,No,No,2,No,White,2017,26.8,78.6,No,Yes,Yes,No,Sad,No,3,5C,Yes
+881,54,9,47,No,0,No,No,2,Yes,Mixed,2014,25.1,69,No,Yes,Yes,Dermatitis,Joy,No,3,5C,Yes
+882,68,10,43,No,0,No,Mother,1,No,White,2012,29.3,79.6,3,No,Yes,Rhinitis,Joy,No,4,5B,Yes
+883,61,13,45,No,0,No,Mother,1,Yes,Mixed,2006,29.4,81.2,No,Yes,Yes,Laryngitis,Joy,No,3,6,Yes
+884,57,9,46,22,1,No,No,1,Yes,Black,2006,25.6,72.1,No,Yes,Yes,Laryngitis,Sad,Yes,4,5B,Yes
+885,60,11,50,25,2,2 months,Sister,1,No,Mixed,2015,24.2,68.4,No,No,No,No,Sad,Yes,3,4B,Yes
+886,63,12,49,27,1,2 months,No,2,Yes,White,2006,28.2,82.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+887,69,11,46,22,1,1 month,Sister,1,Yes,White,2011,26.7,79.6,No,Yes,Yes,Medicines,Joy,No,8,3B,Yes
+888,55,10,48,28,2,1 month ,No,3,Yes,Mixed,2017,23.6,63.8,No,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+889,45,13,No,27,1,3 months,Mother/Sister,1,Yes,Mixed,2006,24.5,63.4,No,No,Yes,No,Joy,No,3,4B,Yes
+890,67,9,44,21,1,7 months,Sister,2,Yes,White,2001,26.7,77.6,No,Yes,Yes,No,Sad,Yes,7,3C,Yes
+891,62,13,45,29,2,5 months,Daughter,3,Yes,Black,2010,22.3,63.7,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+892,51,11,45,29,1,No,Sister/Daughter,1,No,Mixed,2014,25.6,69.2,3,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+893,64,15,47,36,2,1 month,Mother/Daughter,4,Yes,White,2016,26.9,61.3,3,Yes,Yes,No,Joy,No,3,5B,Yes
+894,65,8,48,No,0,No,No,4,Yes,Mixed,2006,26.9,81.4,2,No,Yes,No,Joy,No,3,4B,Yes
+895,53,9,40,37,2,No,Mother,2,Yes,Mixed,2013,23.4,66.2,2,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+896,46,10,No,No,0,No,No,3,Yes,Mixed,2007,19.8,68.7,No,Yes,Yes,Rhinitis,Sad,Yes,1,3B,Yes
+897,66,13,46,No,0,No,Sister,5,No,Mixed,2017,21.8,63.4,No,Yes,Yes,Medicines,Sad,Yes,3,3B,Yes
+898,54,15,47,17,2,2 months,Daughter,2,Yes,Black,2011,26.7,57,3,Yes,Yes,Medicines,Sad,No,4,5B,Yes
+899,44,10,No,No,0,No,Mother,2,No,Black,2017,23.8,74.8,3,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+900,62,11,46,No,0,No,Mother,1,Yes,Mixed,2011,26.1,82.1,1,Yes,Yes,No,Joy,No,3,5B,Yes
+901,46,12,No,24,1,2 months,Sister,2,No,Mixed,2015,27.3,81.4,1,Yes,No,Laryngitis,Joy,No,3,4B,Yes
+902,47,13,No,30,1,4 months,Mother,1,No,Black,2014,29.2,79.4,No,Yes,No,No,Joy,No,3,3B,Yes
+903,49,11,48,No,0,No,Mother,1,No,Mixed,2009,24.5,77.8,3,No,Yes,No,Sad,Yes,3,5C,Yes
+904,54,11,42,No,0,No,Mother/Sister,2,Yes,White,2013,23.7,76.5,No,Yes,Yes,No,Sad,No,3,5C,Yes
+905,53,11,40,18,1,6 months,No,1,Yes,White,2012,23.8,71.2,No,No,No,Laryngitis,Sad,Yes,3,6,Yes
+906,56,8,46,17,2,2 months,Sister/Daughter,4,No,Mixed,2017,28.3,79.6,No,Yes,Yes,Medicines,Sad,Yes,6,5C,Yes
+907,48,13,42,39,1,1 month,Sister,4,Yes,Mixed,2011,29.1,77.6,3,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+908,66,11,43,29,2,7 months,Sister,2,Yes,Mixed,2001,23.7,79.5,2,Yes,Yes,No,Joy,No,4,4B,Yes
+909,60,9,41,24,0,No,No,1,No,White,2010,26.8,79.2,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+910,54,9,45,22,1,No,Mother,2,No,Mixed,2014,20.6,69,2,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+911,62,12,40,16,1,1 month,Sister,1,Yes,Black,2013,24.6,64.2,2,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+912,60,15,45,No,0,No,Mother,1,No,Mixed,2007,29.4,79.5,No,Yes,Yes,No,Sad,No,1,5C,Yes
+913,58,12,46,22,1,1 month,No,1,Yes,White,2013,23.1,59.4,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+914,58,11,45,No,0,No,No,1,No,Black,2007,24.2,68.9,No,No,Yes,Medicines,Joy,No,3,6,Yes
+915,59,10,43,27,1,2 months,No,2,Yes,White,2014,28.4,81.2,No,Yes,Yes,No,Joy,No,3,5C,Yes
+916,69,10,51,30,2,6 months,Mother/Sister,2,No,Black,2010,21.9,81.6,3,No,Yes,No,Sad,No,4,5B,Yes
+917,55,12,47,20,2,6 months,Daughter,1,No,White,2012,21.5,58.4,No,Yes,Yes,No,Joy,No,6,4B,Yes
+918,45,13,No,19,1,8 months,Sister,1,No,Mixed,2014,25.6,61.9,3,No,Yes,Rhinitis,Joy,No,3,3B,Yes
+919,65,12,39,26,2,3 months,Mother,2,Yes,Black,2001,22.8,68.7,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+920,68,15,43,No,0,No,Mother,3,Yes,White,2010,22.3,61.7,No,No,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+921,51,10,48,31,1,No,Mother/Sister,2,Yes,White,2017,23.8,62.7,1,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+922,64,10,43,24,1,2 months,No,4,Yes,White,2004,19.2,65,No,Yes,Yes,No,Joy,No,3,3B,Yes
+923,27,9,No,16,1,2 months,Mother/Sister,3,No,Black,2014,27.9,80.6,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+924,53,9,49,No,0,No,Mother,2,No,Mixed,2013,25.1,71.3,3,Yes,Yes,No,Sad,Yes,3,5C,Yes
+925,46,10,No,No,0,No,Mother,2,Yes,Black,2013,19.8,66.7,No,No,Yes,No,Sad,No,3,6,Yes
+926,62,12,47,No,0,No,No,4,Yes,Mixed,2010,22.4,59.8,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+927,54,12,46,18,2,2 months,Sister,2,Yes,Black,2015,21.4,57,1,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+928,44,10,No,No,0,No,Sister,2,Yes,Black,2009,24.5,73.8,5,Yes,No,Rhinitis,Sad,Yes,1,5B,Yes
+929,66,9,42,No,0,No,Mother,1,Yes,White,2006,26.1,81.1,2,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+930,44,12,No,26,1,No,Mother/Sister,2,Yes,Mixed,2007,27.3,79.3,2,Yes,No,Rhinitis,Sad,Yes,3,5C,Yes
+931,47,13,No,35,1,No,No,2,Yes,Mixed,2008,27.6,77.9,1,Yes,Yes,Medicines,Joy,No,5,3C,Yes
+932,49,11,44,No,0,No,Mother/Sister,2,No,White,2011,26.1,79.5,2,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+933,54,14,42,16,2,4 months,No,2,Yes,Mixed,2018,23.2,76.8,No,Yes,No,No,Sad,Yes,3,3A,Yes
+934,53,11,48,17,1,2 months,Mother/Sister,1,Yes,Mixed,2011,25,66.2,No,No,Yes,Medicines,Joy,No,3,3B,Yes
+935,57,15,51,No,0,No,Sister,1,Yes,Mixed,2007,29.3,84.6,No,Yes,Yes,Laryngitis,Joy,No,3,3B,Yes
+936,48,13,47,31,2,2 months,Mother/Sister,3,No,White,2004,27.4,78.6,3,Yes,Yes,Dermatitis,Joy,No,3,4B,Yes
+937,63,11,45,23,0,No,Sister,1,Yes,Mixed,2014,26.4,78.4,No,Yes,Yes,Medicines,Sad,Yes,2,3C,Yes
+938,60,12,48,24,0,No,No,3,Yes,Mixed,2011,26.8,80.5,No,Yes,Yes,No,Joy,No,3,5C,Yes
+939,54,10,43,22,1,3 months,Mother/Daughter,2,No,White,2012,21.6,69,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+940,63,11,43,No,0,No,Mother/Sister,1,No,Mixed,2010,27.8,78.6,No,Yes,No,No,Sad,No,7,5B,Yes
+941,65,11,45,No,0,No,Mother/Sister,1,Yes,Black,2008,29.4,80.4,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+942,57,11,44,22,1,No,Mother,1,No,Mixed,2006,23.1,60.1,No,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+943,60,10,49,25,1,2 months,Mother/Daughter,1,Yes,Black,2015,24.2,68,3,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+944,63,12,51,22,1,2 months,No,2,Yes,Black,2005,27.1,79.3,No,Yes,Yes,Rhinitis,Sad,Yes,1,3B,Yes
+945,69,15,46,18,1,No,Mother,2,No,White,2017,26.4,80.6,No,No,Yes,Medicines,Joy,No,3,5B,Yes
+946,55,14,46,No,0,No,Sister,1,Yes,Mixed,2014,24.7,57.2,2,Yes,No,Laryngitis,Joy,No,3,5B,Yes
+947,45,13,No,14,1,1 month,Mother/Sister,3,Yes,White,2011,22.3,59.8,No,Yes,Yes,No,Sad,No,4,5B,Yes
+948,67,12,39,34,2,8 months,Mother/Sister,2,Yes,Mixed,2007,26.3,77.9,No,Yes,Yes,Laryngitis,Joy,No,3,4B,Yes
+949,64,13,47,No,0,No,Mother,3,Yes,White,2014,22.3,57.8,No,Yes,Yes,No,Joy,No,6,3B,Yes
+950,51,12,51,28,1,No,Mother,1,Yes,Mixed,2015,26.8,63.7,No,No,Yes,No,Sad,Yes,3,5C,Yes
+951,64,9,44,29,2,8 months,Mother/Sister,4,No,White,2013,26.9,65,3,Yes,Yes,No,Sad,No,3,5C,Yes
+952,33,12,No,No,0,No,No,4,No,White,2011,26.1,79.5,No,Yes,Yes,Medicines,Sad,Yes,3,6,Yes
+953,53,9,48,31,2,No,No,2,Yes,Mixed,2013,22.5,68.4,No,No,Yes,Medicines,Sad,Yes,4,5C,Yes
+954,46,10,No,No,0,No,No,3,No,Mixed,2011,19.8,67.8,No,No,Yes,Laryngitis,Sad,No,3,5B,Yes
+955,65,11,46,No,0,No,No,4,Yes,Mixed,2014,22.3,66.4,No,Yes,Yes,No,Joy,No,3,4B,Yes
+956,54,9,44,18,2,1 month,Mother,2,Yes,Black,2014,20.8,57,2,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+957,68,10,48,No,0,No,No,2,Yes,White,2011,24.5,62.4,No,Yes,Yes,Medicines,Sad,Yes,7,4B,Yes
+958,65,12,46,No,0,No,Mother,1,Yes,White,2011,26.1,79.5,No,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+959,47,12,No,No,0,No,Sister,1,No,White,2015,28.1,78.5,2,Yes,Yes,No,Joy,No,3,5C,Yes
+960,47,13,No,No,0,No,No,1,Yes,Mixed,2007,26.9,78.4,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+961,49,8,39,34,1,No,Daughter,1,Yes,Mixed,2015,24.3,65.4,No,Yes,No,Medicines,Sad,Yes,5,6,Yes
+962,54,10,42,No,0,No,Sister,2,No,Mixed,2001,24.2,81,No,Yes,Yes,No,Joy,No,3,5C,Yes
+963,53,10,49,36,1,6 months,No,1,Yes,White,2018,26.1,77.6,No,No,No,No,Sad,Yes,3,5B,Yes
+964,56,11,46,21,1,2 months,Mother/Daughter,5,Yes,Black,2015,29.4,79.6,No,Yes,Yes,No,Joy,No,3,4B,Yes
+965,48,13,41,26,1,1 month,Sister,2,No,Black,2013,26.9,77.9,3,Yes,Yes,Rhinitis,Joy,No,9,3B,Yes
+966,62,11,47,23,0,No,Mother,1,Yes,White,2014,26.4,79.8,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+967,62,12,49,24,0,3 months,No,1,No,White,2017,26.8,81.6,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+968,54,15,48,No,0,No,Sister,2,No,White,2014,25.1,69,Diary,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+969,61,14,46,17,1,No,Sister,1,No,White,2001,26.4,81.9,2,Yes,Yes,No,Joy,No,5,3B,Yes
+970,65,12,50,No,0,No,Mother/Sister,1,No,Mixed,2002,29.4,79.2,1,No,No,No,Sad,Yes,3,5C,Yes
+971,57,8,43,24,1,3 months,Sister,4,No,White,2013,22.1,59.4,2,Yes,No,No,Sad,No,3,5C,Yes
+972,65,11,48,25,1,2 months,Sister,1,Yes,White,2015,24.2,68,No,Yes,Yes,Laryngitis,Sad,Yes,3,6,Yes
+973,63,14,52,28,2,7 months,No,2,Yes,White,2003,31.2,81.1,3,Yes,Yes,Laryngitis,Sad,Yes,1,5B,Yes
+974,69,13,48,26,1,No,Mother/Sister,1,No,Mixed,2012,29.7,81.7,2,Yes,Yes,Medicines,Sad,No,3,5B,Yes
+975,55,13,47,29,1,2 months,Daughter,1,Yes,Black,2011,22.5,64.5,No,Yes,Yes,Rhinitis,Joy,No,3,5B,Yes
+976,45,13,No,25,0,No,No,1,Yes,Black,2018,22.6,63.3,3,Yes,Yes,No,Joy,No,3,3B,Yes
+977,67,12,41,27,1,3 months,Mother,2,No,Black,2009,24.1,59.8,2,Yes,No,Rhinitis,Sad,Yes,4,5C,Yes
+978,65,8,50,No,0,No,Mother,3,Yes,White,2010,25.1,57.8,2,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+979,51,9,40,No,0,No,Mother/Sister,2,Yes,Black,2016,24.1,62.1,No,Yes,Yes,No,Joy,No,3,5B,Yes
+980,64,10,45,35,1,2 months,No,4,No,Black,2006,24.8,65,1,Yes,Yes,No,Joy,No,3,4B,Yes
+981,28,13,No,15,1,3 months,Mother/Sister,1,No,White,2008,26.8,81.2,No,No,Yes,Rhinitis,Joy,No,10,3C,Yes
+982,53,11,51,24,2,No,Mother,2,Yes,Black,2013,23.7,59.6,No,Yes,Yes,No,Sad,Yes,3,3B,Yes
+983,46,10,No,39,1,6 months,Mother,2,No,White,2017,19.8,62.8,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+984,65,11,50,No,0,No,No,4,Yes,Mixed,2014,23.3,59.6,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+985,54,9,47,17,1,3 months,No,2,Yes,Mixed,2013,22.7,57,3,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+986,44,14,No,No,0,No,No,2,Yes,White,2015,24.5,70.6,No,Yes,No,No,Sad,No,3,5B,Yes
+987,63,13,49,No,0,No,Sister,1,Yes,Mixed,2002,26.1,79.5,3,Yes,Yes,Laryngitis,Sad,Yes,3,4B,Yes
+988,43,12,No,26,1,3 months,Mother,2,No,Mixed,2015,27.3,77.6,No,No,Yes,No,Joy,No,3,3B,Yes
+989,47,13,No,36,2,1 month,Mother/Sister,2,Yes,Black,2015,27.1,79.6,1,Yes,No,No,Sad,Yes,3,5C,Yes
+990,49,11,No,20,1,No,Sister,1,No,Mixed,2010,24.4,60.8,4,Yes,Yes,Dermatitis,Sad,No,8,5C,Yes
+991,54,10,42,16,1,1 month,Mother,2,Yes,Mixed,2008,23.1,76.4,No,Yes,No,Rhinitis,Sad,Yes,3,6,Yes
+992,53,11,50,39,1,6 months,Mother/Sister,1,No,Mixed,2011,24.5,75.4,No,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+993,61,9,38,21,1,2 months,Mother/Sister,2,No,Black,2014,25.1,59.1,No,Yes,Yes,Laryngitis,Sad,No,9,5B,Yes
+994,48,13,48,29,1,3 months,Mother/Sister,2,No,Mixed,2011,27.3,79.6,No,Yes,Yes,No,Joy,No,3,4B,Yes
+995,63,11,46,23,0,No,Mother/Daughter,1,No,White,2014,26.4,79.4,No,Yes,Yes,Rhinitis,Sad,Yes,1,3B,Yes
+996,65,12,50,24,0,No,No,1,No,White,2017,26.8,81.4,No,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+997,54,14,51,22,1,6 months,No,1,Yes,White,2001,26.8,69,1,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+998,62,11,50,No,0,No,Mother,1,Yes,Mixed,2001,24.5,63.5,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+999,65,12,50,No,0,No,Sister,1,Yes,Black,2001,29.4,78.1,3,Yes,Yes,No,Joy,No,10,5B,Yes
+1000,57,12,46,26,1,No,Mother/Sister,1,Yes,Black,2005,23.1,63.2,No,Yes,No,Rhinitis,Joy,No,3,5B,Yes
+1001,65,11,46,25,1,2 months,Mother/Daughter,1,No,White,2015,24.2,68,No,Yes,No,Laryngitis,Sad,Yes,3,3B,Yes
+1002,63,15,43,24,1,5 months,No,2,Yes,Mixed,2001,30.4,81,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+1003,69,9,47,30,1,1 month,No,3,Yes,White,2011,24.6,81.3,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+1004,55,13,48,24,1,1 month ,Mother/Sister,2,No,White,2008,20.7,68.4,1,Yes,Yes,No,Sad,No,3,5B,Yes
+1005,45,9,No,30,2,No,Mother/Sister,1,Yes,Mixed,2015,21.5,64.7,3,Yes,Yes,No,Sad,Yes,3,4B,Yes
+1006,67,11,47,18,2,3 months,Mother,2,Yes,White,2008,28.3,80.6,No,No,Yes,Medicines,Joy,No,3,3C,Yes
+1007,67,9,41,No,0,No,Mother,3,Yes,Mixed,2016,22.3,61.4,No,No,Yes,Medicines,Sad,Yes,3,3B,Yes
+1008,51,11,47,No,0,No,Mother/Sister,3,Yes,Mixed,2015,25.3,63.7,3,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+1009,64,8,49,25,2,No,Sister,4,No,Mixed,2008,23.4,65,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+1010,29,9,No,No,0,No,No,2,No,Black,2018,24.6,68.4,No,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+1011,53,12,52,17,1,No,Mother,2,No,Black,2013,20.5,58.6,Diary,Yes,Yes,No,Sad,Yes,3,5B,Yes
+1012,46,10,No,No,0,No,Sister,1,No,Mixed,2003,19.8,71.5,No,No,No,Laryngitis,Joy,No,3,4B,Yes
+1013,63,11,47,No,0,No,No,3,No,Mixed,2011,24.6,58.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+1014,54,12,49,No,0,No,Sister,4,Yes,Black,2015,21.4,57,No,Yes,Yes,Medicines,Joy,No,4,3B,Yes
+1015,44,10,No,No,0,No,Sister,2,Yes,Black,2011,24.5,67.2,No,No,Yes,Laryngitis,Joy,No,4,3B,Yes
+1016,62,11,43,No,0,No,Sister,1,Yes,White,2011,26.1,82.4,No,Yes,Yes,No,Joy,No,3,4B,Yes
+1017,45,12,No,26,1,3 months,Sister,2,Yes,Mixed,2007,27.3,79.4,No,Yes,No,No,Sad,Yes,3,3C,Yes
+1018,47,13,No,No,0,No,Sister,1,Yes,White,2011,29.8,80.6,No,Yes,Yes,No,Joy,No,3,5C,Yes
+1019,49,10,No,32,1,No,No,2,No,Mixed,2014,24.9,78.6,No,Yes,Yes,No,Joy,No,3,5C,Yes
+1020,54,11,51,16,1,1 month,Mother,1,Yes,Mixed,2016,24.2,78.5,No,Yes,No,Medicines,Sad,Yes,3,5B,Yes
+1021,53,11,50,33,1,6 months,Sister,1,No,White,2004,28.4,81.6,No,Yes,No,Dermatitis,Sad,Yes,3,4B,Yes
+1022,56,14,45,18,1,8 months,No,3,Yes,Mixed,2006,25.1,66.8,3,Yes,Yes,Rhinitis,Joy,No,3,3C,Yes
+1023,48,13,44,No,0,No,Sister,1,Yes,White,2001,29.5,78.5,4,Yes,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+1024,66,11,45,38,1,No,No,1,Yes,White,2017,26.9,77.8,No,No,Yes,Rhinitis,Sad,Yes,6,3B,Yes
+1025,65,12,45,24,0,No,No,1,Yes,Mixed,2017,26.8,82.9,No,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+1026,54,11,44,22,0,No,No,2,Yes,White,2011,24.6,69,3,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+1027,61,12,49,No,0,No,Mother,1,Yes,White,2006,26.3,79.3,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+1028,65,11,45,No,0,No,Mother,1,No,Black,2007,29.4,79.6,2,Yes,No,Laryngitis,Joy,No,3,4B,Yes
+1029,57,9,45,28,1,2 months,Sister,2,Yes,White,2009,23.1,62.5,1,No,Yes,Dermatitis,Joy,No,3,3B,Yes
+1030,65,11,50,25,1,2 months,Sister,1,Yes,White,2015,24.2,68,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1031,63,12,44,27,1,7 months,Mother,2,Yes,White,2004,29.8,80.1,No,Yes,Yes,No,Sad,No,3,5C,Yes
+1032,69,11,49,22,2,5 months,Mother,2,Yes,Mixed,2011,23.9,82.1,3,Yes,Yes,Rhinitis,Sad,Yes,1,6,Yes
+1033,55,14,46,23,1,No,Daughter,1,Yes,Mixed,2006,20.7,59.8,No,Yes,Yes,Medicines,Sad,No,3,5C,Yes
+1034,45,13,No,21,1,No,Mother,1,Yes,Mixed,2014,19.2,62.1,No,Yes,No,Laryngitis,Sad,Yes,3,5B,Yes
+1035,67,12,46,25,2,No,Mother,2,Yes,Black,2007,26.4,78.4,No,Yes,Yes,No,Sad,Yes,4,4B,Yes
+1036,69,11,50,No,0,No,Sister,3,No,Mixed,2010,24.8,65.4,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+1037,51,12,No,No,0,No,No,1,Yes,White,2013,24.5,73.3,Diary,Yes,Yes,Medicines,Joy,No,8,4B,Yes
+1038,64,14,42,27,1,No,No,4,Yes,White,2009,16.9,65.1,2,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+1039,62,10,50,No,0,No,No,1,Yes,Mixed,2007,26.9,79.5,1,Yes,Yes,No,Joy,No,3,5C,Yes
+1040,53,12,52,27,2,3 months,Sister,3,Yes,Mixed,2013,21.4,61.6,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1041,46,10,No,No,0,No,Mother,1,No,Black,2010,19.8,73.1,No,Yes,Yes,No,Joy,No,3,6,Yes
+1042,63,9,50,No,0,No,Sister,4,No,Mixed,2014,23.5,58.1,3,Yes,No,Dermatitis,Sad,No,3,5C,Yes
+1043,54,11,51,No,0,No,No,1,No,Black,2015,21.4,58.7,2,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+1044,43,11,No,No,0,No,Sister,1,No,Black,2009,24.5,71.6,5,Yes,Yes,No,Joy,No,3,4B,Yes
+1045,62,12,50,33,1,7 months,Mother/Sister,1,Yes,White,2011,26.1,81.3,No,No,Yes,Rhinitis,Joy,No,3,3B,Yes
+1046,46,12,39,35,1,3 months,Mother/Sister,1,Yes,White,2015,27.3,81.2,2,Yes,No,Dermatitis,Sad,Yes,4,5B,Yes
+1047,47,13,No,26,1,3 months,No,2,Yes,White,2018,27.2,79.2,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+1048,49,8,41,21,1,3 months,Sister,1,No,White,2007,23.5,68.5,1,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+1049,54,14,42,No,0,No,Sister,2,Yes,Mixed,2016,28.4,71.5,No,Yes,Yes,No,Joy,No,5,3B,Yes
+1050,53,11,51,18,1,No,No,1,No,Mixed,2011,22.6,62.5,No,Yes,No,No,Sad,Yes,3,5C,Yes
+1051,58,14,46,21,1,3 months,No,3,Yes,White,2009,25.1,57.6,No,Yes,Yes,Dermatitis,Joy,No,7,5C,Yes
+1052,48,13,41,No,0,No,Sister,1,No,Mixed,2006,29.4,77.6,2,No,Yes,Medicines,Sad,No,11,6,Yes
+1053,66,10,42,27,1,2 months,Daughter,1,Yes,White,2014,25.7,79.4,No,No,Yes,No,Sad,Yes,3,5B,Yes
+1054,65,12,43,24,0,No,No,1,Yes,White,2017,26.8,82.8,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+1055,54,14,44,No,0,No,No,2,No,White,2011,25.1,70.5,Diary,Yes,Yes,Rhinitis,Sad,Yes,6,5B,Yes
+1056,62,11,46,No,0,No,Mother,1,Yes,White,2011,24.5,69.4,No,Yes,No,Medicines,Sad,Yes,3,3B,Yes
+1057,39,15,No,No,0,No,Mother,1,No,Mixed,2009,23.4,71.6,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+1058,57,12,46,27,1,1 month,Mother,1,Yes,Black,2009,26.8,79.4,2,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+1059,65,11,47,25,1,2 months,No,1,Yes,Mixed,2015,24.2,68,No,Yes,Yes,Medicines,Sad,Yes,1,4B,Yes
+1060,63,11,51,31,1,3 months,No,2,No,White,2005,24.9,76.8,No,Yes,Yes,Rhinitis,Sad,Yes,3,3A,Yes
+1061,69,12,44,24,1,4 months,Sister/Daughter,1,No,White,2006,28.7,81.1,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+1062,55,10,45,31,1,1 month ,Sister,3,Yes,White,2011,21.9,70.6,No,Yes,Yes,No,Joy,No,3,3B,Yes
+1063,45,13,No,18,1,5 months,No,3,Yes,Black,2012,20.6,71.5,2,Yes,Yes,No,Joy,No,4,4B,Yes
+1064,67,10,39,21,2,3 months,Mother,2,No,Mixed,2010,22.8,59.9,No,Yes,Yes,No,Sad,Yes,3,3C,Yes
+1065,63,13,48,No,0,No,Mother,3,Yes,White,2015,22.3,59.4,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1066,50,12,45,No,0,No,Mother,1,Yes,Mixed,2004,22.6,66.5,3,Yes,Yes,Dermatitis,Sad,Yes,3,5C,Yes
+1067,64,14,50,No,0,No,Sister,4,Yes,Black,2013,24.8,66.1,2,Yes,Yes,Dermatitis,Joy,No,1,5B,Yes
+1068,63,13,49,No,0,No,No,4,Yes,White,2014,26.9,78.4,1,Yes,Yes,No,Sad,No,3,4B,Yes
+1069,53,9,45,22,2,7 months,Mother,2,No,Mixed,2006,20.5,59.6,2,Yes,Yes,Rhinitis,Sad,No,8,3C,Yes
+1070,46,10,No,No,0,No,No,1,Yes,White,2013,19.8,60.4,No,No,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+1071,62,9,46,No,0,No,No,4,Yes,Mixed,2016,24.6,59.7,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+1072,54,12,47,18,2,2 months,Mother,2,No,Black,2003,21.4,58.9,No,No,Yes,Medicines,Sad,Yes,3,5B,Yes
+1073,44,11,No,No,0,No,No,2,Yes,Mixed,2013,24.5,69.7,No,Yes,No,Laryngitis,Joy,No,3,5B,Yes
+1074,63,15,48,No,0,No,Sister,1,Yes,Mixed,2011,27.8,83.2,No,Yes,Yes,No,Joy,No,3,5B,Yes
+1075,46,12,No,28,1,2 months,Sister,2,Yes,Mixed,2014,27.3,77.9,3,Yes,Yes,Laryngitis,Sad,Yes,3,4B,Yes
+1076,47,13,No,25,2,6 months,Mother,3,Yes,Mixed,2009,31.5,78.4,1,Yes,Yes,No,Joy,No,10,3B,Yes
+1077,49,10,46,30,2,6 months,Mother/Sister,3,No,Black,2011,24.7,78.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1078,54,11,42,16,1,1 month,Mother/Sister,2,Yes,Mixed,2016,26.5,82.3,No,Yes,No,No,Joy,No,3,5C,Yes
+1079,53,9,44,No,0,No,No,1,Yes,Mixed,2017,24.8,75.1,No,Yes,No,Rhinitis,Sad,Yes,3,6,Yes
+1080,57,14,44,26,2,8 months,Daughter,5,No,Black,2011,25.1,75.4,No,Yes,Yes,Medicines,Sad,No,3,5C,Yes
+1081,48,13,46,26,1,5 months,Mother,1,Yes,Mixed,2011,28.8,79.6,No,No,No,Laryngitis,Sad,No,8,5B,Yes
+1082,63,11,46,23,0,No,Mother,1,Yes,White,2013,26.4,79.6,No,Yes,Yes,No,Joy,No,3,4B,Yes
+1083,66,12,47,24,1,No,No,3,Yes,Mixed,2015,22.5,78.1,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+1084,54,14,43,22,1,3 months,No,2,Yes,White,2017,26.7,69,2,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+1085,61,13,48,No,0,No,Sister,1,Yes,White,2013,22.4,63.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+1086,39,12,No,No,0,No,Mother/Sister,2,No,Black,2016,26.4,78.6,NO,Yes,Yes,No,Sad,No,3,5C,Yes
+1087,56,12,46,No,0,No,Sister,1,Yes,White,2013,23.1,64.3,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1088,62,11,49,25,1,2 months,Sister,1,No,White,2015,24.2,68,No,Yes,Yes,No,Sad,Yes,4,6,Yes
+1089,62,12,43,27,1,5 months,No,2,Yes,White,2003,29.3,77.5,No,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1090,69,13,39,38,1,No,No,2,Yes,White,2016,24.9,82.8,2,Yes,Yes,No,Joy,No,3,5B,Yes
+1091,55,14,45,No,0,No,Mother,2,No,Mixed,2010,20.8,78.5,No,Yes,Yes,No,Joy,No,3,4B,Yes
+1092,45,13,No,24,1,4 months,No,1,Yes,White,2001,23.1,68.7,3,Yes,Yes,Rhinitis,Joy,No,3,3B,Yes
+1093,69,12,51,36,1,3 months,Mother,1,No,Black,2013,19.6,58.3,No,Yes,No,Rhinitis,Sad,Yes,3,5B,Yes
+1094,62,13,46,No,0,No,Mother,2,No,Black,2013,24.7,67.5,No,Yes,Yes,Rhinitis,Sad,Yes,6,5B,Yes
+1095,51,11,No,37,1,3 months,Mother/Daughter,2,Yes,White,2016,23.8,72.6,3,Yes,Yes,Medicines,Joy,No,3,4B,Yes
+1096,61,13,48,33,1,2 months,Daughter,4,No,Black,2002,24.8,65.7,NO,Yes,Yes,No,Joy,No,9,3B,Yes
+1097,51,11,No,No,0,No,No,3,No,Black,2006,26.9,77.9,1,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1098,53,9,47,17,2,No,No,2,No,Black,2013,21.4,58.1,1,Yes,Yes,No,Joy,No,3,5C,Yes
+1099,46,10,No,No,0,No,Sister,1,No,White,2016,19.8,69.8,No,Yes,Yes,Dermatitis,Sad,No,3,6,Yes
+1100,66,9,48,No,0,No,No,1,No,Black,2017,24.9,61.2,No,Yes,Yes,Dermatitis,Joy,No,2,5B,Yes
+1101,54,9,45,No,0,No,Mother,2,Yes,Mixed,2015,21.3,57.1,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+1102,43,12,No,14,2,6 months,Mother/Sister,1,Yes,White,2016,24.9,77.5,No,Yes,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+1103,66,11,47,No,0,No,Mother,1,Yes,Mixed,2013,26.1,83.1,3,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+1104,46,12,38,25,1,1 month,Mother/Sister,2,Yes,Black,2015,27.3,77.3,1,Yes,No,Rhinitis,Sad,Yes,3,5C,Yes
+1105,47,13,No,No,0,No,No,2,No,White,2007,29.4,79.6,No,Yes,No,Medicines,Joy,No,1,3C,Yes
+1106,49,11,44,21,1,No,No,1,Yes,White,2007,30.1,82.6,1,Yes,Yes,No,Sad,No,8,5B,Yes
+1107,54,12,49,No,0,No,No,2,Yes,White,2014,25.4,81.1,No,Yes,No,No,Sad,Yes,3,4B,Yes
+1108,53,8,44,29,1,No,Mother/Sister,1,No,White,2008,23.1,75.4,No,No,No,Rhinitis,Joy,No,3,3C,Yes
+1109,55,15,42,25,2,2 months,Mother/Sister,1,Yes,White,2006,25.1,74.2,No,No,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+1110,48,13,44,30,2,4 months,Mother,3,Yes,White,2018,24.9,78.4,3,No,Yes,Rhinitis,Sad,Yes,2,3B,Yes
+1111,63,10,47,29,1,8 months,Mother/Sister,1,Yes,White,2014,26.4,78.4,No,Yes,Yes,Medicines,Sad,Yes,3,5B,Yes
+1112,64,13,45,24,0,6 months,No,1,Yes,White,2013,23.9,79.5,No,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+1113,54,9,48,No,0,No,Mother/Sister,1,No,Mixed,2002,25.1,69.5,NO,Yes,Yes,No,Joy,No,3,5B,Yes
+1114,37,12,No,30,1,5 months,Mother/Sister,1,No,Black,2016,24.5,65.4,No,Yes,Yes,Laryngitis,Joy,No,3,4B,Yes
+1115,39,11,No,36,1,3 months,Mother,1,No,White,2011,24.4,71.9,No,Yes,No,No,Joy,No,4,3B,Yes
+1116,57,11,46,No,0,No,No,1,No,White,2011,23.1,64.8,2,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1117,64,11,46,25,1,5 months,Sister,1,Yes,Mixed,2017,24.2,68,No,Yes,Yes,No,Joy,No,1,5C,Yes
+1118,63,12,52,27,1,2 months,Daughter,2,Yes,Black,2006,24.5,76.1,2,Yes,Yes,Rhinitis,Sad,Yes,8,6,Yes
+1119,67,15,46,No,0,No,Sister,2,Yes,White,2011,27.6,79.5,2,Yes,Yes,Medicines,Sad,Yes,3,5C,Yes
+1120,55,14,47,23,1,2 months,No,4,No,Black,2017,24.4,58.4,No,Yes,Yes,Laryngitis,Sad,Yes,3,5B,Yes
+1121,45,13,No,22,2,3 months,No,1,Yes,White,2010,20.1,62.4,No,Yes,Yes,No,Sad,No,3,4B,Yes
+1122,67,12,39,28,2,5 months,Mother,2,No,Black,2001,21.1,64.3,No,Yes,Yes,Rhinitis,Sad,Yes,4,3B,Yes
+1123,65,12,47,No,0,No,Mother/Sister,3,No,White,2010,22.3,58.7,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+1124,51,14,No,No,0,No,No,2,Yes,Mixed,2010,24.8,62.5,2,No,Yes,Laryngitis,Sad,No,3,5B,Yes
+1125,64,14,47,19,2,2 months,Daughter,4,Yes,Black,2015,23.7,64.9,2,Yes,Yes,No,Sad,Yes,4,5B,Yes
+1126,27,10,No,No,0,No,Sister,4,Yes,White,2009,26.9,79.6,3,Yes,Yes,No,Joy,No,3,5B,Yes
+1127,53,13,49,18,2,3 months,Sister,3,Yes,Black,2013,20.5,70.5,1,No,Yes,Rhinitis,Sad,Yes,3,5B,Yes
+1128,46,10,No,No,0,No,Sister,1,Yes,White,2013,19.8,75.6,No,Yes,Yes,Medicines,Joy,No,3,3B,Yes
+1129,64,8,48,No,0,No,No,4,No,Mixed,2007,21.3,58.2,No,Yes,Yes,Rhinitis,Sad,Yes,8,5C,Yes
+1130,54,9,46,No,0,No,Mother/Sister,1,Yes,Mixed,2015,21.4,57.7,No,Yes,Yes,Medicines,Joy,No,6,3C,Yes
+1131,44,8,No,No,0,No,Sister,2,Yes,White,2017,24.5,68.5,No,Yes,Yes,No,Joy,No,3,5B,Yes
+1132,65,14,47,No,0,No,Mother,1,Yes,White,2006,26.1,82.1,3,Yes,Yes,No,Joy,No,3,4B,Yes
+1133,46,12,40,21,1,4 months,Mother/Sister,3,No,Black,2015,27.3,78.5,4,Yes,No,Rhinitis,Joy,No,8,3C,Yes
+1134,48,13,No,No,0,No,No,2,No,Mixed,2016,26.7,78.4,No,Yes,No,Rhinitis,Sad,Yes,3,3B,Yes
+1135,48,11,47,21,1,No,Daughter,1,No,Black,2010,30.8,78.2,No,Yes,Yes,Rhinitis,Sad,Yes,3,3B,Yes
+1136,51,9,42,16,1,1 month,Mother,1,Yes,White,2014,28.4,81.5,No,Yes,Yes,Medicines,Joy,No,3,5B,Yes
+1137,53,11,48,30,1,6 months,Daughter,1,No,Mixed,2011,24.4,73.5,1,Yes,Yes,Laryngitis,Joy,No,3,5B,Yes
+1138,56,14,41,29,1,2 months,Mother,1,Yes,White,2006,25.1,66.4,No,Yes,Yes,No,Sad,Yes,3,5B,Yes
+1139,48,13,44,22,1,2 months,Sister/Daughter,2,Yes,White,2011,26.1,78.5,1,Yes,Yes,Laryngitis,Joy,No,4,4B,Yes
+1140,62,11,48,23,0,No,Sister/Daughter,1,Yes,White,2014,26.4,79.8,No,Yes,Yes,Laryngitis,Sad,Yes,3,3B,Yes
+1141,64,12,51,24,0,No,Mother,1,No,Black,2010,24.9,79.6,No,Yes,Yes,Rhinitis,Sad,Yes,4,5C,Yes
+1142,53,14,43,26,1,1 month,Sister,2,Yes,Mixed,2014,25.1,74.3,2,Yes,Yes,Medicines,Joy,No,6,3C,Yes
+1143,62,14,47,No,0,No,Mother,1,Yes,Mixed,2014,23.8,68.5,No,Yes,Yes,Medicines,Sad,Yes,3,4B,Yes
+1144,38,15,No,No,0,No,Mother,1,No,Mixed,2015,23.7,61.5,3,Yes,No,Rhinitis,Sad,Yes,3,3A,Yes
+1145,57,12,46,28,1,1 month,Mother,1,Yes,Mixed,2010,28.7,79.5,2,Yes,Yes,Medicines,Joy,No,8,3B,Yes
+1146,64,15,42,25,2,1 month,Sister,1,Yes,Mixed,2011,25.7,68,No,Yes,No,Laryngitis,Joy,No,3,3B,Yes
+1147,63,13,43,33,2,8 months,No,2,Yes,Black,2007,26.4,77.6,No,Yes,Yes,No,Joy,No,3,4B,Yes
+1148,68,15,46,22,1,1 month,Mother,2,Yes,White,2007,27.6,82.4,2,Yes,Yes,Laryngitis,Sad,Yes,3,3C,Yes
+1149,55,14,48,23,1,No,Sister/Daughter,2,No,Mixed,2016,20.9,71.5,1,Yes,No,No,Sad,Yes,3,5C,Yes
+1150,45,14,No,23,1,5 months,Mother,2,No,Black,2009,21.3,67.3,3,Yes,Yes,No,Sad,Yes,3,5C,Yes
+1151,67,12,39,21,1,2 months,Mother,2,Yes,Mixed,2007,22.8,62.8,No,No,Yes,No,Sad,No,5,5B,Yes
+1152,61,14,48,No,0,No,Mother,4,No,White,2010,24.3,58.4,No,Yes,Yes,No,Sad,Yes,3,4B,Yes
+1153,51,12,No,No,0,No,Mother,1,Yes,Black,2011,22.6,61.3,3,No,No,Rhinitis,Joy,No,4,3C,Yes
+1154,61,14,48,20,1,1 month,No,4,Yes,Mixed,2011,25.3,66.4,2,No,Yes,Rhinitis,Sad,Yes,8,3B,Yes
+1155,28,9,No,No,0,No,No,2,Yes,Mixed,2013,27.7,78.4,3,No,Yes,No,Sad,Yes,3,3B,Yes
+1156,53,9,44,24,2,No,No,2,No,Black,2013,20.5,72.5,No,Yes,Yes,Medicines,Sad,No,3,5B,Yes
+1157,45,10,No,No,0,No,Sister,4,Yes,White,2018,22.9,73.9,No,Yes,Yes,Laryngitis,Sad,No,3,5B,Yes
+1158,27,11,No,No,0,No,No,4,No,Black,2014,21.3,68.9,No,Yes,Yes,Rhinitis,Sad,Yes,3,5C,Yes
+1159,54,11,46,17,2,No,Mother,2,Yes,Black,2015,23.4,58,No,Yes,Yes,Medicines,Joy,No,3,3C,Yes
+1160,63,14,46,No,0,No,Sister,2,No,White,2009,24.5,65.3,3,No,No,Medicines,Sad,Yes,4,4B,Yes
+1161,61,13,48,29,1,6,No,0,No,Mixed,,31.1,90,0,No,No,None,Joy,No,,,No
+1162,73,13,50,30,1,2,No,0,No,Black,,27.7,80,0,No,Yes,Other,Joy,No,,,No
+1163,57,12,45,23,4,10,Mother,0,No,White,,27.3,70,0,No,No,Rhinitis,Joy,No,,,No
+1164,48,10,32,18,3,8,No,0,No,Mixed,,29.3,75,0,No,Yes,Medicines,Joy,No,,,No
+1165,42,12,0,0,0,0,No,0,No,White,,28.7,83,2,No,No,Medicines,Joy,No,,,No
+1166,54,9,33,29,2,7,No,0,No,Mixed,,28.7,78,0,No,Yes,None,Joy,No,,,No
+1167,59,14,55,17,4,4,No,0,No,Mixed,,18.8,53,0,No,Yes,Medicines,Joy,No,,,No
+1168,62,11,52,20,3,4,No,0,No,Mixed,,21.8,58,0,No,Yes,None,Joy,No,,,No
+1169,55,10,53,23,2,3,No,0,No,Mixed,,25.7,70,0,No,Yes,None,Joy,No,,,No
+1170,74,10,50,25,2,7,No,0,No,Black,,22.5,65,0,No,No,None,Joy,No,,,No
+1171,57,9,53,20,2,8,No,0,No,Mixed,,27.7,80,0,No,No,Medicines,Joy,No,,,No
+1172,80,14,45,16,4,8,No,0,No,Black,,26.3,70,0,No,Yes,None,Joy,No,,,No
+1173,35,12,0,17,3,3,No,0,No,Mixed,,26.7,60,0,No,No,Medicines,Joy,No,,,No
+1174,44,14,0,20,2,3,No,0,No,Black,,24.8,70,3,No,Yes,Medicines,Joy,No,,,No
+1175,38,16,0,34,1,6,Cousin,0,No,Mixed,,30.7,69,0,No,No,None,Joy,No,,,No
+1176,54,15,0,28,1,7,Sister,0,No,Black,,27.8,90,0,No,No,Medicines,Joy,No,,,No
+1177,43,14,0,43,1,0,No,0,No,White,,33.9,89,1,No,No,None,Joy,No,,,No
+1178,45,10,0,20,1,3,No,0,No,White,,33.1,90,0,No,No,None,Joy,No,,,No
+1179,41,13,0,0,0,0,No,0,No,Black,,22.9,70,3,No,Yes,None,Joy,No,,,No
+1180,35,9,0,20,2,8,No,0,No,White,,24.2,70,0,No,Yes,None,Joy,No,,,No
+1181,31,11,0,16,1,4,Cousin,0,No,Black,,27.1,65,7,No,No,Other,Joy,No,,,No
+1182,49,10,35,14,3,5,No,0,No,Mixed,,28.9,65,0,Yes,Yes,None,Joy,No,,,No
+1183,53,9,48,23,2,12,No,0,No,White,,26.1,80,1,No,Yes,None,Joy,No,,,No
+1184,82,10,53,14,4,8,No,0,No,Mixed,,26.7,70,0,No,No,Other,Joy,No,,,No
+1185,53,11,0,0,0,0,No,0,No,Mixed,,22.4,47,0,No,Yes,Other,Joy,No,,,No
+1186,34,10,0,30,1,12,No,0,Yes,Mixed,,26.1,80,3,No,No,None,Joy,No,,,No
+1187,40,9,0,25,2,12,No,0,No,Mixed,,19,48,5,No,No,None,Joy,No,,,No
+1188,80,12,45,17,5,6,No,0,Yes,Mixed,,18.4,50,0,No,No,None,Joy,Yes,,,No
+1189,63,10,44,28,2,11,No,0,Yes,Mixed,,19.5,55,0,Yes,Yes,None,Joy,Yes,,,No
+1190,77,10,49,30,3,8,No,0,No,White,,31.1,70,0,No,Yes,Medicines,Joy,No,,,No
+1191,68,13,50,19,3,3,No,0,No,Black,,27,60,0,No,No,Medicines,Joy,No,,,No
+1192,50,14,0,20,1,4,No,0,No,White,,22.5,65,0,No,No,None,Joy,No,,,No
+1193,30,12,0,16,2,5,Aunt,0,No,Mixed,,22.9,55,1,No,Yes,None,Joy,No,,,No
+1194,70,14,45,22,2,8,No,0,No,Black,,24.5,70,0,No,Yes,None,Joy,No,,,No
+1195,55,10,0,23,2,7,Sister,0,No,White,,28.9,75,2,No,No,Medicines,Joy,No,,,No
+1196,60,13,50,27,2,8,No,0,No,White,,24.4,74,0,No,No,None,Joy,No,,,No
+1197,39,11,0,28,1,6,No,0,No,White,,30.7,69,0,No,No,Other,Joy,No,,,No
+1198,59,9,40,19,2,7,No,0,No,Mixed,,27.7,80,0,No,Yes,Medicines,Joy,No,,,No
+1199,58,12,42,30,2,18,No,0,No,Black,,28.7,78,0,No,No,Medicines,Joy,No,,,No
+1200,33,9,0,24,2,6,Grandmother,0,No,Black,,39.1,100,3,No,No,None,Joy,No,,,No
+1201,35,12,0,31,1,18,No,0,No,Black,,33.1,90,0,No,No,None,Joy,No,,,No
+1202,33,13,0,23,2,16,No,0,No,Mixed,,25.3,68,0,No,No,None,Joy,No,,,No
+1203,52,14,51,26,2,8,Aunt,0,No,Mixed,,27.5,74,0,Yes,No,Medicines/Other,Joy,No,,,No
+1204,55,9,46,29,1,7,No,0,No,White,,30.9,84,2,No,No,Other,Joy,No,,,No
+1205,52,13,50,20,3,36,No,0,No,White,,18.4,47,0,No,No,Dermatitis/Rhinitis,Joy,Yes,,,No
+1206,55,13,54,17,2,12,No,0,Yes,Mixed,,26.2,59,0,Yes,No,None,Joy,Yes,,,No
+1207,54,14,53,22,2,10,No,0,No,White,,31.2,77,0,No,No,Rhinitis,Joy,No,,,No
+1208,81,12,49,21,4,18,Aunt,0,No,Mixed,,26.2,59,0,No,No,Rhinitis,Sad,Yes,,,No
+1209,48,13,0,27,1,3,Aunt,0,No,White,,30.2,68,0,No,No,None,Joy,Yes,,,No
+1210,72,11,35,21,3,0,No,0,Yes,White,,26.2,59,0,No,Yes,None,Joy,No,,,No
+1211,73,14,49,20,3,15,No,0,No,Mixed,,25.2,53,0,No,No,Rhinitis,Joy,No,,,No
+1212,46,12,44,20,2,0,No,0,Yes,White,,29.6,63,0,No,No,None,Joy,No,,,No
+1213,61,14,48,18,3,2,No,1,Yes,White,,37.2,86,0,No,Yes,Medicines,Sad,Yes,,,No
+1214,77,13,53,16,3,15,No,0,No,White,,29.4,80,0,No,No,Medicines/Other,Joy,No,,,No
+1215,58,12,51,29,1,1,No,0,No,White,,26.5,73,2,No,No,Rhinitis,Joy,No,,,No
+1216,40,12,0,23,2,1,No,0,No,White,,25.3,57,0,No,No,Rhinitis,Joy,No,,,No
+1217,61,15,43,0,0,0,No,0,No,Black,,25.5,67,7,No,No,None,Joy,No,,,No
+1218,53,9,49,35,1,72,No,0,No,Mixed,,20.6,56,0,No,No,None,Joy,No,,,No
+1219,51,12,0,30,2,36,No,0,No,White,,25.2,67,3,No,No,Rhinitis,Joy,No,,,No
+1220,50,11,0,27,2,3,No,0,No,White,,20.3,50,5,No,No,Other,Joy,No,,,No
+1221,45,12,0,18,2,3,No,0,No,White,,22.7,64,0,Yes,No,Other,Joy,No,,,No
+1222,39,12,0,33,1,13,No,0,No,White,,22.8,59,1,No,No,Other,Joy,No,,,No
+1223,48,13,46,31,1,4,No,0,No,White,,21.5,62,0,No,No,None,Joy,No,,,No
+1224,60,12,55,20,3,8,No,0,No,Black,,22,60,0,No,Yes,Rhinitis,Joy,No,,,No
+1225,35,14,0,28,1,7,No,0,No,White,,22.5,65,3,No,No,None,Joy,No,,,No
+1226,62,12,30,0,0,0,No,0,No,Mixed,,23.1,52,0,No,No,Medicines/Rhinitis,Sad,Yes,,,No
+1227,45,13,0,20,2,10,No,0,No,White,,26,60,0,No,Yes,Dermatitis,Joy,No,,,No
+1228,69,9,48,19,4,24,Aunt,0,No,Black,,21.8,58,2,No,Yes,None,Joy,No,,,No
+1229,58,10,50,23,3,7,No,0,No,Mixed,,24.8,70,0,No,No,None,Joy,No,,,No
+1230,54,11,50,16,3,4,No,0,No,Mixed,,23.9,69,0,No,Yes,Medicines,Joy,Yes,,,No
+1231,47,9,0,17,3,5,No,0,No,Mixed,,25.4,65,0,No,Yes,Rhinitis,Joy,No,,,No
+1232,53,11,50,20,2,9,No,0,No,White,,31.3,80,0,No,No,Rhinitis,Joy,Yes,,,No
+1233,56,12,50,23,3,9,No,0,No,Black,,31.1,90,0,Yes,No,None,Joy,No,,,No
+1234,60,9,48,25,2,5,No,0,No,Black,,21.7,59,0,Yes,Yes,Other,Joy,No,,,No
+1235,35,14,0,28,1,6,No,0,No,Mixed,,28,70,0,No,No,None,Joy,No,,,No
+1236,53,11,45,0,0,0,No,0,No,White,,22.8,57,0,No,No,None,Joy,No,,,No
+1237,34,11,0,24,1,12,No,0,No,White,,24.3,57,0,No,No,Medicines,Joy,No,,,No
+1238,52,10,50,29,1,4,Aunt,0,No,White,,26.7,60,0,No,No,Laryngitis,Joy,No,,,No
+1239,45,13,0,30,1,4,No,0,No,Mixed,,18.4,50,1,No,No,None,Joy,No,,,No
+1240,33,11,0,0,0,0,No,0,No,Mixed,,31,95,1,Yes,No,None,Joy,No,,,No
+1241,51,12,50,28,1,3,No,0,No,Mixed,,25.1,70,0,No,No,Laryngitis,Joy,No,,,No
+1242,32,16,0,25,1,3,No,0,No,Mixed,,17.3,53,2,No,No,Medicines,Joy,No,,,No
+1243,44,13,44,0,0,0,No,0,Yes,White,,23.1,57,0,No,No,Rhinitis,Joy,No,,,No
+1244,56,10,52,24,2,11,Mother,0,No,White,,30.7,62,1,No,No,None,Joy,No,,,No
+1245,48,13,46,26,1,3,No,0,No,White,,24.8,66,0,No,No,None,Joy,No,,,No
+1246,58,14,53,30,1,9,Sister,0,No,Mixed,,32.3,90,3,Yes,No,Laryngitis,Joy,No,,,No
+1247,56,11,35,0,0,0,No,0,No,Black,,23.5,72,7,No,No,Other,Joy,No,,,No
+1248,45,12,43,25,2,18,No,0,No,Black,,31.2,85,0,No,No,None,Joy,No,,,No
+1249,30,12,0,30,1,0,No,0,No,White,,30.5,83,0,No,No,None,Joy,No,,,No
+1250,55,9,49,20,2,4,No,0,No,White,,26,65,0,No,No,None,Joy,Yes,,,No
+1251,50,14,49,26,1,3,No,0,No,White,,19.5,50,0,No,No,Medicines,Joy,No,,,No
+1252,59,14,54,17,2,3,No,0,No,White,,28.1,65,3,No,No,None,Joy,No,,,No
+1253,50,15,40,18,2,3,No,0,No,White,,29.3,75,0,No,No,None,Joy,No,,,No
+1254,31,16,0,27,2,2,No,0,No,White,,26.8,73,0,No,No,None,Joy,No,,,No
+1255,31,9,0,23,2,6,No,0,No,White,,28.6,76,0,No,No,Rhinitis,Joy,No,,,No
+1256,45,8,0,0,0,0,No,0,No,Mixed,,26.7,70,0,No,No,None,Joy,No,,,No
+1257,32,9,0,21,2,6,No,0,No,Mixed,,32.5,78,0,No,No,Medicines,Joy,No,,,No
+1258,47,8,46,15,2,5,No,0,No,White,,30.3,70,0,No,No,Rhinitis,Joy,No,,,No
+1259,72,14,50,19,2,6,Mother/Grandmother,0,No,White,,27.6,69,5,No,No,Other,Joy,No,,,No
+1260,38,13,0,20,3,5,No,0,No,White,,25.7,70,0,No,No,None,Joy,No,,,No
+1261,57,16,46,24,2,8,No,1,Yes,White,,24.8,70,0,No,No,None,Joy,Yes,,,No
+1262,56,14,45,30,1,0,Aunt,0,No,Mixed,,28.3,79,0,No,Yes,None,Joy,Yes,,,No
+1263,50,14,37,16,2,24,No,1,Yes,Mixed,,26.6,75,7,Yes,Yes,None,Joy,No,,,No
+1264,51,9,51,20,1,72,No,0,No,Black,,28.5,73,0,Yes,Yes,Other,Joy,No,,,No
+1265,74,11,46,23,4,1,Aunt/Cousin,0,No,White,,18.7,45,0,No,No,Medicines/Rhinitis/Laryngitis,Joy,No,,,No
+1266,41,11,0,18,2,4,No,0,No,Mixed,,34.5,83,0,No,No,Medicines,Joy,No,,,No
+1267,39,13,0,25,1,9,No,0,No,Mixed,,,,1,No,No,None,Joy,No,,,No
+1268,36,14,0,19,1,9,Aunt,0,No,White,,32.1,87.5,0,No,No,Other,Joy,No,,,No
+1269,55,9,39,26,2,6,No,0,No,Mixed,,35.6,80,1,No,No,Medicines/Rhinitis/Other,Joy,No,,,No
+1270,38,12,0,16,4,9,Mother,0,No,Black,,,,0,No,No,None,Joy,No,,,No
+1271,40,12,0,19,2,6,No,0,No,Mixed,,25.8,58,6,No,No,None,Joy,No,,,No
+1272,46,13,0,46,1,0,No,0,No,Mixed,,31.6,83,6,No,No,Medicines,Joy,No,,,No
+1273,38,12,38,18,3,12,Cousin,0,No,Mixed,,26.3,76,4,Yes,No,None,Joy,No,,,No
+1274,56,14,50,28,1,3,No,0,No,Mixed,,26,69,0,No,No,Rhinitis,Joy,No,,,No
+1275,50,14,30,22,1,1,Aunt/Cousin,0,No,White,,21.8,51,0,No,Yes,Medicines,Joy,No,,,No
+1276,38,9,0,31,1,0,No,0,No,White,,20,60,4,No,Yes,Medicines,Joy,No,,,No
+1277,55,9,40,33,1,5,No,0,No,Black,,24.8,70,0,No,Yes,None,Joy,No,,,No
+1278,41,11,0,25,2,0,No,0,No,Black,,21.9,71,6,No,No,Medicines,Joy,No,,,No
+1279,43,15,0,38,1,8,No,0,No,White,,25.2,79,0,No,No,Dermatitis,Joy,No,,,No
+1280,39,13,0,28,1,4,Grandmother,0,No,Mixed,,22.1,58,0,No,Yes,None,Joy,No,,,No
+1281,63,14,41,28,3,7,No,0,No,Mixed,,21.3,48,0,No,Yes,Other,Joy,No,,,No
+1282,37,10,0,18,2,7,No,0,No,White,,20.4,49,2,No,Yes,Dermatitis,Joy,No,,,No
+1283,38,11,0,29,1,6,Sister,0,No,White,,25.8,62,0,No,No,None,Joy,No,,,No
+1284,44,9,0,16,2,3,No,0,No,Black,,29.1,84,0,No,Yes,Other,Joy,No,,,No
+1285,37,11,0,17,2,5,No,0,No,Mixed,,20.6,56,5,No,No,None,Joy,No,,,No
+1286,43,15,37,17,3,6,No,0,No,Mixed,,20.7,59,0,No,Yes,None,Joy,No,,,No
+1287,56,8,54,27,2,8,No,0,No,Mixed,,25.4,70,0,No,No,Dermatitis,Joy,No,,,No
+1288,57,14,48,28,2,0,Aunt,0,No,Mixed,,28.6,75,1,No,Yes,Dermatitis,Joy,No,,,No
+1289,36,12,0,0,0,0,No,0,No,Mixed,,25.4,70,0,No,No,None,Joy,No,,,No
+1290,65,13,47,32,1,12,No,0,No,Black,,31.9,90,0,No,Yes,Rhinitis,Joy,No,,,No
+1291,58,10,50,14,3,3,Mother,0,No,White,,21.7,65,0,No,No,Medicines/Other,Joy,No,,,No
+1292,49,11,0,20,2,7,No,0,No,Mixed,,30.1,80,0,No,Yes,None,Joy,No,,,No
+1293,37,9,0,30,1,1,No,0,No,White,,22.9,70,0,No,Yes,None,Joy,No,,,No
+1294,69,10,50,18,2,6,No,0,No,White,,25.8,58,0,No,Yes,None,Joy,No,,,No
+1295,46,11,0,16,1,10,No,0,No,White,,25,60,0,No,No,Dermatitis,Joy,No,,,No
+1296,49,10,0,0,0,0,Aunt/Cousin,0,Yes,Black,,28.1,72,3,No,No,None,Sad,Yes,,,No
+1297,38,11,0,20,1,4,No,0,No,White,,26.2,55,2,No,Yes,Rhinitis,Joy,No,,,No
+1298,59,10,50,20,3,2,No,0,No,White,,32.5,75,0,No,Yes,None,Joy,No,,,No
+1299,48,14,0,19,1,7,No,0,No,Mixed,,19,48,0,No,Yes,Rhinitis,Joy,No,,,No
+1300,41,12,0,0,0,0,No,0,No,Black,,21.2,59,3,No,No,Medicines,Joy,Yes,,,No
+1301,37,11,0,30,2,5,No,0,Yes,Mixed,,29.9,70,0,No,Yes,None,Joy,No,,,No
+1302,39,9,0,26,2,12,No,0,No,White,,21.5,60,0,No,Yes,None,Joy,No,,,No
+1303,79,10,49,16,5,10,No,0,No,Mixed,,18,46,0,No,Yes,Medicines,Joy,No,,,No
+1304,50,10,49,26,3,4,No,0,No,Mixed,,20.8,58,0,No,No,Rhinitis,Sad,Yes,,,No
+1305,35,10,0,35,1,1,No,0,Yes,Mixed,,18.6,47,0,No,Yes,None,Joy,No,,,No
+1306,61,9,50,16,2,5,No,0,No,White,,28.5,60,0,No,Yes,Rhinitis/Laryngitis,Joy,No,,,No
+1307,32,14,0,30,2,7,No,0,No,White,,23.2,67,0,No,No,None,Joy,No,,,No
+1308,72,9,49,17,5+,3,No,0,No,Black,,28.7,88,0,No,Yes,Medicines,Joy,No,,,No
+1309,45,12,0,28,1,0,No,0,No,White,,18.9,58,0,No,No,None,Joy,No,,,No
+1310,52,13,50,0,0,0,No,0,No,Mixed,,29.4,68,0,No,No,None,Joy,Yes,,,No
+1311,58,9,49,18,3,3,No,0,Yes,Black,,26.4,66,0,No,No,Dermatitis/Rhinitis/Laryngitis,Joy,No,,,No
+1312,73,12,49,16,5,5,No,0,No,White,,26,60,0,No,No,None,Sad,Yes,,,No
+1313,50,13,50,30,1,9,Grandmother,0,No,Mixed,,28,70,0,No,No,None,Joy,No,,,No
+1314,53,9,50,17,2,4,Grandmother,0,No,Black,,27.7,80,0,Yes,No,None,Joy,No,,,No
+1315,53,8,49,15,2,3,No,0,Yes,Mixed,,27.3,79,0,Yes,Yes,None,Joy,No,,,No
+1316,80,9,50,17,4,2,Grandmother/Aunt,0,No,White,,20.8,50,0,No,Yes,Dermatitis/Rhinitis,Sad,Yes,,,No
+1317,63,9,50,19,4,7,No,0,No,Mixed,,26.5,74,0,Yes,No,None,Joy,No,,,No
+1318,45,13,0,20,2,4,No,0,No,Mixed,,21.6,58,0,Yes,Yes,None,Joy,Yes,,,No
+1319,81,8,49,16,5,3,Sister/Grandmother,0,No,White,,24.4,55,0,No,No,Rhinitis,Joy,No,,,No
+1320,48,10,0,0,0,0,No,0,No,Black,,29.1,70,0,Yes,Yes,None,Joy,Yes,,,No
+1321,46,9,0,17,3,3,No,0,No,Black,,18.4,50,0,Yes,Yes,None,Joy,No,,,No
+1322,63,9,48,17,4,3,Cousin,0,No,Mixed,,15.6,40,2,Yes,Yes,Dermatitis,Joy,No,,,No
+1323,48,12,0,16,3,5,No,0,No,Black,,20.4,49,0,Yes,No,Medicines,Joy,No,,,No
+1324,58,9,50,16,2,3,No,0,No,Black,,27.1,72,0,Yes,Yes,None,Joy,No,,,No
+1325,38,10,0,29,1,3,No,0,No,Mixed,,20.4,55,0,No,Yes,None,Joy,No,,,No
+1326,60,9,50,15,3,3,Grandmother/Aunt,0,No,Mixed,,27.1,72,2,Yes,Yes,None,Joy,No,,,No
+1327,37,12,0,27,2,8,No,0,No,Black,,25.9,83,0,No,Yes,None,Joy,No,,,No
+1328,55,9,49,18,3,5,Cousin,0,No,White,,23.4,60,2,No,No,Dermatitis,Joy,No,,,No
+1329,33,11,0,33,1,1,No,0,No,Mixed,,25.3,73,0,No,No,Rhinitis,Joy,No,,,No
+1330,38,14,0,16,2,12,No,0,No,White,,22.7,68,3,No,Yes,Medicines,Joy,Yes,,,No
+1331,52,9,51,19,3,48,No,0,No,White,,19.6,47,0,No,No,Dermatitis/Rhinitis,Joy,No,,,No
+1332,69,9,49,16,2,3,No,0,No,Mixed,,26.1,80,0,No,Yes,None,Joy,No,,,No
+1333,90,9,50,23,4,5,No,0,No,Black,,29.8,67,0,No,No,None,Joy,No,,,No
+1334,58,9,50,20,2,4,No,0,No,White,,28.4,64,0,No,Yes,Dermatitis,Joy,No,,,No
+1335,67,11,51,25,3,7,No,0,No,Mixed,,25.2,62,0,No,No,Medicines,Joy,No,,,No
+1336,53,11,50,17,2,4,No,0,No,White,,28.3,80,0,No,Yes,Medicines,Joy,No,,,No
+1337,50,13,48,20,2,3,Sister,0,No,Black,,24.4,55,2,No,Yes,Laryngitis,Joy,No,,,No
+1338,45,15,0,18,3,4,No,0,No,Black,,26.2,55,0,No,Yes,Dermatitis,Joy,No,,,No
+1339,48,12,0,18,1,8,No,0,No,White,,25.2,53,0,No,Yes,Rhinitis,Joy,Yes,,,No
+1340,45,14,0,20,2,7,No,0,No,Mixed,,26.9,76,0,No,Yes,Medicines,Joy,No,,,No
+1341,42,12,0,23,2,3,No,0,Yes,Mixed,,19.6,44,0,No,No,None,Joy,No,,,No
+1342,30,12,0,19,2,6,No,0,No,White,,31.1,70,0,No,No,None,Joy,No,,,No
+1343,35,14,0,22,2,6,No,0,No,Mixed,,29.4,85,0,No,Yes,Rhinitis,Joy,No,,,No
+1344,37,15,0,31,2,1,No,0,No,White,,25,68,0,No,No,None,Joy,Yes,,,No
+1345,36,14,0,29,2,6,No,0,Yes,White,,23.4,66,5,No,No,Medicines,Joy,No,,,No
+1346,32,13,0,25,2,3,No,0,No,White,,27.2,74,0,No,No,None,Joy,No,,,No
+1347,31,12,0,18,2,36,No,0,Yes,Mixed,,26.2,63,0,No,Yes,None,Joy,No,,,No
+1348,70,13,49,18,4,3,No,0,No,Mixed,,32,74,0,No,No,Rhinitis,Joy,No,,,No
+1349,63,9,60,26,2,6,Cousin,0,No,White,,20.8,60,0,No,No,None,Joy,No,,,No
+1350,60,9,44,27,1,3,No,0,No,White,,23.9,69,2,No,Yes,None,Joy,No,,,No
+1351,71,10,46,18,4,14,Grandmother,2,Yes,White,,25.4,70,0,No,Yes,Rhinitis/Other,Joy,No,,,No
+1352,70,14,39,16,2,6,Mother,1,Yes,White,,24.4,69,0,No,Yes,Other,Joy,No,,,No
+1353,38,12,0,26,2,8,Grandmother,0,No,Mixed,,22,60,4,No,No,None,Joy,No,,,No
+1354,40,15,0,29,1,6,No,0,No,Mixed,,27.3,70,0,No,Yes,Medicines,Joy,No,,,No
+1355,35,10,0,17,4,6,No,0,No,Black,,21.5,65,0,Yes,Yes,None,Joy,No,,,No
+1356,30,12,0,28,1,2,Grandmother,0,No,White,,24.2,70,0,No,No,Other,Joy,No,,,No
+1357,48,11,0,16,3,5,No,0,No,Black,,26,65,0,No,No,Medicines,Joy,Yes,,,No
+1358,40,11,0,17,2,8,Aunt,0,No,Black,,26,65,0,No,No,Other,Joy,No,,,No
+1359,39,12,0,22,2,4,No,0,No,White,,27,80,0,No,No,Rhinitis,Joy,No,,,No
+1360,32,11,0,15,1,3,No,0,No,White,,25.8,62,2,No,Yes,None,Joy,No,,,No
+1361,35,10,0,30,1,7,No,0,Yes,Black,,25.8,72,0,No,Yes,None,Joy,No,,,No
+1362,53,10,38,20,2,7,No,0,No,Mixed,,27.3,70,0,No,No,None,Joy,No,,,No
+1363,50,13,49,20,2,10,No,0,No,Mixed,,22.6,70,5,No,No,None,Joy,No,,,No
+1364,40,16,0,40,1,0,No,0,No,Mixed,,25,68,0,No,Yes,None,Joy,No,,,No
+1365,33,10,0,19,1,8,Grandmother,0,No,White,,18.3,48,0,No,No,Medicines,Joy,No,,,No
+1366,59,13,50,23,1,7,Grandmother,0,No,Mixed,,23.9,69,0,No,Yes,None,Joy,No,,,No
+1367,35,9,0,25,2,5,Mother,1,Yes,Black,,22.5,69,5,No,No,Medicines/Rhinitis/Other,Joy,Yes,,,No
+1368,22,13,0,0,0,0,Grandmother,0,No,Mixed,,19.5,50,0,Yes,Yes,Dermatitis/Rhinitis/Other,Joy,No,,,No
+1369,30,12,0,22,2,4,Aunt,0,No,White,,21.8,63,0,Yes,No,None,Joy,No,,,No
+1370,41,10,0,20,2,6,No,0,No,White,,22.6,60,1,No,Yes,Other,Joy,No,,,No
+1371,42,10,0,21,1,6,No,0,No,White,,22,62,0,No,No,None,Joy,No,,,No
+1372,71,10,38,16,4,8,Sister,0,No,White,,29.4,80,0,No,No,None,Joy,No,,,No
+1373,49,14,0,25,3,8,Grandmother,1,Yes,White,,25.3,69,0,No,Yes,Rhinitis/Laryngitis/Medicines,Joy,No,,,No
+1374,58,9,56,22,3,9,Sister,1,Yes,Mixed,,22.9,71,4,No,Yes,None,Joy,No,,,No
+1375,37,9,0,16,3,5,No,0,No,Mixed,,27.5,75,0,No,Yes,None,Joy,No,,,No
+1376,34,9,0,23,1,3,No,0,No,Mixed,,22.6,67,0,Yes,Yes,Medicines,Joy,No,,,No
+1377,71,14,45,15,4,12,Sister,0,No,Mixed,,27.8,90,0,No,Yes,Medicines,Joy,No,,,No
+1378,53,10,50,20,2,4,No,0,No,Mixed,,25.1,75,0,Yes,Yes,None,Joy,No,,,No
+1379,39,12,0,25,2,6,No,0,No,Mixed,,30.1,80,0,Yes,Yes,None,Joy,No,,,No
+1380,53,13,0,19,3,9,Cousin,0,No,White,,24.5,70,0,No,Yes,None,Joy,No,,,No
+1381,43,14,35,17,2,2,No,0,No,Black,,25,60,0,No,No,Medicines,Joy,No,,,No
+1382,57,9,50,23,1,12,Sister,0,No,Mixed,,25.4,65,0,No,Yes,None,Joy,No,,,No
+1383,58,11,45,28,2,7,Grandmother,0,No,White,,21.3,56,0,No,Yes,Other,Joy,No,,,No
+1384,21,11,0,0,0,0,No,0,No,White,,31.8,78.5,0,No,No,None,Joy,No,,,No
+1385,29,11,0,20,3,12,No,0,No,White,,35,83,0,No,No,Medicines,Joy,No,,,No
+1386,32,13,0,25,2,3,No,0,No,White,,27.2,74,0,No,No,None,Joy,No,,,No
+1387,44,15,0,20,3,12,No,0,No,White,,24.4,55,0,No,No,None,Joy,No,,,No
+1388,26,12,0,22,2,6,No,0,No,White,,22.1,64,0,No,No,None,Joy,No,,,No
+1389,28,12,0,24,3,3,No,0,No,White,,21.5,55,0,No,No,Other,Joy,No,,,No
+1390,26,11,0,25,1,4,No,0,No,Mixed,,25,60,0,No,No,None,Joy,No,,,No
+1391,40,14,0,10,5+,6,Mother,0,No,Mixed,,,,0,Yes,Yes,None,Joy,Yes,,,No
+1392,28,12,0,25,2,6,No,0,No,Black,,31.6,86,0,No,No,None,Joy,No,,,No
+1393,35,14,0,16,5,6,No,0,No,White,,25.7,70,0,No,No,None,Joy,No,,,No
+1394,33,16,0,32,1,0,No,0,No,Black,,25.2,62,0,No,No,None,Joy,No,,,No
+1395,23,15,0,17,2,2,No,0,No,Mixed,,22.3,57,0,No,Yes,Other,Joy,No,,,No
+1396,35,8,34,17,1,8,Grandmother,0,No,Mixed,,29,61,0,No,No,None,Joy,No,,,No
+1397,33,10,0,28,1,6,No,0,No,White,,20.3,54,3,No,No,None,Joy,No,,,No
+1398,40,15,0,30,2,1,No,0,No,Black,,31.6,71,0,Yes,Yes,Medicines,Joy,No,,,No
+1399,51,11,0,16,3,3,No,0,No,Black,,20.9,59,0,No,No,Other,Joy,No,,,No
+1400,32,12,0,19,1,2,Aunt,0,No,White,,21.5,55,4,No,No,Rhinitis,Joy,No,,,No
+1401,45,13,0,17,2,8,Grandmother ,0,No,Mixed,,27.1,71,0,No,Yes,None,Joy,No,,,No
+1402,70,9,39,20,3,12,No,0,No,Black,,29.1,70,0,No,Yes,None,Joy,No,,,No
+1403,64,13,51,28,2,7,No,0,No,White,,23.1,52,2,No,No,Medicines,Joy,No,,,No
+1404,38,12,0,15,3,5,Grandmother,0,No,Black,,27.3,70,0,No,No,Other,Joy,No,,,No
+1405,58,11,43,29,1,7,No,0,No,White,,21.6,52,4,Yes,No,Dermatitis,Joy,No,,,No
+1406,51,12,45,9,1,0,No,0,No,Black,,77.5,240,0,Yes,No,Other,Joy,No,,,No
+1407,32,12,0,0,0,0,No,0,No,White,,24.8,65,0,Yes,No,Medicines/Rhinitis,Joy,Yes,,,No
+1408,40,14,0,23,1,3,No,1,Yes,White,,20,45,0,Yes,No,Other,Joy,No,,,No
+1409,57,14,50,25,2,18,No,0,No,Black,,31.1,90,2,Yes,No,Medicines,Joy,No,,,No
+1410,57,12,51,21,2,3,No,0,No,White,,22.8,66,1,No,No,Other,Joy,No,,,No
+1411,44,9,0,30,1,18,No,0,Yes,White,,24.3,60,0,Yes,No,Rhinitis,Joy,No,,,No
+1412,54,9,52,28,2,12,No,0,No,Black,,25.5,62,2,No,No,Other,Joy,No,,,No
+1413,38,11,0,32,1,12,No,0,No,Mixed,,30.5,81,0,Yes,No,Other,Joy,No,,,No
+1414,33,13,0,24,1,16,No,0,No,Mixed,,28.4,63,3,Yes,No,Medicines,Joy,No,,,No
+1415,68,15,54,23,2,6,Cousin,0,No,White,,27.6,62,0,No,No,Laryngitis,Joy,No,,,No
+1416,47,15,37,27,1,12,No,0,No,White,,28.2,74,0,Yes,No,Medicines,Joy,No,,,No
+1417,33,12,0,0,0,0,No,0,No,White,,22.2,62,1,Yes,No,None,Joy,No,,,No
+1418,50,16,48,23,2,6,No,0,No,Black,,26,60,0,Yes,Yes,None,Joy,No,,,No
+1419,35,13,0,0,0,0,No,0,No,White,,22.2,52,0,No,No,Medicines,Joy,Yes,,,No
+1420,53,14,50,0,0,0,No,0,No,White,,19,55,7,No,Yes,None,Joy,No,,,No
+1421,33,12,0,21,1,7,No,0,No,White,,27.3,70,0,No,No,None,Joy,No,,,No
+1422,57,11,50,28,2,4,No,0,No,Mixed,,24.2,66,0,Yes,No,Other,Joy,No,,,No
+1423,41,16,0,31,2,6,No,0,No,White,,21.8,63,0,Yes,No,None,Joy,No,,,No
+1424,36,14,0,32,2,6,No,0,No,Mixed,,,,0,No,No,None,Joy,No,,,No
+1425,31,16,0,29,1,24,No,0,No,Black,,33.9,90,0,No,No,None,Joy,No,,,No
+1426,30,14,0,0,0,0,No,0,No,White,,23.1,60,3,Yes,No,Laryngitis,Joy,No,,,No
+1427,30,14,0,0,0,0,No,0,No,White,,19.7,55,3,Yes,No,Medicines,Joy,No,,,No
+1428,39,15,0,25,2,12,No,0,No,White,,25,64,0,Yes,No,Medicines/Other,Joy,No,,,No
+1429,31,12,0,0,0,0,No,0,No,White,,25.7,70,0,No,No,None,Joy,No,,,No
+1430,34,12,0,31,1,24,No,0,No,White,,29,78,1,Yes,No,Other,Joy,No,,,No
+1431,30,12,0,0,0,0,No,0,No,White,,33.7,82,1,No,No,None,Joy,No,,,No
+1432,30,11,0,0,0,0,No,0,No,Mixed,,22,57,0,No,No,None,Joy,No,,,No
+1433,35,13,0,0,0,0,No,0,No,White,,20.2,55,5,No,No,None,Joy,No,,,No
+1434,33,12,0,0,0,0,No,0,No,Mixed,,20.1,56,3,Yes,No,None,Joy,No,,,No
+1435,30,11,0,28,1,14,No,0,No,White,,23.6,56,0,No,No,Laryngitis,Joy,No,,,No
+1436,43,9,0,27,2,10,No,0,No,White,,26.6,68,0,No,No,Medicines,Joy,No,,,No
+1437,70,12,48,30,1,12,No,3,No,White,,39.1,100,7,No,No,Medicines,Joy,No,,,No
+1438,48,14,0,20,1,48,Cousin,0,No,Black,,23.1,52,0,No,No,Medicines,Joy,No,,,No
+1439,31,13,0,21,1,36,Aunt,0,No,White,,78.2,176,0,No,No,Medicines,Joy,No,,,No
+1440,48,9,0,22,2,13,No,0,No,Black,,34.4,88,7,Yes,No,None,Joy,No,,,No
+1441,67,12,38,17,1,36,No,0,No,Black,,22.4,61,0,Yes,No,Other,Joy,No,,,No
+1442,82,13,42,0,0,0,No,0,No,Black,,63.8,125,0,No,No,Other,Joy,No,,,No
+1443,37,14,0,31,2,11,Cousin,0,No,Black,,28.7,84,0,No,No,None,Joy,No,,,No
+1444,57,14,0,0,0,0,Aunt,0,No,White,,32,54,3,No,No,Dermatitis,Joy,Yes,,,No
+1445,26,13,0,0,0,0,No,0,No,White,,20.1,58,0,Yes,No,Other,Joy,Yes,,,No
+1446,46,12,0,14,4,2,No,0,No,Mixed,,88.8,150,0,No,No,None,Joy,No,,,No
+1447,53,13,48,17,2,12,No,0,No,White,,29.7,79,7,No,No,None,Joy,No,,,No
+1448,60,13,56,19,2,24,Sister,0,No,Black,,30.6,60,0,No,No,None,Joy,No,,,No
+1449,69,16,38,22,2,6,No,0,No,Black,,44.8,122,0,Yes,Yes,Other,Joy,No,,,No
+1450,58,10,50,22,1,6,No,0,No,White,,31.2,75,7,No,No,Laryngitis,Joy,No,,,No
+1451,53,10,38,22,2,12,Sister,0,No,Mixed,,59.8,153,7,No,Yes,Dermatitis,Joy,No,,,No
+1452,63,12,42,17,2,3,No,1,No,White,,32.1,63,4,No,No,Dermatitis,Joy,No,,,No
+1453,58,14,30,24,1,12,No,0,No,Black,,52.2,160,0,Yes,No,Dermatitis,Joy,No,,,No
+1454,49,11,0,23,2,12,No,0,No,Black,,71.1,160,0,No,No,None,Joy,No,,,No
+1455,25,11,0,17,1,18,No,0,Yes,Black,,16.3,50,0,No,No,None,Joy,No,,,No
+1456,28,9,0,25,1,7,No,0,No,White,,24.5,65,0,No,No,Other,Joy,No,,,No
+1457,21,13,0,0,0,0,No,0,No,Mixed,,23.4,66,2,No,No,Other,Joy,No,,,No
+1458,28,15,0,0,0,0,Mother/Aunt,0,No,Mixed,,22.5,65,0,No,No,Laryngitis/Other,Joy,No,,,No
+1459,40,11,0,19,1,2,Mother/Aunt/Cousin,0,No,White,,23.7,40,0,No,No,Other,Joy,No,,,No
+1460,72,14,45,23,2,7,Aunt,0,No,White,,29.3,75,3,No,No,Other,Joy,No,,,No
+1461,49,13,43,31,1,8,No,0,No,Mixed,,35.6,80,0,No,No,Dermatitis/Rhinitis/Medicines,Joy,Yes,,,No
+1462,51,12,45,23,1,5,No,0,No,White,,19.6,60,3,No,No,None,Joy,No,,,No
+1463,55,12,46,25,2,12,No,0,No,White,,,,0,No,No,None,Joy,No,,,No
+1464,55,12,50,19,2,1,No,0,Yes,Mixed,,24.2,70,0,No,No,None,Joy,Yes,,,No
+1465,55,10,37,26,2,18,No,0,No,Mixed,,26.1,80,0,No,No,None,Joy,No,,,No
+1466,45,17,43,19,2,4,No,0,No,White,,22.2,50,1,No,No,Other,Joy,No,,,No
+1467,48,11,0,18,3,3,No,0,No,White,,24.8,65,3,Yes,No,Rhinitis/Medicines,Joy,No,,,No
+1468,51,14,49,31,2,12,No,0,No,Mixed,,27.3,70,0,No,No,None,Joy,No,,,No
+1469,41,12,0,28,2,8,Mother,3,No,Mixed,,35,100,0,No,No,None,Joy,No,,,No
+1470,55,13,50,25,1,1,Cousin,1,No,White,,28.3,63.6,0,Yes,No,None,Joy,No,,,No
+1471,41,14,0,28,1,24,No,0,No,White,,20.8,60,0,Yes,No,None,Joy,No,,,No
+1472,44,9,0,31,1,6,No,0,No,White,,25.4,52,0,No,No,None,Joy,No,,,No
+1473,51,15,45,19,2,12,No,0,No,Black,,28.1,72,5,No,No,None,Sad,No,,,No
+1474,67,12,50,19,2,11,No,0,No,White,,27,69,0,No,No,Dermatitis,Joy,No,,,No
+1475,55,10,54,15,2,12,Mother/Aunt/Cousin,1,No,White,,33.4,90.9,0,No,No,Other,Joy,No,,,No
+1476,57,9,47,25,2,6,No,0,No,Mixed,,28.2,75,3,No,No,Rhinitis,Joy,Yes,,,No
+1477,39,9,0,28,1,24,No,0,No,White,,23.4,60,3,Yes,No,Dermatitis,Joy,No,,,No
+1478,45,9,44,16,2,4,No,0,No,Black,,35.4,85,0,Yes,No,None,Joy,No,,,No
+1479,33,12,0,30,1,3,Grandmother,0,No,White,,22.5,62,0,No,No,Dermatitis/Rhinitis/Laryngitis,Joy,Yes,,,No
+1480,34,13,0,29,1,24,No,0,No,White,,25.7,70,0,Yes,No,Medicines,Sad,No,,,No
+1481,33,15,0,29,1,13,No,0,No,Mixed,,23.3,59,5,Yes,No,None,Joy,No,,,No
+1482,32,12,0,28,2,17,No,0,No,Mixed,,27.8,89,0,No,No,Dermatitis/Rhinitis/Laryngitis,Joy,No,,,No
+1483,61,14,51,27,1,2,Mother,0,No,White,,29.6,50,0,No,No,None,Sad,Yes,,,No
+1484,57,15,50,19,2,6,No,0,No,White,,22.2,50,0,No,No,None,Joy,No,,,No
+1485,32,14,0,24,1,3,No,0,No,White,,26.5,52,0,No,No,None,Joy,Yes,,,No
+1486,35,13,0,25,2,6,No,0,No,White,,24.6,63,0,No,No,Laryngitis,Joy,No,,,No
+1487,32,12,0,26,1,8,No,0,No,White,,29.5,70,3,Yes,No,Dermatitis,Joy,No,,,No
+1488,30,13,0,28,1,0,No,0,Yes,Mixed,,22.9,60,0,Yes,No,Other,Joy,No,,,No
+1489,30,13,0,0,0,0,No,0,No,White,,20.1,58,0,No,No,None,Joy,No,,,No
+1490,38,14,0,31,1,24,No,0,No,White,,33.1,90,0,No,No,Medicines,Joy,No,,,No
+1491,33,14,0,25,2,8,Aunt,0,No,White,,32.5,74,0,No,No,Rhinitis/Laryngitis,Joy,No,,,No
+1492,37,13,0,28,1,10,Grandmother/Aunt,0,No,White,,28.3,80,3,No,No,None,Joy,No,,,No
+1493,35,12,0,31,1,18,No,0,No,Black,,30.5,83,4,No,No,None,Joy,No,,,No
+1494,33,11,0,25,1,18,No,0,No,White,,22.4,51,0,Yes,No,None,Joy,No,,,No
+1495,33,11,0,27,1,1,No,0,No,Mixed,,27.3,70,0,Yes,No,Other,Joy,No,,,No
+1496,35,13,0,30,2,22,No,0,No,White,,24,60,0,Yes,No,Medicines,Joy,No,,,No
+1497,58,12,40,22,2,6,No,0,No,White,,27.4,65,0,Yes,No,Medicines,Joy,No,,,No
+1498,48,9,0,0,0,0,No,0,No,White,,21.5,60,0,No,No,Other,Joy,No,,,No
+1499,32,11,0,0,0,0,No,0,No,White,,35.8,85,3,No,No,None,Joy,Yes,,,No
+1500,37,12,0,31,1,6,No,0,No,Mixed,,26.6,68,0,Yes,No,None,Joy,No,,,No
+1501,64,11,0,0,0,0,Grandmother/Aunt,0,No,White,,30.9,80,0,Yes,No,None,Joy,No,,,No
+1502,59,12,52,24,1,1,No,0,No,White,,23,65,2,No,No,Rhinitis,Joy,No,,,No
+1503,59,12,0,24,2,6,No,0,No,White,,27.8,61,0,No,No,None,Joy,No,,,No
+1504,61,10,47,28,1,6,No,0,No,Black,,34,97,4,No,No,None,Joy,No,,,No
+1505,45,12,0,30,1,0,No,0,No,Black,,26,75,5,Yes,No,Other,Joy,No,,,No
+1506,34,14,0,29,1,18,Grandmother,0,No,Mixed,,19.4,56,0,No,No,Dermatitis/Rhinitis,Joy,No,,,No
+1507,47,13,46,22,2,2,No,0,No,Mixed,,26,64,0,No,Yes,None,Joy,No,,,No
+1508,32,13,0,15,3,6,No,0,No,Mixed,,25.3,,1,No,No,None,Joy,No,,,No
+1509,33,13,0,23,3,22,No,0,No,White,,24.8,65,0,No,No,Rhinitis,Joy,No,,,No
+1510,54,12,0,0,0,0,No,0,No,Mixed,,31.6,82,1,No,No,Medicines,Joy,No,,,No
+1511,50,12,49,24,2,8,No,0,No,Mixed,,31.6,75,0,Yes,No,None,Joy,No,,,No
+1512,57,12,40,15,2,7,Sister,0,No,Mixed,,25.3,,2,No,No,None,Joy,No,,,No
+1513,31,12,0,26,1,16,No,0,No,Mixed,,28.4,69,0,No,No,None,Joy,No,,,No
+1514,32,14,0,27,1,10,No,0,No,White,,20.4,53,0,No,No,None,Joy,No,,,No
+1515,34,12,0,29,1,6,Grandmother,0,No,White,,22.3,57,1,No,No,None,Joy,No,,,No
+1516,32,15,0,25,1,4,No,0,No,White,,24.4,55,5,No,No,Dermatitis,Joy,No,,,No
+1517,33,12,0,26,1,3,No,0,No,White,,22,60,0,No,No,Dermatitis/Medicines/Other,Joy,No,,,No
+1518,32,15,0,24,1,4,No,0,No,White,,24.6,63,3,No,No,None,Joy,No,,,No
+1519,32,12,0,25,1,3,No,1,No,White,,19.9,53,2,Yes,Yes,None,Joy,No,,,No
+1520,52,9,40,18,0,0,No,0,No,Mixed,,25.1,70,5,Yes,Yes,Dermatitis,Joy,Yes,,,No
+1521,28,9,0,27,1,8,No,0,No,White,,22.1,64,0,Yes,No,Laryngitis,Joy,No,,,No
+1522,50,12,0,23,2,6,No,0,No,Black,,38.6,100,0,No,Yes,Other,Joy,No,,,No
+1523,63,14,52,24,2,4,No,0,No,Mixed,,32.9,78,0,Yes,Yes,Medicines,Joy,Yes,,,No
+1524,29,11,0,23,1,6,Grandmother,0,No,White,,30.6,60,1,No,No,None,Joy,No,,,No
+1525,32,12,0,23,1,3,No,0,No,White,,25.7,70,0,No,No,None,Joy,No,,,No
+1526,34,13,0,26,2,24,No,0,Yes,White,,27.1,65,0,Yes,No,None,Joy,No,,,No
+1527,36,13,0,22,2,10,No,0,Yes,White,,22.9,60,0,No,No,Other,Joy,No,,,No
+1528,32,12,0,0,0,0,Grandmother,0,No,Black,,20.8,50,0,No,No,None,Joy,No,,,No
+1529,33,12,0,18,1,8,No,0,No,White,,24.8,62,3,Yes,No,None,Joy,No,,,No
+1530,38,15,0,16,1,10,No,0,No,Mixed,,31.3,80,2,Yes,No,None,Joy,No,,,No
+1531,39,12,0,30,1,4,Aunt,0,No,Black,,37.1,78,0,Yes,No,Medicines/Other,Joy,No,,,No
+1532,40,13,0,34,2,3,No,1,No,White,,22.1,63,0,No,No,None,Joy,No,,,No
+1533,55,12,50,19,1,12,Aunt/Cousin,0,No,Black,,33.3,75,2,Yes,Yes,None,Joy,No,,,No
+1534,61,13,51,22,2,6,Aunt/Cousin,0,No,Black,,29.2,73,1,No,Yes,Medicines/Other,Joy,Yes,,,No
+1535,40,11,0,29,2,24,Aunt,0,No,Mixed,,31.3,80,0,Yes,No,Laryngitis,Joy,No,,,No
+1536,32,12,0,0,0,0,No,0,No,White,,26.7,70,0,Yes,No,None,Joy,No,,,No
+1537,36,13,0,29,1,6,No,0,No,White,,19.9,51,0,No,No,Medicines,Joy,No,,,No
+1538,54,12,49,17,1,4,No,0,No,Black,,24.5,75,0,Yes,No,None,Joy,No,,,No
+1539,34,13,0,30,1,9,No,0,No,Black,,25,68,4,No,No,None,Joy,No,,,No
+1540,57,14,55,26,2,3,Aunt,0,No,White,,28.6,67,0,No,No,Dermatitis,Joy,No,,,No
+1541,34,14,0,0,0,0,No,0,No,White,,24.4,68,0,No,No,None,Joy,No,,,No
+1542,58,13,45,23,2,18,Mother,0,No,Black,,28.6,76,3,Yes,No,Other,Joy,No,,,No
+1543,49,13,0,25,2,12,Aunt,0,No,Mixed,,19.7,55,0,No,No,None,Joy,No,,,No
+1544,35,12,0,26,2,6,Mother,0,No,Black,,27.7,80,0,No,No,None,Joy,No,,,No
+1545,33,13,0,31,1,11,No,0,No,White,,25,60,0,Yes,No,Rhinitis,Joy,No,,,No
+1546,37,12,0,33,1,18,No,2,No,Mixed,,19.8,52,0,Yes,No,None,Joy,No,,,No
+1547,32,16,0,29,1,12,No,0,No,White,,25.3,69,2,Yes,No,Medicines/Other,Joy,No,,,No
+1548,56,14,47,26,2,18,No,0,Yes,Mixed,,23.9,69,0,No,No,None,Sad,Yes,,,No
+1549,45,12,0,0,0,0,Aunt,0,Yes,White,,25.5,50,0,No,No,None,Joy,No,,,No
+1550,66,11,45,21,4,12,No,0,No,White,,32,87,0,No,No,Medicines/Other,Joy,No,,,No
+1551,34,10,0,0,0,0,No,0,No,White,,29.7,76,0,No,No,Dermatitis,Joy,No,,,No
+1552,55,12,45,23,3,7,No,0,No,White,,30.8,73,0,No,Yes,None,Joy,No,,,No
+1553,55,9,0,28,1,2,No,0,No,Mixed,,29.1,70,0,No,Yes,None,Joy,No,,,No
+1554,50,13,48,30,1,6,No,0,No,White,,24.5,70,0,No,No,None,Joy,No,,,No
+1555,59,14,40,23,2,6,No,0,No,Mixed,,23.4,60,0,No,No,Rhinitis,Joy,No,,,No
+1556,42,12,42,30,1,6,No,0,No,White,,22.9,58,0,No,No,None,Joy,No,,,No
+1557,32,12,0,23,1,3,No,0,No,White,,28.7,73.5,0,No,No,None,Joy,No,,,No
+1558,51,11,0,24,2,36,No,0,No,Mixed,,25.3,,0,Yes,No,None,Joy,No,,,No
+1559,30,10,0,0,0,0,No,0,No,Mixed,,32.5,75,0,No,No,None,Joy,No,,,No
+1560,58,11,45,30,1,12,No,0,No,Mixed,,23.5,55,0,No,Yes,None,Joy,No,,,No
+1561,35,12,0,32,2,8,Mother,0,No,Mixed,,27.5,75,0,No,No,None,Joy,No,,,No
+1562,37,11,0,0,0,0,No,0,Yes,White,,36.4,92,0,Yes,Yes,None,Joy,No,,,No
+1563,53,9,0,19,1,6,No,0,No,Mixed,,25.4,70,0,No,Yes,Medicines,Joy,No,,,No
+1564,30,13,0,0,0,0,No,0,No,Mixed,,27.8,85,0,Yes,Yes,None,Joy,No,,,No
+1565,49,12,0,21,2,15,No,0,No,White,,27.7,80,0,Yes,Yes,None,Joy,No,,,No
+1566,60,15,52,23,1,3,No,0,No,White,,27.3,70,0,No,Yes,Other,Joy,No,,,No
+1567,47,12,0,26,1,48,No,0,No,White,,44.7,106,0,No,Yes,Other,Joy,No,,,No
+1568,34,13,0,30,1,4,Aunt,0,No,Mixed,,19.5,48,0,No,No,None,Joy,No,,,No
+1569,29,13,0,0,0,0,No,0,No,White,,25.7,70,0,Yes,No,Other,Sad,Yes,,,No
+1570,35,9,0,28,2,11,No,0,No,Black,,35.2,90,0,Yes,No,None,Joy,No,,,No
+1571,58,12,42,30,2,16,No,0,No,Black,,31.3,80,0,No,No,Medicines/Other,Joy,No,,,No
+1572,37,12,0,32,1,6,No,0,No,Mixed,,28.7,85,2,Yes,No,None,Joy,No,,,No
+1573,43,14,42,28,2,9,No,0,No,White,,21.1,48,0,No,No,Laryngitis/Medicines,Joy,Yes,,,No
+1574,54,11,40,22,1,7,No,0,No,Mixed,,22.5,54,0,Yes,No,None,Sad,No,,,No
+1575,60,12,50,26,1,0,No,0,No,White,,24.2,62,0,No,No,None,Joy,Yes,,,No
+1576,50,11,49,21,2,4,Grandmother,0,No,White,,57.8,130,7,No,No,None,Joy,No,,,No
+1577,47,11,0,18,2,2,No,0,No,White,,58.6,150,7,No,No,None,Joy,No,,,No
+1578,46,14,0,24,2,26,No,0,No,Mixed,,29.4,68,0,No,No,None,Joy,Yes,,,No
+1579,50,11,49,16,3,9,No,0,No,Mixed,,28,63,0,No,No,None,Joy,Yes,,,No
+1580,42,16,0,35,1,6,No,0,No,Black,,43.4,130,0,Yes,Yes,None,Joy,Yes,,,No
+1581,29,14,0,0,0,0,No,0,No,White,,22.4,58,0,No,No,Medicines,Joy,No,,,No
+1582,51,9,0,19,1,7,No,1,Yes,White,,39.4,97,0,No,No,Other,Joy,No,,,No
+1583,41,13,0,26,2,25,No,0,No,White,,21.5,49,0,Yes,No,Rhinitis/Laryngitis/Other,Joy,No,,,No
+1584,42,12,0,19,1,10,No,0,No,White,,20,48,0,No,No,None,Joy,No,,,No
+1585,32,12,0,20,2,3,No,0,No,White,,25.1,61,0,No,No,None,Joy,No,,,No
+1586,30,12,0,28,1,7,No,0,No,White,,31.2,87,0,No,No,Laryngitis,Joy,No,,,No
+1587,56,13,41,0,0,0,No,0,No,White,,22.9,53.5,0,No,Yes,None,Joy,No,,,No
+1588,39,12,0,22,2,3,No,0,No,Black,,24.2,58.2,0,Yes,Yes,None,Joy,Yes,,,No
+1589,30,12,0,22,2,28,Cousin,0,Yes,Black,,31.9,90,0,Yes,No,Dermatitis,Joy,No,,,No
+1590,56,13,0,24,2,15,No,0,No,Mixed,,,,0,Yes,No,None,Joy,No,,,No
+1591,33,12,0,0,0,0,No,0,No,Black,,23.8,50,0,No,No,Rhinitis/Laryngitis/Medicines,Joy,No,,,No
+1592,62,13,34,27,2,6,Sister,0,No,White,,22.8,57,5,No,No,Medicines/Other,Joy,No,,,No
+1593,45,9,0,19,2,1,No,0,No,White,,29.5,70,0,Yes,No,Medicines/Other,Joy,No,,,No
+1594,56,12,54,27,2,12,No,0,No,Mixed,,29.7,76,5,No,No,None,Joy,No,,,No
+1595,53,14,36,19,1,5,No,0,No,White,,32,75,5,No,Yes,Other,Joy,No,,,No
+1596,59,14,51,23,2,1,Sister,0,No,White,,24.2,62,0,No,No,Other,Joy,No,,,No
+1597,34,10,0,27,2,6,No,0,No,White,,22,60,2,No,No,Medicines,Joy,No,,,No
+1598,62,14,54,20,2,14,No,0,Yes,Black,,,,2,No,No,Laryngitis/Medicines,Joy,No,,,No
+1599,55,13,47,33,1,4,No,0,No,Black,,19.5,57,0,No,Yes,None,Joy,No,,,No
+1600,32,14,0,27,2,24,Grandmother,2,Yes,Mixed,,20.5,60,3,No,No,None,Joy,No,,,No
+1601,55,11,51,27,1,3,Cousin,0,No,White,,50.5,92,0,Yes,No,Dermatitis/Rhinitis/Laryngitis,Sad,Yes,,,No
+1602,34,14,0,33,1,5,No,0,No,White,,20.9,64,0,Yes,No,None,Joy,No,,,No
+1603,64,13,49,20,3,1,Cousin,0,No,Mixed,,60.5,80,3,No,No,Medicines,Joy,No,,,No
+1604,25,14,0,0,0,0,No,0,No,White,,23.8,58,5,Yes,No,Other,Joy,No,,,No
+1605,57,12,50,21,2,6,No,0,No,White,,23.5,68,3,No,No,None,Joy,No,,,No
+1606,30,12,0,28,1,6,No,0,No,White,,19.5,50,4,Yes,No,None,Joy,No,,,No
+1607,38,11,0,0,0,0,Aunt,0,No,White,,31.3,80,0,Yes,No,None,Joy,No,,,No
+1608,56,9,50,20,2,12,No,0,No,White,,28.4,70,2,No,No,Other,Joy,No,,,No
+1609,31,12,0,25,1,12,No,0,No,White,,19.4,70,0,Yes,No,Other,Joy,No,,,No
+1610,26,13,0,25,1,4,No,0,No,Mixed,,17.3,50,3,Yes,No,None,Joy,No,,,No
+1611,45,11,0,20,2,4,No,0,No,White,,31.3,80,0,Yes,No,Other,Joy,No,,,No
+1612,34,13,0,27,2,6,No,0,No,White,,24.7,80,0,Yes,No,None,Joy,No,,,No
+1613,35,13,0,0,0,0,No,0,No,White,,20.3,50,5,No,No,None,Joy,No,,,No
+1614,36,12,0,30,2,4,No,0,No,Mixed,,27.3,70,0,Yes,No,None,Joy,Yes,,,No
+1615,56,13,48,27,1,6,Cousin,0,Yes,Black,,30.3,96,0,No,No,None,Joy,No,,,No
+1616,51,12,45,21,1,1,No,0,No,Mixed,,34.7,110,0,Yes,No,None,Joy,No,,,No
+1617,38,12,0,36,1,6,No,0,No,Black,,28.3,80,0,No,No,None,Joy,No,,,No
+1618,42,14,0,26,1,4,No,0,No,Black,,22.2,50,0,Yes,No,None,Joy,No,,,No
+1619,24,10,0,20,1,5,No,0,No,Mixed,,25.2,80,1,No,No,None,Joy,No,,,No
+1620,39,12,0,34,2,12,No,0,No,Black,,20.2,51,0,No,No,None,Joy,No,,,No
+1621,62,12,0,22,2,4,No,0,No,Mixed,,55.8,152,0,Yes,No,Dermatitis,Joy,No,,,No
+1622,25,9,0,21,2,6,Cousin,0,Yes,White,,25.7,70,0,No,No,Dermatitis/Laryngitis,Joy,No,,,No
+1623,25,12,0,23,1,16,Cousin,0,No,White,,19.6,52,0,No,No,None,Joy,No,,,No
+1624,24,9,0,22,1,2,No,0,No,Black,,24.9,90,0,No,Yes,None,Joy,No,,,No
+1625,22,13,0,0,0,0,No,0,No,White,,24.2,65,0,Yes,No,None,Joy,No,,,No
+1626,26,13,0,23,1,9,Grandmother,1,No,Mixed,,20.7,53,0,No,No,None,Joy,No,,,No
+1627,39,16,0,22,2,6,Cousin,0,No,Mixed,,16.9,37,0,No,Yes,None,Joy,Yes,,,No
+1628,50,12,37,23,2,6,Grandmother,0,No,Black,,35.5,110,0,No,Yes,Other,Joy,No,,,No
+1629,21,13,0,19,1,7,No,0,No,Mixed,,5,13,0,Yes,Yes,None,Joy,No,,,No
+1630,48,13,48,23,2,6,No,0,No,Mixed,,21.6,56,0,No,No,Dermatitis,Joy,No,,,No
+1631,65,14,52,24,2,6,No,0,No,Mixed,,27,64,0,Yes,No,Dermatitis/Rhinitis,Joy,Yes,,,No
+1632,56,15,45,0,0,0,No,0,No,White,,52.7,140,7,Yes,Yes,None,Joy,No,,,No
+1633,34,16,0,25,2,16,Aunt,0,No,White,,21.6,48,0,No,No,Rhinitis,Joy,Yes,,,No
+1634,49,15,49,19,1,0,No,0,No,Mixed,,27,69,0,No,No,None,Joy,No,,,No
+1635,62,15,55,21,2,6,No,0,No,Black,,24.1,64,0,No,No,None,Joy,No,,,No
+1636,56,10,48,30,1,5,No,0,No,Black,,30.9,82,0,Yes,No,None,Joy,No,,,No
+1637,32,10,0,17,1,3,Grandmother,0,No,Black,,29.4,85,0,No,Yes,Medicines/Other,Joy,No,,,No
+1638,20,11,0,18,1,12,No,0,No,Black,,18,55,0,No,No,None,Joy,No,,,No
+1639,61,12,40,20,2,6,No,2,Yes,Black,,25.1,66,0,Yes,No,None,Joy,No,,,No
+1640,47,17,0,23,1,4,No,,Yes,Black,,20.8,60,2,Yes,Yes,Other,Joy,No,,,No
+1641,28,17,0,20,2,6,Sister/Grandmother,0,Yes,Mixed,,13.3,38,0,Yes,Yes,Other,Joy,No,,,No
+1642,30,15,0,21,1,4,No,0,No,White,,18.4,50,0,Yes,No,None,Joy,No,,,No
+1643,49,10,0,25,2,6,No,0,No,Mixed,,27.9,75,0,No,No,None,Joy,No,,,No
+1644,29,14,0,24,1,3,No,0,No,Black,,18,52,2,Yes,Yes,Medicines,Joy,Yes,,,No
+1645,25,14,0,23,1,4,Grandmother,0,Yes,Black,,18.3,53,2,Yes,Yes,Other,Joy,No,,,No
+1646,27,15,0,0,0,0,No,0,No,White,,19.9,51,0,No,No,None,Joy,No,,,No
+1647,23,13,0,0,0,0,No,0,No,Black,,17.4,45,0,No,No,None,Joy,No,,,No
+1648,35,14,0,24,1,5,No,0,No,White,,22.9,60,0,No,No,None,Sad,Yes,,,No
+1649,33,14,0,20,1,3,No,0,No,Mixed,,23.9,65,7,Yes,No,None,Joy,No,,,No
+1650,30,13,0,0,0,0,No,0,No,White,,20.3,54,0,Yes,Yes,None,Joy,Yes,,,No
+1651,43,13,43,21,3,4,No,1,Yes,Black,,18.7,54,0,Yes,Yes,Other,Sad,Yes,,,No
+1652,46,16,45,15,2,3,Grandmother,1,Yes,White,,19.8,54,2,Yes,Yes,Other,Sad,Yes,,,No
+1653,45,13,45,24,3,4,No,0,No,White,,18.6,53,2,No,No,Other,Joy,No,,,No
+1654,39,15,0,19,3,5,No,0,No,Mixed,,19.6,52,0,Yes,No,Other,Joy,No,,,No
+1655,53,14,44,23,2,4,No,0,Yes,White,,18.7,54,0,Yes,Yes,None,Joy,Yes,,,No
+1656,30,12,0,0,0,0,Mother/Aunt,0,No,White,,18.7,49,2,Yes,No,Medicines,Joy,No,,,No
+1657,46,9,0,23,1,1,No,0,No,White,,31.6,72,0,Yes,No,None,Joy,No,,,No
+1658,60,9,0,23,1,2,No,0,No,White,,31.6,72,0,Yes,No,None,Joy,No,,,No
+1659,54,12,39,17,2,3,No,0,No,White,,25.2,67,0,No,No,None,Joy,No,,,No
+1660,64,11,50,0,0,0,No,0,No,Black,,22.7,58,0,No,No,None,Joy,No,,,No
+1661,53,15,0,27,2,10,Mother/Grandmother/Aunt/Cousin,0,Yes,Mixed,,20.4,49,0,No,Yes,Other,Joy,No,,,No
+1662,44,11,0,32,1,11,No,0,No,White,,24.7,52,0,Yes,No,None,Joy,Yes,,,No
+1663,38,13,0,32,2,11,Cousin,0,No,Black,,29,81,0,Yes,No,Medicines,Joy,No,,,No
+1664,63,12,50,18,2,4,No,1,No,White,,24.6,63,2,Yes,Yes,Medicines,Joy,No,,,No
+1665,67,12,51,19,2,10,Aunt,1,No,White,,21.5,55,0,No,No,Dermatitis,Joy,No,,,No
+1666,50,13,49,23,2,24,No,0,No,Black,,26.7,60,0,Yes,No,Other,Joy,No,,,No
+1667,51,13,51,31,2,12,No,0,No,Black,,29.3,75,0,Yes,No,Other,Joy,No,,,No
+1668,57,9,47,25,2,6,No,0,No,Mixed,,27.1,72,5,No,No,Rhinitis,Joy,No,,,No
+1669,69,16,44,22,2,6,No,0,No,Black,,22,60,0,Yes,No,Other,Joy,No,,,No
+1670,50,13,49,27,2,2,No,0,No,Mixed,,29.4,80,0,Yes,Yes,None,Joy,No,,,No
+1671,26,11,0,17,1,18,No,0,Yes,Black,,18.9,58,0,Yes,Yes,None,Joy,No,,,No
+1672,56,16,49,40,1,2,No,0,No,White,,22.2,50,0,No,No,None,Joy,No,,,No
+1673,20,11,0,18,1,21,No,0,Yes,Mixed,,22,62,0,No,No,None,Joy,No,,,No
+1674,37,10,0,16,2,3,No,0,No,White,,36.7,100,0,Yes,No,Medicines,Joy,No,,,No
+1675,21,12,0,0,0,0,No,0,No,White,,29.1,85,0,Yes,Yes,Medicines,Joy,Yes,,,No
+1676,21,14,0,0,0,0,No,0,No,Mixed,,17.9,50,0,Yes,No,None,Joy,No,,,No
+1677,21,12,0,0,0,0,Grandmother,1,No,Mixed,,23.2,64,0,Yes,No,Other,Joy,No,,,No
+1678,44,11,0,24,2,9,No,0,No,White,,27.5,75,0,No,No,None,Joy,No,,,No
+1679,40,17,0,22,2,6,No,0,No,Mixed,,23.4,70,0,Yes,No,None,Joy,No,,,No
+1680,57,12,54,10,3,6,No,0,No,White,,14.9,46,0,No,Yes,Medicines,Joy,No,,,No
+1681,45,12,0,24,2,3,No,0,No,White,,30.3,94,0,No,No,Other,Joy,No,,,No
+1682,20,10,0,0,0,0,No,0,No,White,,22,60,3,Yes,No,Dermatitis/Rhinitis/Laryngitis/Medicines/Other,Joy,No,,,No
+1683,46,12,0,15,2,0,No,0,No,White,,31.1,70,0,No,No,Other,Joy,No,,,No
+1684,20,12,0,0,0,0,No,0,No,White,,25.2,67,0,Yes,Yes,Medicines/Other,Joy,No,,,No
+1685,20,9,0,0,0,0,Grandmother,0,No,Mixed,,38,89,0,Yes,No,None,Joy,No,,,No
+1686,43,12,0,21,1,18,No,0,No,White,,28.7,69,0,Yes,No,Other,Joy,No,,,No
+1687,20,11,0,0,0,0,No,0,No,White,,21.3,60,0,No,No,None,Joy,No,,,No
+1688,20,13,0,0,0,0,No,0,No,Mixed,,19.8,50,5,Yes,No,None,Joy,Yes,,,No
+1689,21,11,0,0,0,0,No,0,No,White,,21.8,53,0,Yes,Yes,Other,Joy,No,,,No
+1690,45,12,0,26,2,8,No,0,No,White,,28.9,65,1,No,No,None,Joy,No,,,No
+1691,21,12,0,0,0,0,No,0,No,White,,24,60,5,No,No,None,Joy,No,,,No
+1692,21,12,0,0,0,0,No,0,No,Black,,24.3,67,5,Yes,No,None,Joy,Yes,,,No
+1693,42,12,32,20,2,3,No,0,No,White,,22,60,0,Yes,No,Other,Joy,No,,,No
+1694,21,12,0,0,0,0,No,0,No,White,,22.9,70,0,No,No,None,Joy,No,,,No
+1695,21,9,0,0,0,0,No,0,No,White,,20.7,55,3,Yes,Yes,Other,Joy,No,,,No
+1696,25,12,0,0,0,0,No,0,No,Mixed,,23.9,69,5,Yes,Yes,Other,Joy,No,,,No
+1697,20,11,0,0,0,0,No,0,No,White,,23.4,67.7,0,No,No,Medicines,Joy,No,,,No

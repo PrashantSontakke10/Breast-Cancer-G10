@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Risk Prediction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffffff04 0%, #00000027 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #4facfe;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .results {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .risk-high {
+            color: #dc3545;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .risk-moderate {
+            color: #ffc107;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .risk-low {
+            color: #28a745;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .percentage {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .recommendation {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #4facfe;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4facfe;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🩺 Risk2Image</h1>
+            <p>AI-powered Breast Cancer risk assessment using machine learning</p>
+        </div>
+
+        <div class="content">
+            <form id="predictionForm">
+                <div class="form-grid">
+                    <!-- Personal Information -->
+                    <div>
+                        <h3>Personal Information</h3>
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age" required min="18" max="100" value="40">
+                        </div>
+                        <div class="form-group">
+                            <label for="menarche">Age at Menarche (first period)</label>
+                            <input type="number" id="menarche" name="menarche" required min="8" max="20" value="12">
+                        </div>
+                        <div class="form-group">
+                            <label for="menopause">Menopause Status</label>
+                            <select id="menopause" name="menopause" required>
+                                <option value="0">Not in menopause</option>
+                                <option value="1">In menopause</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="menopauseAgeGroup" style="display: none;">
+                            <label for="menopause_age">Age at Menopause</label>
+                            <input type="number" id="menopause_age" name="menopause_age" min="30" max="60" value="0">
+                        </div>
+                    </div>
+
+                    <!-- Reproductive History -->
+                    <div>
+                        <h3>Reproductive History</h3>
+                        <div class="form-group">
+                            <label for="agefirst">Age at First Childbirth (0 if none)</label>
+                            <input type="number" id="agefirst" name="agefirst" min="0" max="50" value="25">
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <input type="number" id="children" name="children" min="0" max="10" value="2">
+                        </div>
+                        <div class="form-group">
+                            <label for="breastfeeding">Breastfeeding Duration (months)</label>
+                            <input type="number" id="breastfeeding" name="breastfeeding" min="0" max="36" value="6">
+                        </div>
+                    </div>
+
+                    <!-- Medical History -->
+                    <div>
+                        <h3>Medical History</h3>
+                        <div class="form-group">
+                            <label for="nrelbc">Family History of Breast Cancer</label>
+                            <select id="nrelbc" name="nrelbc" required>
+                                <option value="0">No family history</option>
+                                <option value="1">Mother</option>
+                                <option value="2">Sister</option>
+                                <option value="3">Daughter</option>
+                                <option value="4">Mother/Sister</option>
+                                <option value="5">Mother/Daughter</option>
+                                <option value="6">Sister/Daughter</option>
+                                <option value="7">Grandmother</option>
+                                <option value="8">Aunt/Cousin</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="biopsies">Number of Breast Biopsies</label>
+                            <input type="number" id="biopsies" name="biopsies" min="0" max="10" value="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="hyperplasia">History of Hyperplasia</label>
+                            <select id="hyperplasia" name="hyperplasia" required>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Lifestyle Factors -->
+                    <div>
+                        <h3>Lifestyle Factors</h3>
+                        <div class="form-group">
+                            <label for="race">Race</label>
+                            <select id="race" name="race" required>
+                                <option value="0">White</option>
+                                <option value="1">Black</option>
+                                <option value="2">Mixed</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="imc">BMI</label>
+                            <input type="number" id="imc" name="imc" step="0.1" min="15" max="50" required value="25.0">
+                        </div>
+                        <div class="form-group">
+                            <label for="weight">Weight (kg)</label>
+                            <input type="number" id="weight" name="weight" min="30" max="150" required value="65">
+                        </div>
+                        <div class="form-group">
+                            <label for="exercise">Exercise Frequency</label>
+                            <select id="exercise" name="exercise" required>
+                                <option value="0">No exercise</option>
+                                <option value="1">Rarely (once a month)</option>
+                                <option value="2">Occasionally (once a week)</option>
+                                <option value="3">Regularly (3+ times per week)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="alcohol">Alcohol Consumption</label>
+                            <select id="alcohol" name="alcohol" required>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tobacco">Smoking</label>
+                            <select id="tobacco" name="tobacco" required>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Health Status -->
+                    <div>
+                        <h3>Health Status</h3>
+                        <div class="form-group">
+                            <label for="allergies">Allergies</label>
+                            <select id="allergies" name="allergies" required>
+                                <option value="0">None</option>
+                                <option value="1">Rhinitis</option>
+                                <option value="2">Laryngitis</option>
+                                <option value="3">Medicines</option>
+                                <option value="4">Dermatitis</option>
+                                <option value="5">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="emotional">Emotional State</label>
+                            <select id="emotional" name="emotional" required>
+                                <option value="0">Joy/Happy</option>
+                                <option value="1">Sad/Depressed</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="depressive">History of Depression</label>
+                            <select id="depressive" name="depressive" required>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="histologicalclass">Histological Class (3 if unknown)</label>
+                            <input type="number" id="histologicalclass" name="histologicalclass" min="1" max="11" value="3">
+                        </div>
+                        <div class="form-group">
+                            <label for="birads">BI-RADS Category (3 if unknown)</label>
+                            <input type="number" id="birads" name="birads" min="1" max="6" value="3">
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Predict Risk</button>
+            </form>
+            <!-- Add this right after the form closing tag -->
+<div style="text-align: center; margin: 20px;">
+   
+</div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing your data...</p>
+            </div>
+
+            <div class="results" id="results" style="display: none;">
+                <h2>Prediction Results</h2>
+                <div id="riskLevel" class="risk-low"></div>
+                <div class="percentage" id="currentRisk">0%</div>
+                <p>Current probability of breast cancer</p>
+                
+                <div class="percentage" id="threeYearRisk">0%</div>
+                <p>Estimated probability in next 3 years</p>
+
+                <div class="recommendation" id="recommendation">
+                    <h3>Recommendations</h3>
+                    <p id="recommendationText"></p>
+                    <ul>
+                        <li>Regular mammograms as per age guidelines</li>
+                        <li>Maintain healthy weight and exercise regularly</li>
+                        <li>Limit alcohol consumption</li>
+                        <li>Avoid smoking</li>
+                        <li>Consider genetic counseling if strong family history</li>
+                        <li>Perform regular self-examinations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    console.log("JavaScript loaded - debug version");
+
+    // Handle menopause toggle
+    document.getElementById('menopause').addEventListener('change', function() {
+        document.getElementById('menopauseAgeGroup').style.display = this.value === '1' ? 'block' : 'none';
+    });
+
+    // Simple click handler for the button
+    document.querySelector('.btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        console.log("Button clicked - starting prediction");
+        
+        // Show loading immediately
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('results').style.display = 'none';
+        
+        // Collect data manually
+        const formData = {
+            age: document.getElementById('age').value || '40',
+            menarche: document.getElementById('menarche').value || '12',
+            menopause: document.getElementById('menopause').value === '1' ? 
+                      (document.getElementById('menopause_age').value || '50') : '0',
+            agefirst: document.getElementById('agefirst').value || '25',
+            children: document.getElementById('children').value || '2',
+            breastfeeding: document.getElementById('breastfeeding').value || '6',
+            nrelbc: document.getElementById('nrelbc').value || '0',
+            biopsies: document.getElementById('biopsies').value || '0',
+            hyperplasia: document.getElementById('hyperplasia').value || '0',
+            race: document.getElementById('race').value || '0',
+            imc: document.getElementById('imc').value || '25',
+            weight: document.getElementById('weight').value || '65',
+            exercise: document.getElementById('exercise').value || '2',
+            alcohol: document.getElementById('alcohol').value || '0',
+            tobacco: document.getElementById('tobacco').value || '0',
+            allergies: document.getElementById('allergies').value || '0',
+            emotional: document.getElementById('emotional').value || '0',
+            depressive: document.getElementById('depressive').value || '0',
+            histologicalclass: document.getElementById('histologicalclass').value || '3',
+            birads: document.getElementById('birads').value || '3',
+            year: new Date().getFullYear().toString()
+        };
+
+        console.log("Sending data:", formData);
+
+        // Use traditional XHR instead of fetch for better compatibility
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/predict', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        
+        xhr.onload = function() {
+            console.log("XHR response received, status:", xhr.status);
+            document.getElementById('loading').style.display = 'none';
+            
+            if (xhr.status === 200) {
+                try {
+                    const result = JSON.parse(xhr.responseText);
+                    console.log("Parsed result:", result);
+                    
+                    if (result.success) {
+                        document.getElementById('currentRisk').textContent = result.current_risk + '%';
+                        document.getElementById('threeYearRisk').textContent = result.three_year_risk + '%';
+                        
+                        const riskLevel = document.getElementById('riskLevel');
+                        riskLevel.textContent = result.risk_level + ' RISK';
+                        riskLevel.className = 'risk-' + result.risk_level.toLowerCase();
+                        
+                        document.getElementById('recommendationText').textContent = result.recommendation;
+                        document.getElementById('results').style.display = 'block';
+                    } else {
+                        alert('Error: ' + result.error);
+                    }
+                } catch (e) {
+                    console.error("JSON parse error:", e);
+                    alert('Error parsing server response');
+                }
+            } else {
+                alert('Server error: ' + xhr.status);
+            }
+        };
+        
+        xhr.onerror = function() {
+            console.error("XHR error");
+            document.getElementById('loading').style.display = 'none';
+            alert('Network error - cannot connect to server');
+        };
+        
+        xhr.send(JSON.stringify(formData));
+    });
+
+    // Set default values on page load
+    window.onload = function() {
+        console.log("Page loaded, setting defaults");
+        const defaults = {
+            'age': '40', 'menarche': '12', 'agefirst': '25', 'children': '2',
+            'breastfeeding': '6', 'biopsies': '0', 'imc': '25', 'weight': '65',
+            'histologicalclass': '3', 'birads': '3'
+        };
+        
+        for (const [id, value] of Object.entries(defaults)) {
+            const element = document.getElementById(id);
+            if (element) element.value = value;
+        }
+    };
+</script>
+<!-- Add this right before </body> -->
+<div style="text-align: center; margin: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px;">
+    
+</div>
+
+<script>
+    function testPrediction() {
+        console.log("Running server-side test prediction...");
+        fetch('/test-predict', { method: 'POST', headers: { 'Content-Type': 'application/json' } })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Test-predict response:', data);
+                if (data && data.success) {
+                    alert('Test prediction OK: ' + data.current_risk + '%');
+                } else {
+                    alert('Test prediction failed: ' + (data && data.error ? data.error : 'Unknown error'));
+                }
+            })
+            .catch(err => {
+                console.error('Test-predict error:', err);
+                alert('Network error calling /test-predict');
+            });
+    }
+    function testConnection() {
+        console.log("Testing server connection...");
+        fetch('/')
+            .then(response => console.log("Server responded:", response.status))
+            .catch(error => console.error("Connection failed:", error));
+    }
+
+    function testSimplePrediction() {
+        console.log("Testing simple prediction...");
+        const testData = {
+            age: '45', menarche: '12', menopause: '0', agefirst: '25',
+            children: '2', breastfeeding: '6', nrelbc: '0', biopsies: '0',
+            hyperplasia: '0', race: '0', imc: '25', weight: '65',
+            exercise: '2', alcohol: '0', tobacco: '0', allergies: '0',
+            emotional: '0', depressive: '0', histologicalclass: '3',
+            birads: '3', year: '2024'
+        };
+
+        fetch('/predict', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(testData)
+        })
+        .then(response => response.json())
+        .then(data => console.log("Test prediction result:", data))
+        .catch(error => console.error("Test prediction error:", error));
+    }
+</script>
+</body>
+</html>
