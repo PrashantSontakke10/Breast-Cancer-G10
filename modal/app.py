@@ -5,13 +5,17 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import accuracy_score
 import xgboost as xgb
-from sklearn.impute import SimpleImputer
+from pydantic import BaseModel, Field, ValidationError
+from typing import Optional
+import os
 import warnings
 warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
 
-# Add CORS headers manually
+# ----------------------------
+# CORS HEADERS
+# ----------------------------
 @app.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
@@ -19,108 +23,120 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
     return response
 
-# ... (keep the rest of your existing app.py code the same) ...
-
-# Global variables for model and scaler
+# ----------------------------
+# GLOBAL VARIABLES
+# ----------------------------
 model = None
 scaler = None
 feature_cols = None
 label_encoders = {}
 
-def extract_breastfeeding_months(x):
-    if pd.isna(x) or x in ['No', 'no', 'None', '', '0']:
-        return 0
-    elif isinstance(x, str):
-        if 'month' in x.lower():
-            try:
-                return float(''.join(filter(str.isdigit, x)) or 0)
-            except:
-                return 0
-        elif 'year' in x.lower():
-            try:
-                years = float(''.join(filter(str.isdigit, x)) or 0)
-                return years * 12
-            except:
-                return 0
-    try:
-        return float(x)
-    except:
-        return 0
+DATASET_PATH = "CubanDataset.csv"
+USER_DATA_PATH = "user_submissions.csv"
 
-def convert_menopause(x):
-    if pd.isna(x) or x in ['No', 'no', 'None', '']:
-        return 0
-    try:
-        return float(x)
-    except:
-        return 0
+# ----------------------------
+# PYDANTIC MODEL
+# ----------------------------
+class BreastCancerInput(BaseModel):
+    age: float = Field(..., ge=0, le=120)
+    menarche: float = Field(..., ge=0, le=30)
+    menopause: float = Field(..., ge=0, le=80)
+    agefirst: float = Field(..., ge=0, le=60)
+    children: float = Field(..., ge=0, le=20)
+    breastfeeding: float = Field(..., ge=0, le=600)
+    nrelbc: str
+    biopsies: float = Field(..., ge=0)
+    hyperplasia: str
+    race: str
+    year: float
+    imc: float
+    weight: float
+    exercise: str
+    alcohol: str
+    tobacco: str
+    allergies: str
+    emotional: str
+    depressive: str
+    histologicalclass: float
+    birads: float
 
+# ----------------------------
+# SAVE USER DATA
+# ----------------------------
+def save_user_data(validated_data, prediction=None):
+    try:
+        data_dict = validated_data.dict()
+        data_dict["prediction"] = prediction
+        data_dict["timestamp"] = pd.Timestamp.now()
+
+        df_new = pd.DataFrame([data_dict])
+
+        if not os.path.exists(USER_DATA_PATH):
+            df_new.to_csv(USER_DATA_PATH, index=False)
+        else:
+            df_new.to_csv(USER_DATA_PATH, mode='a', header=False, index=False)
+
+        print("User data saved successfully")
+    except Exception as e:
+        print("Error saving user data:", e)
+
+# ----------------------------
+# SAFE FLOAT CONVERSION
+# ----------------------------
 def safe_float_conversion(value, default=0):
-    """Safely convert value to float, return default if conversion fails"""
-    if value is None or value == '':
-        return default
     try:
         return float(value)
-    except (ValueError, TypeError):
+    except:
         return default
 
+# ----------------------------
+# TRAIN MODEL
+# ----------------------------
 def train_model():
     global model, scaler, feature_cols, label_encoders
-    
+
     try:
-        # Load dataset
-        df = pd.read_csv('CubanDataset.csv')
-        print("Dataset loaded successfully")
-        
-        # Preprocessing
+        df = pd.read_csv(DATASET_PATH)
+
         df['cancer'] = df['cancer'].map({'Yes': 1, 'No': 0, 'yes': 1, 'no': 0})
-        
-        expected_columns = ['age', 'menarche', 'menopause', 'agefirst', 'children', 
-                          'breastfeeding', 'nrelbc', 'biopsies', 'hyperplasia', 
-                          'race', 'year', 'imc', 'weight', 'exercise', 'alcohol', 
-                          'tobacco', 'allergies', 'emotional', 'depressive', 
-                          'histologicalclass', 'birads']
-        
-        for col in expected_columns:
-            if col not in df.columns:
-                if col in ['age', 'menarche', 'agefirst', 'children', 'biopsies', 'year', 'imc', 'weight', 'histologicalclass', 'birads']:
-                    df[col] = 0
-                else:
-                    df[col] = 'Unknown'
-        
-        df['menopause'] = df['menopause'].apply(convert_menopause)
-        df['breastfeeding'] = df['breastfeeding'].apply(extract_breastfeeding_months)
-        
-        categorical_cols = ['nrelbc', 'race', 'exercise', 'alcohol', 'tobacco', 
-                           'allergies', 'emotional', 'depressive', 'hyperplasia']
-        
+
+        feature_cols = [
+            'age','menarche','menopause','agefirst','children',
+            'breastfeeding','nrelbc','biopsies','hyperplasia',
+            'race','year','imc','weight','exercise','alcohol',
+            'tobacco','allergies','emotional','depressive',
+            'histologicalclass','birads'
+        ]
+
+        # Encode categorical columns
+        categorical_cols = [
+            'nrelbc','race','exercise','alcohol',
+            'tobacco','allergies','emotional',
+            'depressive','hyperplasia'
+        ]
+
         for col in categorical_cols:
-            if col in df.columns:
-                df[col] = df[col].astype(str).fillna('Unknown')
-                le = LabelEncoder()
-                le.fit(list(df[col].unique()) + ['Unknown', 'No', 'Yes'])
-                df[col] = le.transform(df[col])
-                label_encoders[col] = le
-        
-        numerical_cols = ['age', 'menarche', 'menopause', 'agefirst', 'children', 
-                         'breastfeeding', 'biopsies', 'year', 'imc', 'weight', 
-                         'histologicalclass', 'birads']
-        
-        for col in numerical_cols:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
-                df[col] = df[col].fillna(df[col].median())
-        
-        feature_cols = [col for col in expected_columns if col in df.columns]
-        X = df[feature_cols].copy()
+            df[col] = df[col].astype(str)
+            le = LabelEncoder()
+            df[col] = le.fit_transform(df[col])
+            label_encoders[col] = le
+
+        # Fill missing numeric values
+        for col in feature_cols:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+            df[col] = df[col].fillna(df[col].median())
+
+        X = df[feature_cols]
         y = df['cancer']
-        
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-        
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.2, random_state=42, stratify=y
+        )
+
         scaler = StandardScaler()
         X_train_scaled = scaler.fit_transform(X_train)
         X_test_scaled = scaler.transform(X_test)
-        
+
         model = xgb.XGBClassifier(
             n_estimators=100,
             max_depth=6,
@@ -130,22 +146,22 @@ def train_model():
             random_state=42,
             eval_metric='logloss'
         )
-        
+
         model.fit(X_train_scaled, y_train)
-        
+
         y_pred = model.predict(X_test_scaled)
         accuracy = accuracy_score(y_test, y_pred)
-        
-        print(f"Model trained successfully with accuracy: {accuracy:.4f}")
-        print(f"Features used: {feature_cols}")
+
+        print(f"Model trained successfully. Accuracy: {accuracy:.4f}")
         return True
-        
+
     except Exception as e:
-        print(f"Error training model: {e}")
-        import traceback
-        traceback.print_exc()
+        print("Training error:", e)
         return False
 
+# ----------------------------
+# ROUTES
+# ----------------------------
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -153,45 +169,50 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        data = request.get_json()
-        print("Received data:", data)  # Debug print
-        
-        # Prepare input data with safe conversion
+        raw_json = request.get_json()
+
+        # Validate input
+        try:
+            validated_input = BreastCancerInput(**raw_json)
+        except ValidationError as e:
+            return jsonify({'success': False, 'errors': e.errors()})
+
+        # Prepare model input
         input_data = []
+
         for col in feature_cols:
-            value = data.get(col, '0')  # Default to '0' if missing
-            
-            # Handle different data types
-            if col in ['nrelbc', 'race', 'exercise', 'alcohol', 'tobacco', 
-                      'allergies', 'emotional', 'depressive', 'hyperplasia']:
-                # Categorical features
-                input_data.append(safe_float_conversion(value, 0))
+            value = getattr(validated_input, col)
+
+            if col in label_encoders:
+                le = label_encoders[col]
+                if value in le.classes_:
+                    encoded = le.transform([value])[0]
+                else:
+                    encoded = 0
+                input_data.append(encoded)
             else:
-                # Numerical features
-                input_data.append(safe_float_conversion(value, 0))
-        
-        print("Processed input data:", input_data)  # Debug print
-        
+                input_data.append(safe_float_conversion(value))
+
         input_array = np.array(input_data).reshape(1, -1)
         input_scaled = scaler.transform(input_array)
-        
-        # Make prediction
+
         probability = model.predict_proba(input_scaled)[0, 1]
-        # Convert numpy float32 to Python float for JSON serialization
         current_risk = float(probability * 100)
         three_year_risk = float(min(99, current_risk * 1.3))
-        
-        # Determine risk level
+
         if current_risk > 30:
             risk_level = "HIGH"
-            recommendation = "Please consult a healthcare professional immediately"
+            recommendation = "Consult healthcare professional immediately"
         elif current_risk > 15:
             risk_level = "MODERATE"
             recommendation = "Regular screening recommended"
         else:
             risk_level = "LOW"
-            recommendation = "Continue with regular checkups"
-        
+            recommendation = "Continue regular checkups"
+
+        # Save validated user data
+        save_user_data(validated_input, current_risk)
+
         return jsonify({
             'success': True,
             'current_risk': round(current_risk, 2),
@@ -199,49 +220,28 @@ def predict():
             'risk_level': risk_level,
             'recommendation': recommendation
         })
-        
+
     except Exception as e:
-        print(f"Error in prediction: {e}")
-        import traceback
-        traceback.print_exc()
         return jsonify({'success': False, 'error': str(e)})
 
 @app.route('/model_info')
 def model_info():
-    if model is None:
-        return jsonify({'success': False, 'error': 'Model not trained'})
-    
     return jsonify({
         'success': True,
-        'features': feature_cols,
-        'accuracy': 'Trained successfully'
+        'features': feature_cols
     })
 
+@app.route('/test')
+def test():
+    return jsonify({'status': 'Server running'})
+
+# ----------------------------
+# RUN SERVER
+# ----------------------------
 if __name__ == '__main__':
     print("Training model...")
     if train_model():
         print("Starting Flask server...")
         app.run(debug=True, host='0.0.0.0', port=5000)
     else:
-        print("Failed to train model. Please check your dataset.")
-        
-@app.route('/test', methods=['GET'])
-def test_endpoint():
-    return jsonify({'message': 'Server is working!', 'status': 'ok'})
-
-@app.route('/test-predict', methods=['POST'])
-def test_predict():
-    try:
-        # Test with sample data
-        test_data = [45, 12, 0, 25, 2, 6, 0, 0, 0, 0, 2024, 25, 65, 2, 0, 0, 0, 0, 0, 3, 3]
-        input_array = np.array(test_data).reshape(1, -1)
-        input_scaled = scaler.transform(input_array)
-        probability = model.predict_proba(input_scaled)[0, 1]
-        
-        return jsonify({
-            'success': True,
-            'current_risk': round(float(probability * 100), 2),
-            'test': 'manual_test'
-        })
-    except Exception as e:
-        return jsonify({'success': False, 'error': str(e)})
+        print("Model training failed.")

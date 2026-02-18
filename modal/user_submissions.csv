@@ -1,0 +1,4 @@
+age,menarche,menopause,agefirst,children,breastfeeding,nrelbc,biopsies,hyperplasia,race,year,imc,weight,exercise,alcohol,tobacco,allergies,emotional,depressive,histologicalclass,birads,prediction,timestamp
+40.0,12.0,0.0,25.0,2.0,6.0,0,0.0,0,0,2026.0,25.0,65.0,0,0,0,0,0,0,3.0,3.0,0.21271240711212158,2026-02-18 10:32:35.099261
+40.0,12.0,0.0,25.0,2.0,6.0,0,0.0,0,0,2026.0,25.0,65.0,0,0,0,0,0,0,3.0,3.0,0.21271240711212158,2026-02-18 10:37:17.037173
+40.0,12.0,0.0,25.0,2.0,6.0,0,0.0,0,0,2026.0,25.0,65.0,0,0,0,0,0,0,3.0,3.0,0.21271240711212158,2026-02-18 11:14:10.880912
