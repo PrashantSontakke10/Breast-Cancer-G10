@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
 import xgboost as xgb
+from imblearn.over_sampling import SMOTE
 from pydantic import BaseModel, Field, ValidationError
 from typing import Optional
 import os
@@ -76,7 +77,6 @@ def save_user_data(validated_data, prediction=None):
         else:
             df_new.to_csv(USER_DATA_PATH, mode='a', header=False, index=False)
 
-        print("User data saved successfully")
     except Exception as e:
         print("Error saving user data:", e)
 
@@ -90,7 +90,7 @@ def safe_float_conversion(value, default=0):
         return default
 
 # ----------------------------
-# TRAIN MODEL
+# TRAIN MODEL WITH IMBALANCE HANDLING
 # ----------------------------
 def train_model():
     global model, scaler, feature_cols, label_encoders
@@ -108,20 +108,20 @@ def train_model():
             'histologicalclass','birads'
         ]
 
-        # Encode categorical columns
         categorical_cols = [
             'nrelbc','race','exercise','alcohol',
             'tobacco','allergies','emotional',
             'depressive','hyperplasia'
         ]
 
+        # Encode categorical columns
         for col in categorical_cols:
             df[col] = df[col].astype(str)
             le = LabelEncoder()
             df[col] = le.fit_transform(df[col])
             label_encoders[col] = le
 
-        # Fill missing numeric values
+        # Fill missing values
         for col in feature_cols:
             df[col] = pd.to_numeric(df[col], errors='coerce')
             df[col] = df[col].fillna(df[col].median())
@@ -129,30 +129,69 @@ def train_model():
         X = df[feature_cols]
         y = df['cancer']
 
+        print("\nOriginal Class Distribution:")
+        print(y.value_counts())
+
+        # Stratified split
         X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42, stratify=y
+            X, y,
+            test_size=0.2,
+            random_state=42,
+            stratify=y
         )
 
+        # Scaling
         scaler = StandardScaler()
         X_train_scaled = scaler.fit_transform(X_train)
         X_test_scaled = scaler.transform(X_test)
 
+        # ----------------------------
+        # HANDLE IMBALANCE USING SMOTE
+        # ----------------------------
+        smote = SMOTE(random_state=42)
+        X_train_scaled, y_train = smote.fit_resample(X_train_scaled, y_train)
+
+        print("\nAfter SMOTE Class Distribution:")
+        print(pd.Series(y_train).value_counts())
+
+        # ----------------------------
+        # XGBoost Weight Adjustment
+        # ----------------------------
+        neg, pos = np.bincount(y)
+        scale_weight = neg / pos
+
         model = xgb.XGBClassifier(
-            n_estimators=100,
+            n_estimators=200,
             max_depth=6,
             learning_rate=0.1,
             subsample=0.8,
             colsample_bytree=0.8,
             random_state=42,
-            eval_metric='logloss'
+            eval_metric='logloss',
+            scale_pos_weight=scale_weight
         )
 
         model.fit(X_train_scaled, y_train)
 
+        # ----------------------------
+        # Evaluation
+        # ----------------------------
         y_pred = model.predict(X_test_scaled)
-        accuracy = accuracy_score(y_test, y_pred)
+        y_prob = model.predict_proba(X_test_scaled)[:, 1]
 
-        print(f"Model trained successfully. Accuracy: {accuracy:.4f}")
+        print("\nConfusion Matrix:")
+        print(confusion_matrix(y_test, y_pred))
+
+        print("\nClassification Report:")
+        print(classification_report(y_test, y_pred))
+
+        print("\nROC-AUC Score:", roc_auc_score(y_test, y_prob))
+
+        accuracy = accuracy_score(y_test, y_pred)
+        print(f"\nAccuracy: {accuracy:.4f}")
+
+        print("\nModel trained successfully.")
+
         return True
 
     except Exception as e:
@@ -171,13 +210,11 @@ def predict():
     try:
         raw_json = request.get_json()
 
-        # Validate input
         try:
             validated_input = BreastCancerInput(**raw_json)
         except ValidationError as e:
             return jsonify({'success': False, 'errors': e.errors()})
 
-        # Prepare model input
         input_data = []
 
         for col in feature_cols:
@@ -210,7 +247,6 @@ def predict():
             risk_level = "LOW"
             recommendation = "Continue regular checkups"
 
-        # Save validated user data
         save_user_data(validated_input, current_risk)
 
         return jsonify({
@@ -239,7 +275,7 @@ def test():
 # RUN SERVER
 # ----------------------------
 if __name__ == '__main__':
-    print("Training model...")
+    print("Training model with imbalance handling...")
     if train_model():
         print("Starting Flask server...")
         app.run(debug=True, host='0.0.0.0', port=5000)
